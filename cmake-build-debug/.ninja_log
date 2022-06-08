@@ -1,0 +1,10 @@
+# ninja log v5
+19	445	6763901623052926	CMakeFiles/MatamEx4.dir/Vampire.cpp.obj	9055703c7b6ee526
+10	377	6763891729590582	CMakeFiles/MatamEx4.dir/Player.cpp.obj	145d0e80d179efb6
+16	493	6763901623533037	CMakeFiles/MatamEx4.dir/Dragon.cpp.obj	abcb389fb4240cc2
+0	149	6763943800176147	build.ninja	fdeaa032ca033edf
+2	502	6763902429728116	CMakeFiles/MatamEx4.dir/Card.cpp.obj	48bf4e9e986a36e8
+11	420	6763902428907937	CMakeFiles/MatamEx4.dir/Goblin.cpp.obj	358131968a603e3b
+3	605	6763902557522063	CMakeFiles/MatamEx4.dir/main.cpp.obj	2269a67ef08eeb72
+2	337	6763896003955843	CMakeFiles/MatamEx4.dir/utilities.cpp.obj	a6a03317eb810773
+605	730	6763902558752342	MatamEx4.exe	3a9f511f56510170
