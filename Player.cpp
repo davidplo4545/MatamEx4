@@ -1,13 +1,11 @@
 #include "Player.h"
-const int DEAD = 0;
-const int DEFAULT_FORCE = 5;
-const int DEFAULT_HP = 100;
+
 Player::Player(string name)
 {
-    maxHp = 100;
-    this->m_level = 1;
-    this->m_coins=10;
-    this->m_force = 5;
+    this->m_maxHp = Player::MAX_HP;
+    this->m_level = Player::LEVEL;
+    this->m_coins = Player::COINS;
+    this->m_force =Player::FORCE;
     this->m_hp = maxHp;
     this->m_name = name;
 
@@ -19,7 +17,7 @@ Player::Player(const Player& player)
     this->m_force = player.m_force;
     this->m_maxHp = player.m_maxHp;
     this->m_hp = player.m_hp;
-    this->m_name  = string(player.m_name);
+    this->m_name = player.m_name;
     
 }
 Player& Player::operator=(const Player& player) 
@@ -34,16 +32,32 @@ Player& Player::operator=(const Player& player)
     this->m_maxHp = player.m_maxHp;
     this->m_hp    = player.m_hp;
 
-    this->m_name  = string(player.m_name);
+    this->m_name  = player.m_name;
     return *this;
 }
 
 
 ostream& operator<<(ostream& os, const Player& player)
 {
-	s.print(os);
+	player.print(os);
 	return os;
 }
+
+int Player::getCoins()
+{
+    return this->m_coins;
+}
+
+int Player::getHealth()
+{
+    return this->m_hp;
+}
+
+string Player::getName()
+{
+    return this->m_name;
+}
+
 
 
 
@@ -55,6 +69,9 @@ void Player::levelUp()
         this->m_level++;
     }
 }
+
+
+
 int Player::getLevel()
 {
     return this->m_level;

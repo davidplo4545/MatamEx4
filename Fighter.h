@@ -2,13 +2,13 @@
 
 class Fighter: public Player {
 private:
-    const string job = "Fighter";
+    const string JOB = "Fighter";
 public:
 	
-    virtual void Player::getAttackStrength() override;
+    void Player::getAttackStrength() override;
 
 protected:
-	virtual void print(ostream& os) const override;
+	void print(ostream& os) const override;
 
 
 };

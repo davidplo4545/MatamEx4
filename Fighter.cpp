@@ -7,5 +7,5 @@ virtual void Player::getAttackStrength()
 
 virtual void print(ostream& os) const 
 {
-	utilities::printPlayerDetails(os, this->m_name,job,this->m_level, this->m_force, this->m_hp,this->m_coins);
+	utilities::printPlayerDetails(os, this->m_name,Player::JOB,this->m_level, this->m_force, this->m_hp,this->m_coins);
 }
