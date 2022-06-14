@@ -1,14 +1,14 @@
+#ifndef WIZARD_EX4
+#define WIZARD_EX4
 #include "Player.h"
-
+#include "string.h"
+#include <iostream>
 class Wizard: public Player {
-private:
-    static const string JOB = "Wizard";
 public:
-	
-    void Player::heal(int hpSupply) override;
-
+    Wizard(std::string name);
+    void heal(int hpSupply) override;
 protected:
-	void print(ostream& os) const override;
-
-
+	void print(std::ostream& os) const override;
 };
+
+#endif

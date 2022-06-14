@@ -59,14 +59,18 @@
 				1,
 				2,
 				3,
+				4,
 				5,
+				6,
 				7,
+				8,
 				9,
+				10,
 				11,
+				12,
 				13,
-				15,
-				17,
-				19
+				14,
+				15
 			]
 		}
 	],
@@ -107,29 +111,18 @@
 				1,
 				2,
 				3,
-				5,
-				7,
-				9,
-				11,
-				13,
-				15,
-				17,
-				19
-			]
-		},
-		{
-			"name" : "Header Files",
-			"sourceIndexes" : 
-			[
 				4,
+				5,
 				6,
+				7,
 				8,
+				9,
 				10,
+				11,
 				12,
+				13,
 				14,
-				16,
-				18,
-				20
+				15
 			]
 		}
 	],
@@ -144,13 +137,31 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "utilities.cpp",
+			"path" : "Player.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "Player.cpp",
+			"path" : "Wizard.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Fighter.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Rogue.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "utilities.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{
@@ -161,8 +172,9 @@
 		},
 		{
 			"backtrace" : 1,
-			"path" : "Card.h",
-			"sourceGroupIndex" : 1
+			"compileGroupIndex" : 0,
+			"path" : "BattleCard.cpp",
+			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 1,
@@ -172,19 +184,9 @@
 		},
 		{
 			"backtrace" : 1,
-			"path" : "Goblin.h",
-			"sourceGroupIndex" : 1
-		},
-		{
-			"backtrace" : 1,
 			"compileGroupIndex" : 0,
 			"path" : "Dragon.cpp",
 			"sourceGroupIndex" : 0
-		},
-		{
-			"backtrace" : 1,
-			"path" : "Dragon.h",
-			"sourceGroupIndex" : 1
 		},
 		{
 			"backtrace" : 1,
@@ -194,19 +196,9 @@
 		},
 		{
 			"backtrace" : 1,
-			"path" : "Vampire.h",
-			"sourceGroupIndex" : 1
-		},
-		{
-			"backtrace" : 1,
 			"compileGroupIndex" : 0,
 			"path" : "Fairy.cpp",
 			"sourceGroupIndex" : 0
-		},
-		{
-			"backtrace" : 1,
-			"path" : "Fairy.h",
-			"sourceGroupIndex" : 1
 		},
 		{
 			"backtrace" : 1,
@@ -216,19 +208,9 @@
 		},
 		{
 			"backtrace" : 1,
-			"path" : "Barfight.h",
-			"sourceGroupIndex" : 1
-		},
-		{
-			"backtrace" : 1,
 			"compileGroupIndex" : 0,
 			"path" : "Pitfall.cpp",
 			"sourceGroupIndex" : 0
-		},
-		{
-			"backtrace" : 1,
-			"path" : "Pitfall.h",
-			"sourceGroupIndex" : 1
 		},
 		{
 			"backtrace" : 1,
@@ -238,19 +220,9 @@
 		},
 		{
 			"backtrace" : 1,
-			"path" : "Merchant.h",
-			"sourceGroupIndex" : 1
-		},
-		{
-			"backtrace" : 1,
 			"compileGroupIndex" : 0,
 			"path" : "Treasure.cpp",
 			"sourceGroupIndex" : 0
-		},
-		{
-			"backtrace" : 1,
-			"path" : "Treasure.h",
-			"sourceGroupIndex" : 1
 		}
 	],
 	"type" : "EXECUTABLE"

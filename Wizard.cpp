@@ -1,11 +1,18 @@
 #include "Wizard.h"
-
-void Player::heal(int hpSupply)
+#include "utilities.h"
+using std::string;
+using std::ostream;
+Wizard::Wizard(string name):Player(name, "Wizard"){}
+void Wizard::heal(int hpSupply)
 {
-    this->heal(2*hpSupply);
+    hpSupply *=2;
+    if(hpSupply > 0)
+    {
+        m_hp= hpSupply + m_hp > m_maxHp ? m_maxHp : m_hp+hpSupply;
+    }
 }
 
-void Player::print(ostream& os) const 
+void Wizard::print(ostream& os) const
 {
-	utilities::printPlayerDetails(os, this->m_name, player::JOB,this->m_level, this->m_force, this->m_hp,this->m_coins);
+	printPlayerDetails(os, m_name, m_job,m_level, m_force, m_hp,m_coins);
 }

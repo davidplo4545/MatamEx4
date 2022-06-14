@@ -3,7 +3,7 @@
 //
 #ifndef MATAMEX4_DRAGON_H
 #define MATAMEX4_DRAGON_H
-#include "Card.h"
+#include "BattleCard.h"
 
 
 class Dragon: public BattleCard{

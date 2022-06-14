@@ -3,9 +3,7 @@
 //
 
 #include "Merchant.h"
-#include "Card.h"
-#include "Player.h"
-
+using std::string;
 Merchant::Merchant():Card("Merchant"){}
 
 bool Merchant::applySelectedOption(int option, Player &player) const {
@@ -18,7 +16,7 @@ bool Merchant::applySelectedOption(int option, Player &player) const {
             isSuccessful = true;
         }
         else{
-            printMerchantInsufficientCoins(cout);
+            printMerchantInsufficientCoins(std::cout);
         }
     }
     else if(option == 2) // Buff
@@ -30,7 +28,7 @@ bool Merchant::applySelectedOption(int option, Player &player) const {
         }
         else
         {
-            printMerchantInsufficientCoins(cout);
+            printMerchantInsufficientCoins(std::cout);
         }
     }
     else if(option == 0)
@@ -49,7 +47,7 @@ void Merchant::applyEncounter(Player &player) const {
     {
         try
         {
-            getline(cin,userInput);
+            getline(std::cin,userInput);
             option=stoi(userInput);
             if(option >= 0 && option <=2)
             {

@@ -1,14 +1,15 @@
-#include "Player.h"
+#ifndef FIGHTER_EX4
+#define FIGHTER_EX4
 
+#include "Player.h"
+#include "string.h"
 class Fighter: public Player {
-private:
-    const string JOB = "Fighter";
 public:
-	
-    void Player::getAttackStrength() override;
+    Fighter(std::string name);
+    int getAttackStrength() const override;
 
 protected:
-	void print(ostream& os) const override;
-
-
+	void print(std::ostream& os) const override;
 };
+
+#endif

@@ -1,11 +1,15 @@
-#include "Wizard.h"
+#include "Fighter.h"
+#include "utilities.h"
+using std::string;
+using std::ostream;
+Fighter::Fighter(string name): Player(name, "Fighter"){}
 
-virtual void Player::getAttackStrength()
+int Fighter::getAttackStrength() const
 {
-    return this->2*m_force+this->m_level;
+    return 2*m_force+m_level;
 }
 
-virtual void print(ostream& os) const 
+void Fighter::print(ostream& os) const
 {
-	utilities::printPlayerDetails(os, this->m_name,Player::JOB,this->m_level, this->m_force, this->m_hp,this->m_coins);
+	printPlayerDetails(os, m_name,m_job,m_level, m_force, m_hp,m_coins);
 }

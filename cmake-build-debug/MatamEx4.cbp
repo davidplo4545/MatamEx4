@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="MatamEx4"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="C:/Users/david/Desktop/MatamHW/MatamEx4/MatamEx4/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/david/Desktop/MatamHW/MatamEx4/MatamEx4/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/david/Desktop/MatamHW/MatamEx4/MatamEx4/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/david/Desktop/MatamHW/MatamEx4/MatamEx4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/david/Desktop/MatamHW/MatamEx4/MatamEx4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="MatamEx4">
+				<Option output="C:/Users/david/Desktop/MatamHW/MatamEx4/MatamEx4/cmake-build-debug/MatamEx4.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/david/Desktop/MatamHW/MatamEx4/MatamEx4/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++"/>
+					<Add directory="C:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/backward"/>
+					<Add directory="C:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/include"/>
+					<Add directory="C:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../include"/>
+					<Add directory="C:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/include-fixed"/>
+					<Add directory="C:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include-fixed"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/david/Desktop/MatamHW/MatamEx4/MatamEx4/cmake-build-debug/Makefile&quot;  VERBOSE=1 MatamEx4"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/david/Desktop/MatamHW/MatamEx4/MatamEx4/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/david/Desktop/MatamHW/MatamEx4/MatamEx4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/david/Desktop/MatamHW/MatamEx4/MatamEx4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="MatamEx4/fast">
+				<Option output="C:/Users/david/Desktop/MatamHW/MatamEx4/MatamEx4/cmake-build-debug/MatamEx4.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/david/Desktop/MatamHW/MatamEx4/MatamEx4/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++"/>
+					<Add directory="C:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/backward"/>
+					<Add directory="C:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/include"/>
+					<Add directory="C:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../include"/>
+					<Add directory="C:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/include-fixed"/>
+					<Add directory="C:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include-fixed"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/david/Desktop/MatamHW/MatamEx4/MatamEx4/cmake-build-debug/Makefile&quot;  VERBOSE=1 MatamEx4/fast"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/david/Desktop/MatamHW/MatamEx4/MatamEx4/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/david/Desktop/MatamHW/MatamEx4/MatamEx4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/david/Desktop/MatamHW/MatamEx4/MatamEx4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="C:/Users/david/Desktop/MatamHW/MatamEx4/MatamEx4/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/david/Desktop/MatamHW/MatamEx4/MatamEx4/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/david/Desktop/MatamHW/MatamEx4/MatamEx4/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/david/Desktop/MatamHW/MatamEx4/MatamEx4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/david/Desktop/MatamHW/MatamEx4/MatamEx4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="C:/Users/david/Desktop/MatamHW/MatamEx4/MatamEx4/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/david/Desktop/MatamHW/MatamEx4/MatamEx4/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/david/Desktop/MatamHW/MatamEx4/MatamEx4/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/david/Desktop/MatamHW/MatamEx4/MatamEx4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/david/Desktop/MatamHW/MatamEx4/MatamEx4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="C:/Users/david/Desktop/MatamHW/MatamEx4/MatamEx4/Barfight.cpp">
+			<Option target="MatamEx4"/>
+		</Unit>
+		<Unit filename="C:/Users/david/Desktop/MatamHW/MatamEx4/MatamEx4/Barfight.h">
+			<Option target="MatamEx4"/>
+		</Unit>
+		<Unit filename="C:/Users/david/Desktop/MatamHW/MatamEx4/MatamEx4/BattleCard.cpp">
+			<Option target="MatamEx4"/>
+		</Unit>
+		<Unit filename="C:/Users/david/Desktop/MatamHW/MatamEx4/MatamEx4/BattleCard.h">
+			<Option target="MatamEx4"/>
+		</Unit>
+		<Unit filename="C:/Users/david/Desktop/MatamHW/MatamEx4/MatamEx4/Card.cpp">
+			<Option target="MatamEx4"/>
+		</Unit>
+		<Unit filename="C:/Users/david/Desktop/MatamHW/MatamEx4/MatamEx4/Card.h">
+			<Option target="MatamEx4"/>
+		</Unit>
+		<Unit filename="C:/Users/david/Desktop/MatamHW/MatamEx4/MatamEx4/Dragon.cpp">
+			<Option target="MatamEx4"/>
+		</Unit>
+		<Unit filename="C:/Users/david/Desktop/MatamHW/MatamEx4/MatamEx4/Dragon.h">
+			<Option target="MatamEx4"/>
+		</Unit>
+		<Unit filename="C:/Users/david/Desktop/MatamHW/MatamEx4/MatamEx4/Fairy.cpp">
+			<Option target="MatamEx4"/>
+		</Unit>
+		<Unit filename="C:/Users/david/Desktop/MatamHW/MatamEx4/MatamEx4/Fairy.h">
+			<Option target="MatamEx4"/>
+		</Unit>
+		<Unit filename="C:/Users/david/Desktop/MatamHW/MatamEx4/MatamEx4/Fighter.cpp">
+			<Option target="MatamEx4"/>
+		</Unit>
+		<Unit filename="C:/Users/david/Desktop/MatamHW/MatamEx4/MatamEx4/Fighter.h">
+			<Option target="MatamEx4"/>
+		</Unit>
+		<Unit filename="C:/Users/david/Desktop/MatamHW/MatamEx4/MatamEx4/Goblin.cpp">
+			<Option target="MatamEx4"/>
+		</Unit>
+		<Unit filename="C:/Users/david/Desktop/MatamHW/MatamEx4/MatamEx4/Goblin.h">
+			<Option target="MatamEx4"/>
+		</Unit>
+		<Unit filename="C:/Users/david/Desktop/MatamHW/MatamEx4/MatamEx4/Merchant.cpp">
+			<Option target="MatamEx4"/>
+		</Unit>
+		<Unit filename="C:/Users/david/Desktop/MatamHW/MatamEx4/MatamEx4/Merchant.h">
+			<Option target="MatamEx4"/>
+		</Unit>
+		<Unit filename="C:/Users/david/Desktop/MatamHW/MatamEx4/MatamEx4/Pitfall.cpp">
+			<Option target="MatamEx4"/>
+		</Unit>
+		<Unit filename="C:/Users/david/Desktop/MatamHW/MatamEx4/MatamEx4/Pitfall.h">
+			<Option target="MatamEx4"/>
+		</Unit>
+		<Unit filename="C:/Users/david/Desktop/MatamHW/MatamEx4/MatamEx4/Player.cpp">
+			<Option target="MatamEx4"/>
+		</Unit>
+		<Unit filename="C:/Users/david/Desktop/MatamHW/MatamEx4/MatamEx4/Player.h">
+			<Option target="MatamEx4"/>
+		</Unit>
+		<Unit filename="C:/Users/david/Desktop/MatamHW/MatamEx4/MatamEx4/Rogue.cpp">
+			<Option target="MatamEx4"/>
+		</Unit>
+		<Unit filename="C:/Users/david/Desktop/MatamHW/MatamEx4/MatamEx4/Rogue.h">
+			<Option target="MatamEx4"/>
+		</Unit>
+		<Unit filename="C:/Users/david/Desktop/MatamHW/MatamEx4/MatamEx4/Treasure.cpp">
+			<Option target="MatamEx4"/>
+		</Unit>
+		<Unit filename="C:/Users/david/Desktop/MatamHW/MatamEx4/MatamEx4/Treasure.h">
+			<Option target="MatamEx4"/>
+		</Unit>
+		<Unit filename="C:/Users/david/Desktop/MatamHW/MatamEx4/MatamEx4/Vampire.cpp">
+			<Option target="MatamEx4"/>
+		</Unit>
+		<Unit filename="C:/Users/david/Desktop/MatamHW/MatamEx4/MatamEx4/Vampire.h">
+			<Option target="MatamEx4"/>
+		</Unit>
+		<Unit filename="C:/Users/david/Desktop/MatamHW/MatamEx4/MatamEx4/Wizard.cpp">
+			<Option target="MatamEx4"/>
+		</Unit>
+		<Unit filename="C:/Users/david/Desktop/MatamHW/MatamEx4/MatamEx4/Wizard.h">
+			<Option target="MatamEx4"/>
+		</Unit>
+		<Unit filename="C:/Users/david/Desktop/MatamHW/MatamEx4/MatamEx4/main.cpp">
+			<Option target="MatamEx4"/>
+		</Unit>
+		<Unit filename="C:/Users/david/Desktop/MatamHW/MatamEx4/MatamEx4/utilities.cpp">
+			<Option target="MatamEx4"/>
+		</Unit>
+		<Unit filename="C:/Users/david/Desktop/MatamHW/MatamEx4/MatamEx4/utilities.h">
+			<Option target="MatamEx4"/>
+		</Unit>
+		<Unit filename="C:/Users/david/Desktop/MatamHW/MatamEx4/MatamEx4/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

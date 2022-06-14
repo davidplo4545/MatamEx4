@@ -1,14 +1,16 @@
+#ifndef ROGUE_EX4
+#define ROGUE_EX4
+
 #include "Player.h"
+#include "string.h"
 
 class Rogue: public Player {
-private:
-    static const string JOB = "Rogue";
 public:
-	
-    void Player::addCoins(int coins) override;
+	Rogue(std::string name);
+    void addCoins(int coins) override;
 
 protected:
-    void print(ostream& os) const override;
-
-
+    void print(std::ostream& os) const override;
 };
+
+#endif

@@ -1,15 +1,8 @@
 #include "Player.h"
-
-Player::Player(string name)
-{
-    this->m_maxHp = Player::MAX_HP;
-    this->m_level = Player::LEVEL;
-    this->m_coins = Player::COINS;
-    this->m_force =Player::FORCE;
-    this->m_hp = maxHp;
-    this->m_name = name;
-
-}
+using namespace std;
+using std::string;
+Player::Player(string name, string job):m_name(name), m_job(job),m_level(Player::LEVEL), m_force(Player::FORCE),m_coins(Player::COINS), m_maxHp(Player::MAX_HP), m_hp(Player::MAX_HP)
+{}
 Player::Player(const Player& player)
 {
     this->m_level = player.m_level;
@@ -43,23 +36,20 @@ ostream& operator<<(ostream& os, const Player& player)
 	return os;
 }
 
-int Player::getCoins()
+int Player::getCoins() const
 {
     return this->m_coins;
 }
 
-int Player::getHealth()
+int Player::getHealth() const
 {
     return this->m_hp;
 }
 
-string Player::getName()
+string Player::getName() const
 {
     return this->m_name;
 }
-
-
-
 
 
 void Player::levelUp()
@@ -72,11 +62,11 @@ void Player::levelUp()
 
 
 
-int Player::getLevel()
+int Player::getLevel() const
 {
     return this->m_level;
 }
-int Player::getAttackStrength()
+int Player::getAttackStrength() const
 {
     return this->m_force+this->m_level;
 }
@@ -107,7 +97,7 @@ void Player::addCoins(int coins)
         this->m_coins+=coins;
     }
 }
-bool Player::isKnockedOut()
+bool Player::isKnockedOut() const
 {
     return !(this->m_hp);
 }

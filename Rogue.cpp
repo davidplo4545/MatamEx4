@@ -1,11 +1,18 @@
-#include "Rouge.h"
+#include "Rogue.h"
+#include "utilities.h"
+using std::string;
+using std::ostream;
+Rogue::Rogue(string name): Player(name, "Rogue"){}
 
-void Player::addCoins(int coins)
+void Rogue::addCoins(int coins)
 {
-    this->addCoins(2*coins);
+    if(coins > 0)
+    {
+        m_coins+=coins*2;
+    }
 }
 
-void print(ostream& os) const 
+void Rogue::print(ostream& os) const
 {
-	utilities::printPlayerDetails(os, this->m_name,Player::JOB,this->m_level, this->m_force, this->m_hp,this->m_coins);
+	printPlayerDetails(os, m_name, m_job,m_level, m_force, m_hp,m_coins);
 }

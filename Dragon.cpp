@@ -1,7 +1,7 @@
 //
 // Created by David on 08/06/2022.
 //
-
+#include "BattleCard.h"
 #include "Dragon.h"
 using std::ostream;
 Dragon::Dragon():BattleCard("Dragon"){}

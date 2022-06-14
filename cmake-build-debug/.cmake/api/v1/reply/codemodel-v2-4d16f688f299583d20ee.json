@@ -6,10 +6,9 @@
 			[
 				{
 					"build" : ".",
-					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
 					"minimumCMakeVersion" : 
 					{
-						"string" : "3.21"
+						"string" : "3.20"
 					},
 					"projectIndex" : 0,
 					"source" : ".",
@@ -39,7 +38,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "MatamEx4::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-MatamEx4-Debug-cc2c0aa622fb1887efcc.json",
+					"jsonFile" : "target-MatamEx4-Debug-ae1f28885ba1ba1b934c.json",
 					"name" : "MatamEx4",
 					"projectIndex" : 0
 				}
@@ -49,12 +48,12 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "C:/Users/David/Desktop/MatamEx4/cmake-build-debug",
-		"source" : "C:/Users/David/Desktop/MatamEx4"
+		"build" : "C:/Users/david/Desktop/MatamHW/MatamEx4/MatamEx4/cmake-build-debug",
+		"source" : "C:/Users/david/Desktop/MatamHW/MatamEx4/MatamEx4"
 	},
 	"version" : 
 	{
 		"major" : 2,
-		"minor" : 3
+		"minor" : 2
 	}
 }
