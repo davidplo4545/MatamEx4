@@ -8,7 +8,12 @@
 #include "player.h"
 
 class Merchant :public Card{
-    const int HEAL = 10;
+    const std::map<int,std::vector<int>> STORE = {
+            {1,{5,1}}, // Heal: amount:1, cost: 5
+            {2,{10,1}}, // Buff: force:1, cost: 10
+    };
+
+    bool applySelectedOption(int option, Player &player) const;
 public:
     Merchant();
     void applyEncounter(Player& player) const override;
