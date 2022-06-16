@@ -1,0 +1,87 @@
+[
+{
+  "directory": "C:/Work/MatamEx4Updated/MatamEx4/build",
+  "command": "C:\\PROGRA~1\\gcc\\bin\\G__~1.EXE   -g -std=gnu++11 -o CMakeFiles\\MatamEx4.dir\\main.cpp.obj -c C:\\Work\\MatamEx4Updated\\MatamEx4\\main.cpp",
+  "file": "C:/Work/MatamEx4Updated/MatamEx4/main.cpp"
+},
+{
+  "directory": "C:/Work/MatamEx4Updated/MatamEx4/build",
+  "command": "C:\\PROGRA~1\\gcc\\bin\\G__~1.EXE   -g -std=gnu++11 -o CMakeFiles\\MatamEx4.dir\\Player.cpp.obj -c C:\\Work\\MatamEx4Updated\\MatamEx4\\Player.cpp",
+  "file": "C:/Work/MatamEx4Updated/MatamEx4/Player.cpp"
+},
+{
+  "directory": "C:/Work/MatamEx4Updated/MatamEx4/build",
+  "command": "C:\\PROGRA~1\\gcc\\bin\\G__~1.EXE   -g -std=gnu++11 -o CMakeFiles\\MatamEx4.dir\\Wizard.cpp.obj -c C:\\Work\\MatamEx4Updated\\MatamEx4\\Wizard.cpp",
+  "file": "C:/Work/MatamEx4Updated/MatamEx4/Wizard.cpp"
+},
+{
+  "directory": "C:/Work/MatamEx4Updated/MatamEx4/build",
+  "command": "C:\\PROGRA~1\\gcc\\bin\\G__~1.EXE   -g -std=gnu++11 -o CMakeFiles\\MatamEx4.dir\\Fighter.cpp.obj -c C:\\Work\\MatamEx4Updated\\MatamEx4\\Fighter.cpp",
+  "file": "C:/Work/MatamEx4Updated/MatamEx4/Fighter.cpp"
+},
+{
+  "directory": "C:/Work/MatamEx4Updated/MatamEx4/build",
+  "command": "C:\\PROGRA~1\\gcc\\bin\\G__~1.EXE   -g -std=gnu++11 -o CMakeFiles\\MatamEx4.dir\\Rogue.cpp.obj -c C:\\Work\\MatamEx4Updated\\MatamEx4\\Rogue.cpp",
+  "file": "C:/Work/MatamEx4Updated/MatamEx4/Rogue.cpp"
+},
+{
+  "directory": "C:/Work/MatamEx4Updated/MatamEx4/build",
+  "command": "C:\\PROGRA~1\\gcc\\bin\\G__~1.EXE   -g -std=gnu++11 -o CMakeFiles\\MatamEx4.dir\\utilities.cpp.obj -c C:\\Work\\MatamEx4Updated\\MatamEx4\\utilities.cpp",
+  "file": "C:/Work/MatamEx4Updated/MatamEx4/utilities.cpp"
+},
+{
+  "directory": "C:/Work/MatamEx4Updated/MatamEx4/build",
+  "command": "C:\\PROGRA~1\\gcc\\bin\\G__~1.EXE   -g -std=gnu++11 -o CMakeFiles\\MatamEx4.dir\\Card.cpp.obj -c C:\\Work\\MatamEx4Updated\\MatamEx4\\Card.cpp",
+  "file": "C:/Work/MatamEx4Updated/MatamEx4/Card.cpp"
+},
+{
+  "directory": "C:/Work/MatamEx4Updated/MatamEx4/build",
+  "command": "C:\\PROGRA~1\\gcc\\bin\\G__~1.EXE   -g -std=gnu++11 -o CMakeFiles\\MatamEx4.dir\\BattleCard.cpp.obj -c C:\\Work\\MatamEx4Updated\\MatamEx4\\BattleCard.cpp",
+  "file": "C:/Work/MatamEx4Updated/MatamEx4/BattleCard.cpp"
+},
+{
+  "directory": "C:/Work/MatamEx4Updated/MatamEx4/build",
+  "command": "C:\\PROGRA~1\\gcc\\bin\\G__~1.EXE   -g -std=gnu++11 -o CMakeFiles\\MatamEx4.dir\\Goblin.cpp.obj -c C:\\Work\\MatamEx4Updated\\MatamEx4\\Goblin.cpp",
+  "file": "C:/Work/MatamEx4Updated/MatamEx4/Goblin.cpp"
+},
+{
+  "directory": "C:/Work/MatamEx4Updated/MatamEx4/build",
+  "command": "C:\\PROGRA~1\\gcc\\bin\\G__~1.EXE   -g -std=gnu++11 -o CMakeFiles\\MatamEx4.dir\\Dragon.cpp.obj -c C:\\Work\\MatamEx4Updated\\MatamEx4\\Dragon.cpp",
+  "file": "C:/Work/MatamEx4Updated/MatamEx4/Dragon.cpp"
+},
+{
+  "directory": "C:/Work/MatamEx4Updated/MatamEx4/build",
+  "command": "C:\\PROGRA~1\\gcc\\bin\\G__~1.EXE   -g -std=gnu++11 -o CMakeFiles\\MatamEx4.dir\\Vampire.cpp.obj -c C:\\Work\\MatamEx4Updated\\MatamEx4\\Vampire.cpp",
+  "file": "C:/Work/MatamEx4Updated/MatamEx4/Vampire.cpp"
+},
+{
+  "directory": "C:/Work/MatamEx4Updated/MatamEx4/build",
+  "command": "C:\\PROGRA~1\\gcc\\bin\\G__~1.EXE   -g -std=gnu++11 -o CMakeFiles\\MatamEx4.dir\\Fairy.cpp.obj -c C:\\Work\\MatamEx4Updated\\MatamEx4\\Fairy.cpp",
+  "file": "C:/Work/MatamEx4Updated/MatamEx4/Fairy.cpp"
+},
+{
+  "directory": "C:/Work/MatamEx4Updated/MatamEx4/build",
+  "command": "C:\\PROGRA~1\\gcc\\bin\\G__~1.EXE   -g -std=gnu++11 -o CMakeFiles\\MatamEx4.dir\\Barfight.cpp.obj -c C:\\Work\\MatamEx4Updated\\MatamEx4\\Barfight.cpp",
+  "file": "C:/Work/MatamEx4Updated/MatamEx4/Barfight.cpp"
+},
+{
+  "directory": "C:/Work/MatamEx4Updated/MatamEx4/build",
+  "command": "C:\\PROGRA~1\\gcc\\bin\\G__~1.EXE   -g -std=gnu++11 -o CMakeFiles\\MatamEx4.dir\\Pitfall.cpp.obj -c C:\\Work\\MatamEx4Updated\\MatamEx4\\Pitfall.cpp",
+  "file": "C:/Work/MatamEx4Updated/MatamEx4/Pitfall.cpp"
+},
+{
+  "directory": "C:/Work/MatamEx4Updated/MatamEx4/build",
+  "command": "C:\\PROGRA~1\\gcc\\bin\\G__~1.EXE   -g -std=gnu++11 -o CMakeFiles\\MatamEx4.dir\\Treasure.cpp.obj -c C:\\Work\\MatamEx4Updated\\MatamEx4\\Treasure.cpp",
+  "file": "C:/Work/MatamEx4Updated/MatamEx4/Treasure.cpp"
+},
+{
+  "directory": "C:/Work/MatamEx4Updated/MatamEx4/build",
+  "command": "C:\\PROGRA~1\\gcc\\bin\\G__~1.EXE   -g -std=gnu++11 -o CMakeFiles\\MatamEx4.dir\\Mtmchkin.cpp.obj -c C:\\Work\\MatamEx4Updated\\MatamEx4\\Mtmchkin.cpp",
+  "file": "C:/Work/MatamEx4Updated/MatamEx4/Mtmchkin.cpp"
+},
+{
+  "directory": "C:/Work/MatamEx4Updated/MatamEx4/build",
+  "command": "C:\\PROGRA~1\\gcc\\bin\\G__~1.EXE   -g -std=gnu++11 -o CMakeFiles\\MatamEx4.dir\\Merchant.cpp.obj -c C:\\Work\\MatamEx4Updated\\MatamEx4\\Merchant.cpp",
+  "file": "C:/Work/MatamEx4Updated/MatamEx4/Merchant.cpp"
+}
+]

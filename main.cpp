@@ -14,8 +14,7 @@
 #include <cstdio>
 #include <fstream>
 #include <cstring>
-
-
+#include "Mtmchkin.h"
 using std::unique_ptr;
 using std::cout;
 using std::cerr;
@@ -48,8 +47,24 @@ bool testCard()
     cards.erase(cards.begin(),cards.end());
     return true;
 }
-int main() {
 
-    testCard();
+void testMtmchkin()
+{
+    Mtmchkin mtmchkin = Mtmchkin("input.txt");
+}
+
+int main() {
+#include "Exception.h"
+//    testMtmchkin();
+    // try{
+    //     throw DeckFileNotFound();
+    // }
+    // catch(const DeckFileNotFound& e)
+    // {
+    //     cout <<e.what();
+    // }
+
+    Mtmchkin test("input.txt");
+   // testCard();
     return 0;
 }

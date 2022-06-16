@@ -1,0 +1,3 @@
+C:/Work/MatamEx4Updated/MatamEx4/build/CMakeFiles/MatamEx4.dir
+C:/Work/MatamEx4Updated/MatamEx4/build/CMakeFiles/edit_cache.dir
+C:/Work/MatamEx4Updated/MatamEx4/build/CMakeFiles/rebuild_cache.dir
