@@ -136,6 +136,12 @@
 		<Unit filename="C:/Users/david/Desktop/MatamHW/MatamEx4/MatamEx4/Merchant.h">
 			<Option target="MatamEx4"/>
 		</Unit>
+		<Unit filename="C:/Users/david/Desktop/MatamHW/MatamEx4/MatamEx4/Mtmchkin.cpp">
+			<Option target="MatamEx4"/>
+		</Unit>
+		<Unit filename="C:/Users/david/Desktop/MatamHW/MatamEx4/MatamEx4/Mtmchkin.h">
+			<Option target="MatamEx4"/>
+		</Unit>
 		<Unit filename="C:/Users/david/Desktop/MatamHW/MatamEx4/MatamEx4/Pitfall.cpp">
 			<Option target="MatamEx4"/>
 		</Unit>

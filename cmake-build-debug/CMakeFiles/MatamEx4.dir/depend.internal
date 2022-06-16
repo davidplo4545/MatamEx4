@@ -49,6 +49,26 @@ CMakeFiles/MatamEx4.dir/Merchant.cpp.obj
  C:/Users/david/Desktop/MatamHW/MatamEx4/MatamEx4/Merchant.h
  C:/Users/david/Desktop/MatamHW/MatamEx4/MatamEx4/Player.h
  C:/Users/david/Desktop/MatamHW/MatamEx4/MatamEx4/utilities.h
+CMakeFiles/MatamEx4.dir/Mtmchkin.cpp.obj
+ C:/Users/david/Desktop/MatamHW/MatamEx4/MatamEx4/Barfight.h
+ C:/Users/david/Desktop/MatamHW/MatamEx4/MatamEx4/BattleCard.h
+ C:/Users/david/Desktop/MatamHW/MatamEx4/MatamEx4/Card.h
+ C:/Users/david/Desktop/MatamHW/MatamEx4/MatamEx4/Declarations.h
+ C:/Users/david/Desktop/MatamHW/MatamEx4/MatamEx4/Dragon.h
+ C:/Users/david/Desktop/MatamHW/MatamEx4/MatamEx4/Exception.h
+ C:/Users/david/Desktop/MatamHW/MatamEx4/MatamEx4/Fairy.h
+ C:/Users/david/Desktop/MatamHW/MatamEx4/MatamEx4/Fighter.h
+ C:/Users/david/Desktop/MatamHW/MatamEx4/MatamEx4/Goblin.h
+ C:/Users/david/Desktop/MatamHW/MatamEx4/MatamEx4/Merchant.h
+ C:/Users/david/Desktop/MatamHW/MatamEx4/MatamEx4/Mtmchkin.cpp
+ C:/Users/david/Desktop/MatamHW/MatamEx4/MatamEx4/Mtmchkin.h
+ C:/Users/david/Desktop/MatamHW/MatamEx4/MatamEx4/Pitfall.h
+ C:/Users/david/Desktop/MatamHW/MatamEx4/MatamEx4/Player.h
+ C:/Users/david/Desktop/MatamHW/MatamEx4/MatamEx4/Rogue.h
+ C:/Users/david/Desktop/MatamHW/MatamEx4/MatamEx4/Treasure.h
+ C:/Users/david/Desktop/MatamHW/MatamEx4/MatamEx4/Vampire.h
+ C:/Users/david/Desktop/MatamHW/MatamEx4/MatamEx4/Wizard.h
+ C:/Users/david/Desktop/MatamHW/MatamEx4/MatamEx4/utilities.h
 CMakeFiles/MatamEx4.dir/Pitfall.cpp.obj
  C:/Users/david/Desktop/MatamHW/MatamEx4/MatamEx4/Card.h
  C:/Users/david/Desktop/MatamHW/MatamEx4/MatamEx4/Pitfall.cpp
@@ -82,12 +102,23 @@ CMakeFiles/MatamEx4.dir/Wizard.cpp.obj
  C:/Users/david/Desktop/MatamHW/MatamEx4/MatamEx4/Wizard.h
  C:/Users/david/Desktop/MatamHW/MatamEx4/MatamEx4/utilities.h
 CMakeFiles/MatamEx4.dir/main.cpp.obj
+ C:/Users/david/Desktop/MatamHW/MatamEx4/MatamEx4/Barfight.h
  C:/Users/david/Desktop/MatamHW/MatamEx4/MatamEx4/BattleCard.h
  C:/Users/david/Desktop/MatamHW/MatamEx4/MatamEx4/Card.h
+ C:/Users/david/Desktop/MatamHW/MatamEx4/MatamEx4/Declarations.h
  C:/Users/david/Desktop/MatamHW/MatamEx4/MatamEx4/Dragon.h
+ C:/Users/david/Desktop/MatamHW/MatamEx4/MatamEx4/Exception.h
+ C:/Users/david/Desktop/MatamHW/MatamEx4/MatamEx4/Fairy.h
+ C:/Users/david/Desktop/MatamHW/MatamEx4/MatamEx4/Fighter.h
  C:/Users/david/Desktop/MatamHW/MatamEx4/MatamEx4/Goblin.h
+ C:/Users/david/Desktop/MatamHW/MatamEx4/MatamEx4/Merchant.h
+ C:/Users/david/Desktop/MatamHW/MatamEx4/MatamEx4/Mtmchkin.h
+ C:/Users/david/Desktop/MatamHW/MatamEx4/MatamEx4/Pitfall.h
  C:/Users/david/Desktop/MatamHW/MatamEx4/MatamEx4/Player.h
+ C:/Users/david/Desktop/MatamHW/MatamEx4/MatamEx4/Rogue.h
+ C:/Users/david/Desktop/MatamHW/MatamEx4/MatamEx4/Treasure.h
  C:/Users/david/Desktop/MatamHW/MatamEx4/MatamEx4/Vampire.h
+ C:/Users/david/Desktop/MatamHW/MatamEx4/MatamEx4/Wizard.h
  C:/Users/david/Desktop/MatamHW/MatamEx4/MatamEx4/main.cpp
  C:/Users/david/Desktop/MatamHW/MatamEx4/MatamEx4/utilities.h
 CMakeFiles/MatamEx4.dir/utilities.cpp.obj

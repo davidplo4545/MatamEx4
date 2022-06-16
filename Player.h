@@ -6,6 +6,7 @@
 
 #include "string.h"
 
+enum State { PLAYING, LOST, WON };
 
 class Player{
 private:
@@ -15,15 +16,15 @@ private:
     static const int LEVEL = 1;
     static const int COINS = 10;
 protected:
+    State m_state;
     int m_level, m_force, m_maxHp, m_hp, m_coins;
+
     std::string m_name, m_job;
 
     friend std::ostream& operator<<(std::ostream& os, const Player& player);
 
 public:
     explicit Player(const std::string name, const std::string job); // constructor
-    Player(const Player&); //copy constructor
-    Player& operator=(const Player& player);// assignment
 
     virtual ~Player() {}
     virtual void print(std::ostream& os) const = 0;

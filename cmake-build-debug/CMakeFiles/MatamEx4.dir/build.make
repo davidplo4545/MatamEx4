@@ -247,22 +247,9 @@ CMakeFiles/MatamEx4.dir/Pitfall.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MatamEx4.dir/Pitfall.cpp.s"
 	C:\TDM-GCC-64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\david\Desktop\MatamHW\MatamEx4\MatamEx4\Pitfall.cpp -o CMakeFiles\MatamEx4.dir\Pitfall.cpp.s
 
-CMakeFiles/MatamEx4.dir/Merchant.cpp.obj: CMakeFiles/MatamEx4.dir/flags.make
-CMakeFiles/MatamEx4.dir/Merchant.cpp.obj: ../Merchant.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\david\Desktop\MatamHW\MatamEx4\MatamEx4\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/MatamEx4.dir/Merchant.cpp.obj"
-	C:\TDM-GCC-64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\MatamEx4.dir\Merchant.cpp.obj -c C:\Users\david\Desktop\MatamHW\MatamEx4\MatamEx4\Merchant.cpp
-
-CMakeFiles/MatamEx4.dir/Merchant.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MatamEx4.dir/Merchant.cpp.i"
-	C:\TDM-GCC-64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\david\Desktop\MatamHW\MatamEx4\MatamEx4\Merchant.cpp > CMakeFiles\MatamEx4.dir\Merchant.cpp.i
-
-CMakeFiles/MatamEx4.dir/Merchant.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MatamEx4.dir/Merchant.cpp.s"
-	C:\TDM-GCC-64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\david\Desktop\MatamHW\MatamEx4\MatamEx4\Merchant.cpp -o CMakeFiles\MatamEx4.dir\Merchant.cpp.s
-
 CMakeFiles/MatamEx4.dir/Treasure.cpp.obj: CMakeFiles/MatamEx4.dir/flags.make
 CMakeFiles/MatamEx4.dir/Treasure.cpp.obj: ../Treasure.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\david\Desktop\MatamHW\MatamEx4\MatamEx4\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/MatamEx4.dir/Treasure.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\david\Desktop\MatamHW\MatamEx4\MatamEx4\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/MatamEx4.dir/Treasure.cpp.obj"
 	C:\TDM-GCC-64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\MatamEx4.dir\Treasure.cpp.obj -c C:\Users\david\Desktop\MatamHW\MatamEx4\MatamEx4\Treasure.cpp
 
 CMakeFiles/MatamEx4.dir/Treasure.cpp.i: cmake_force
@@ -272,6 +259,32 @@ CMakeFiles/MatamEx4.dir/Treasure.cpp.i: cmake_force
 CMakeFiles/MatamEx4.dir/Treasure.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MatamEx4.dir/Treasure.cpp.s"
 	C:\TDM-GCC-64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\david\Desktop\MatamHW\MatamEx4\MatamEx4\Treasure.cpp -o CMakeFiles\MatamEx4.dir\Treasure.cpp.s
+
+CMakeFiles/MatamEx4.dir/Mtmchkin.cpp.obj: CMakeFiles/MatamEx4.dir/flags.make
+CMakeFiles/MatamEx4.dir/Mtmchkin.cpp.obj: ../Mtmchkin.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\david\Desktop\MatamHW\MatamEx4\MatamEx4\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/MatamEx4.dir/Mtmchkin.cpp.obj"
+	C:\TDM-GCC-64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\MatamEx4.dir\Mtmchkin.cpp.obj -c C:\Users\david\Desktop\MatamHW\MatamEx4\MatamEx4\Mtmchkin.cpp
+
+CMakeFiles/MatamEx4.dir/Mtmchkin.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MatamEx4.dir/Mtmchkin.cpp.i"
+	C:\TDM-GCC-64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\david\Desktop\MatamHW\MatamEx4\MatamEx4\Mtmchkin.cpp > CMakeFiles\MatamEx4.dir\Mtmchkin.cpp.i
+
+CMakeFiles/MatamEx4.dir/Mtmchkin.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MatamEx4.dir/Mtmchkin.cpp.s"
+	C:\TDM-GCC-64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\david\Desktop\MatamHW\MatamEx4\MatamEx4\Mtmchkin.cpp -o CMakeFiles\MatamEx4.dir\Mtmchkin.cpp.s
+
+CMakeFiles/MatamEx4.dir/Merchant.cpp.obj: CMakeFiles/MatamEx4.dir/flags.make
+CMakeFiles/MatamEx4.dir/Merchant.cpp.obj: ../Merchant.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\david\Desktop\MatamHW\MatamEx4\MatamEx4\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/MatamEx4.dir/Merchant.cpp.obj"
+	C:\TDM-GCC-64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\MatamEx4.dir\Merchant.cpp.obj -c C:\Users\david\Desktop\MatamHW\MatamEx4\MatamEx4\Merchant.cpp
+
+CMakeFiles/MatamEx4.dir/Merchant.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MatamEx4.dir/Merchant.cpp.i"
+	C:\TDM-GCC-64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\david\Desktop\MatamHW\MatamEx4\MatamEx4\Merchant.cpp > CMakeFiles\MatamEx4.dir\Merchant.cpp.i
+
+CMakeFiles/MatamEx4.dir/Merchant.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MatamEx4.dir/Merchant.cpp.s"
+	C:\TDM-GCC-64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\david\Desktop\MatamHW\MatamEx4\MatamEx4\Merchant.cpp -o CMakeFiles\MatamEx4.dir\Merchant.cpp.s
 
 # Object files for target MatamEx4
 MatamEx4_OBJECTS = \
@@ -289,8 +302,9 @@ MatamEx4_OBJECTS = \
 "CMakeFiles/MatamEx4.dir/Fairy.cpp.obj" \
 "CMakeFiles/MatamEx4.dir/Barfight.cpp.obj" \
 "CMakeFiles/MatamEx4.dir/Pitfall.cpp.obj" \
-"CMakeFiles/MatamEx4.dir/Merchant.cpp.obj" \
-"CMakeFiles/MatamEx4.dir/Treasure.cpp.obj"
+"CMakeFiles/MatamEx4.dir/Treasure.cpp.obj" \
+"CMakeFiles/MatamEx4.dir/Mtmchkin.cpp.obj" \
+"CMakeFiles/MatamEx4.dir/Merchant.cpp.obj"
 
 # External object files for target MatamEx4
 MatamEx4_EXTERNAL_OBJECTS =
@@ -309,13 +323,14 @@ MatamEx4.exe: CMakeFiles/MatamEx4.dir/Vampire.cpp.obj
 MatamEx4.exe: CMakeFiles/MatamEx4.dir/Fairy.cpp.obj
 MatamEx4.exe: CMakeFiles/MatamEx4.dir/Barfight.cpp.obj
 MatamEx4.exe: CMakeFiles/MatamEx4.dir/Pitfall.cpp.obj
-MatamEx4.exe: CMakeFiles/MatamEx4.dir/Merchant.cpp.obj
 MatamEx4.exe: CMakeFiles/MatamEx4.dir/Treasure.cpp.obj
+MatamEx4.exe: CMakeFiles/MatamEx4.dir/Mtmchkin.cpp.obj
+MatamEx4.exe: CMakeFiles/MatamEx4.dir/Merchant.cpp.obj
 MatamEx4.exe: CMakeFiles/MatamEx4.dir/build.make
 MatamEx4.exe: CMakeFiles/MatamEx4.dir/linklibs.rsp
 MatamEx4.exe: CMakeFiles/MatamEx4.dir/objects1.rsp
 MatamEx4.exe: CMakeFiles/MatamEx4.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\david\Desktop\MatamHW\MatamEx4\MatamEx4\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Linking CXX executable MatamEx4.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\david\Desktop\MatamHW\MatamEx4\MatamEx4\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Linking CXX executable MatamEx4.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\MatamEx4.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

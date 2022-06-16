@@ -49,6 +49,26 @@ CMakeFiles/MatamEx4.dir/Merchant.cpp.obj: \
  ../Merchant.h \
  ../Player.h \
  ../utilities.h
+CMakeFiles/MatamEx4.dir/Mtmchkin.cpp.obj: \
+ ../Barfight.h \
+ ../BattleCard.h \
+ ../Card.h \
+ ../Declarations.h \
+ ../Dragon.h \
+ ../Exception.h \
+ ../Fairy.h \
+ ../Fighter.h \
+ ../Goblin.h \
+ ../Merchant.h \
+ ../Mtmchkin.cpp \
+ ../Mtmchkin.h \
+ ../Pitfall.h \
+ ../Player.h \
+ ../Rogue.h \
+ ../Treasure.h \
+ ../Vampire.h \
+ ../Wizard.h \
+ ../utilities.h
 CMakeFiles/MatamEx4.dir/Pitfall.cpp.obj: \
  ../Card.h \
  ../Pitfall.cpp \
@@ -82,12 +102,23 @@ CMakeFiles/MatamEx4.dir/Wizard.cpp.obj: \
  ../Wizard.h \
  ../utilities.h
 CMakeFiles/MatamEx4.dir/main.cpp.obj: \
+ ../Barfight.h \
  ../BattleCard.h \
  ../Card.h \
+ ../Declarations.h \
  ../Dragon.h \
+ ../Exception.h \
+ ../Fairy.h \
+ ../Fighter.h \
  ../Goblin.h \
+ ../Merchant.h \
+ ../Mtmchkin.h \
+ ../Pitfall.h \
  ../Player.h \
+ ../Rogue.h \
+ ../Treasure.h \
  ../Vampire.h \
+ ../Wizard.h \
  ../main.cpp \
  ../utilities.h
 CMakeFiles/MatamEx4.dir/utilities.cpp.obj: \

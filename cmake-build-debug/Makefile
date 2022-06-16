@@ -320,6 +320,30 @@ Merchant.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\MatamEx4.dir\build.make CMakeFiles/MatamEx4.dir/Merchant.cpp.s
 .PHONY : Merchant.cpp.s
 
+Mtmchkin.obj: Mtmchkin.cpp.obj
+.PHONY : Mtmchkin.obj
+
+# target to build an object file
+Mtmchkin.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MatamEx4.dir\build.make CMakeFiles/MatamEx4.dir/Mtmchkin.cpp.obj
+.PHONY : Mtmchkin.cpp.obj
+
+Mtmchkin.i: Mtmchkin.cpp.i
+.PHONY : Mtmchkin.i
+
+# target to preprocess a source file
+Mtmchkin.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MatamEx4.dir\build.make CMakeFiles/MatamEx4.dir/Mtmchkin.cpp.i
+.PHONY : Mtmchkin.cpp.i
+
+Mtmchkin.s: Mtmchkin.cpp.s
+.PHONY : Mtmchkin.s
+
+# target to generate assembly for a file
+Mtmchkin.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MatamEx4.dir\build.make CMakeFiles/MatamEx4.dir/Mtmchkin.cpp.s
+.PHONY : Mtmchkin.cpp.s
+
 Pitfall.obj: Pitfall.cpp.obj
 .PHONY : Pitfall.obj
 
@@ -545,6 +569,9 @@ help:
 	@echo ... Merchant.obj
 	@echo ... Merchant.i
 	@echo ... Merchant.s
+	@echo ... Mtmchkin.obj
+	@echo ... Mtmchkin.i
+	@echo ... Mtmchkin.s
 	@echo ... Pitfall.obj
 	@echo ... Pitfall.i
 	@echo ... Pitfall.s

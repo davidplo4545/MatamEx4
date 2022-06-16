@@ -16,6 +16,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "C:/Users/david/Desktop/MatamHW/MatamEx4/MatamEx4/Fighter.cpp" "C:/Users/david/Desktop/MatamHW/MatamEx4/MatamEx4/cmake-build-debug/CMakeFiles/MatamEx4.dir/Fighter.cpp.obj"
   "C:/Users/david/Desktop/MatamHW/MatamEx4/MatamEx4/Goblin.cpp" "C:/Users/david/Desktop/MatamHW/MatamEx4/MatamEx4/cmake-build-debug/CMakeFiles/MatamEx4.dir/Goblin.cpp.obj"
   "C:/Users/david/Desktop/MatamHW/MatamEx4/MatamEx4/Merchant.cpp" "C:/Users/david/Desktop/MatamHW/MatamEx4/MatamEx4/cmake-build-debug/CMakeFiles/MatamEx4.dir/Merchant.cpp.obj"
+  "C:/Users/david/Desktop/MatamHW/MatamEx4/MatamEx4/Mtmchkin.cpp" "C:/Users/david/Desktop/MatamHW/MatamEx4/MatamEx4/cmake-build-debug/CMakeFiles/MatamEx4.dir/Mtmchkin.cpp.obj"
   "C:/Users/david/Desktop/MatamHW/MatamEx4/MatamEx4/Pitfall.cpp" "C:/Users/david/Desktop/MatamHW/MatamEx4/MatamEx4/cmake-build-debug/CMakeFiles/MatamEx4.dir/Pitfall.cpp.obj"
   "C:/Users/david/Desktop/MatamHW/MatamEx4/MatamEx4/Player.cpp" "C:/Users/david/Desktop/MatamHW/MatamEx4/MatamEx4/cmake-build-debug/CMakeFiles/MatamEx4.dir/Player.cpp.obj"
   "C:/Users/david/Desktop/MatamHW/MatamEx4/MatamEx4/Rogue.cpp" "C:/Users/david/Desktop/MatamHW/MatamEx4/MatamEx4/cmake-build-debug/CMakeFiles/MatamEx4.dir/Rogue.cpp.obj"

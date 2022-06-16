@@ -1,0 +1,6 @@
+Merchant
+Treasure
+Vampire
+Dragon
+Dragon
+Fairy

@@ -6,19 +6,38 @@
 #include <memory>
 #include "Card.h"
 
+template<typename T>
+Card* createInstance()
+{
+    return new T;
+}
+
 class Mtmchkin{
 
 private:
-    std::vector<Player> leaderBoard;
+    static const int MIN_CARD_COUNT = 5;
+    const std::map<std::string, Card*(*)()> CARDS_CONVERTER ={
+            {"Fairy",&createInstance<Fairy>},
+            {"Goblin",&createInstance<Goblin>},
+            {"Vampire",&createInstance<Vampire>},
+            {"Dragon",&createInstance<Dragon>},
+            {"Merchant",&createInstance<Merchant>},
+            {"Pitfall",&createInstance<Pitfall>},
+            {"Barfight",&createInstance<Barfight>},
+            {"Treasure",&createInstance<Treasure>},
+    };
+
+    int m_roundCount = 0;
+    std::vector<std::shared_ptr<Player>> m_winners;
+    std::vector<std::shared_ptr<Player>> m_losers;
+    std::vector<std::shared_ptr<Player>> m_players;
     std::vector<std::unique_ptr<Card>> m_cards;
 
     void pushToDeck(std::string cardName, int currLine);
-
-
+    bool isTeamSizeValid(int teamSize) const;
+    void initializePlayers();
 
 public:
-
-
 //                            unique
 
     
@@ -63,6 +82,7 @@ public:
     *          int - number of rounds played
     */
     int getNumberOfRounds() const;
+
 };
 
 
