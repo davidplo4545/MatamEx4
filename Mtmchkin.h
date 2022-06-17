@@ -5,11 +5,18 @@
 #include "Declarations.h"
 #include <memory>
 #include "Card.h"
+#include <deque>
 
 template<typename T>
-Card* createInstance()
+Card* createCardInstance()
 {
     return new T;
+}
+
+template<typename T>
+Player* createPlayerInstance(std::string name)
+{
+    return new T(name);
 }
 
 class Mtmchkin{
@@ -17,24 +24,31 @@ class Mtmchkin{
 private:
     static const int MIN_CARD_COUNT = 5;
     const std::map<std::string, Card*(*)()> CARDS_CONVERTER ={
-            {"Fairy",&createInstance<Fairy>},
-            {"Goblin",&createInstance<Goblin>},
-            {"Vampire",&createInstance<Vampire>},
-            {"Dragon",&createInstance<Dragon>},
-            {"Merchant",&createInstance<Merchant>},
-            {"Pitfall",&createInstance<Pitfall>},
-            {"Barfight",&createInstance<Barfight>},
-            {"Treasure",&createInstance<Treasure>},
+            {"Fairy",&createCardInstance<Fairy>},
+            {"Goblin",&createCardInstance<Goblin>},
+            {"Vampire",&createCardInstance<Vampire>},
+            {"Dragon",&createCardInstance<Dragon>},
+            {"Merchant",&createCardInstance<Merchant>},
+            {"Pitfall",&createCardInstance<Pitfall>},
+            {"Barfight",&createCardInstance<Barfight>},
+            {"Treasure",&createCardInstance<Treasure>},
+    };
+
+    const std::map<std::string, Player*(*)(std::string)> PLAYER_CONVERTER ={
+            {"Wizard",&createPlayerInstance<Wizard>},
+            {"Fighter",&createPlayerInstance<Fighter>},
+            {"Rogue",&createPlayerInstance<Rogue>},
     };
 
     int m_roundCount = 0;
-    std::vector<std::shared_ptr<Player>> m_winners;
-    std::vector<std::shared_ptr<Player>> m_losers;
-    std::vector<std::shared_ptr<Player>> m_players;
+    int m_currCard = 0;
+    std::vector<std::unique_ptr<Player>> m_winners;
+    std::vector<std::unique_ptr<Player>> m_losers;
+    std::deque<std::unique_ptr<Player>> m_players;
     std::vector<std::unique_ptr<Card>> m_cards;
 
     void pushToDeck(std::string cardName, int currLine);
-    bool isTeamSizeValid(int teamSize) const;
+    static bool isTeamSizeValid(int teamSize);
     void initializePlayers();
 
 public:

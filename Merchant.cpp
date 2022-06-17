@@ -13,6 +13,8 @@ bool Merchant::applySelectedOption(int option, Player &player) const {
         if(player.getCoins() >= Merchant::STORE.at(option)[0])
         {
             player.heal(Merchant::STORE.at(option)[1]);
+            player.pay(Merchant::STORE.at(option)[0]);
+            printMerchantSummary(std::cout, player.getName(),option,Merchant::STORE.at(option)[0]);
             isSuccessful = true;
         }
         else{
@@ -24,6 +26,8 @@ bool Merchant::applySelectedOption(int option, Player &player) const {
         if(player.getCoins() >= Merchant::STORE.at(option)[0])
         {
             player.buff(Merchant::STORE.at(option)[1]);
+            player.pay(Merchant::STORE.at(option)[0]);
+            printMerchantSummary(std::cout, player.getName(),option,Merchant::STORE.at(option)[0]);
             isSuccessful = true;
         }
         else
@@ -33,6 +37,7 @@ bool Merchant::applySelectedOption(int option, Player &player) const {
     }
     else if(option == 0)
     {
+        printMerchantSummary(std::cout, player.getName(),option,option);
         isSuccessful = true;
     }
 

@@ -14,7 +14,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/MatamEx4.dir/Treasure.cpp.obj"
   "CMakeFiles/MatamEx4.dir/Vampire.cpp.obj"
   "CMakeFiles/MatamEx4.dir/Wizard.cpp.obj"
-  "CMakeFiles/MatamEx4.dir/main.cpp.obj"
+  "CMakeFiles/MatamEx4.dir/test.cpp.obj"
   "CMakeFiles/MatamEx4.dir/utilities.cpp.obj"
   "MatamEx4.exe"
   "MatamEx4.exe.manifest"

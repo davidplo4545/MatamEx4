@@ -3,12 +3,11 @@
 //
 
 #include "Barfight.h"
-
+#include "Fighter.h"
 Barfight::Barfight():Card("Barfight"){}
 
 void Barfight::applyEncounter(Player &player) const {
-//    const Fighter* fighter = dynamic_cast<const Fighter*>(player);
-    Player* fighter = &player;
+    const Fighter* fighter = dynamic_cast<const Fighter*>(&player);
     if(fighter != nullptr)
     {
         printBarfightMessage(true);

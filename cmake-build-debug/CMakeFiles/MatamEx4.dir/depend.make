@@ -5,6 +5,7 @@ CMakeFiles/MatamEx4.dir/Barfight.cpp.obj: \
  ../Barfight.cpp \
  ../Barfight.h \
  ../Card.h \
+ ../Fighter.h \
  ../Player.h \
  ../utilities.h
 CMakeFiles/MatamEx4.dir/BattleCard.cpp.obj: \
@@ -30,6 +31,7 @@ CMakeFiles/MatamEx4.dir/Fairy.cpp.obj: \
  ../Fairy.cpp \
  ../Fairy.h \
  ../Player.h \
+ ../Wizard.h \
  ../utilities.h
 CMakeFiles/MatamEx4.dir/Fighter.cpp.obj: \
  ../Fighter.cpp \
@@ -74,6 +76,7 @@ CMakeFiles/MatamEx4.dir/Pitfall.cpp.obj: \
  ../Pitfall.cpp \
  ../Pitfall.h \
  ../Player.h \
+ ../Rogue.h \
  ../utilities.h
 CMakeFiles/MatamEx4.dir/Player.cpp.obj: \
  ../Player.cpp \
@@ -101,7 +104,7 @@ CMakeFiles/MatamEx4.dir/Wizard.cpp.obj: \
  ../Wizard.cpp \
  ../Wizard.h \
  ../utilities.h
-CMakeFiles/MatamEx4.dir/main.cpp.obj: \
+CMakeFiles/MatamEx4.dir/test.cpp.obj: \
  ../Barfight.h \
  ../BattleCard.h \
  ../Card.h \
@@ -119,7 +122,7 @@ CMakeFiles/MatamEx4.dir/main.cpp.obj: \
  ../Treasure.h \
  ../Vampire.h \
  ../Wizard.h \
- ../main.cpp \
+ ../test.cpp \
  ../utilities.h
 CMakeFiles/MatamEx4.dir/utilities.cpp.obj: \
  ../Player.h \

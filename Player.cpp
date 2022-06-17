@@ -5,7 +5,21 @@ Player::Player(string name, string job):
 m_name(name), m_job(job),m_level(Player::LEVEL), m_force(Player::FORCE),m_coins(Player::COINS), m_maxHp(Player::MAX_HP), m_hp(Player::MAX_HP), m_state(State::PLAYING)
 {}
 
+void Player::changePlayerState() {
+    if(m_level == MAX_LEVEL)
+        m_state = State::WON;
+    else if(m_hp == DEAD)
+        m_state = State::LOST;
+}
+bool Player::hasWon() const
+{
+    return m_state == State::WON;
+}
 
+bool Player::hasLost() const
+{
+    return m_state == State::LOST;
+}
 
 ostream& operator<<(ostream& os, const Player& player)
 {

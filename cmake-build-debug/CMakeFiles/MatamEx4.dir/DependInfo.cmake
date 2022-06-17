@@ -23,7 +23,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "C:/Users/david/Desktop/MatamHW/MatamEx4/MatamEx4/Treasure.cpp" "C:/Users/david/Desktop/MatamHW/MatamEx4/MatamEx4/cmake-build-debug/CMakeFiles/MatamEx4.dir/Treasure.cpp.obj"
   "C:/Users/david/Desktop/MatamHW/MatamEx4/MatamEx4/Vampire.cpp" "C:/Users/david/Desktop/MatamHW/MatamEx4/MatamEx4/cmake-build-debug/CMakeFiles/MatamEx4.dir/Vampire.cpp.obj"
   "C:/Users/david/Desktop/MatamHW/MatamEx4/MatamEx4/Wizard.cpp" "C:/Users/david/Desktop/MatamHW/MatamEx4/MatamEx4/cmake-build-debug/CMakeFiles/MatamEx4.dir/Wizard.cpp.obj"
-  "C:/Users/david/Desktop/MatamHW/MatamEx4/MatamEx4/main.cpp" "C:/Users/david/Desktop/MatamHW/MatamEx4/MatamEx4/cmake-build-debug/CMakeFiles/MatamEx4.dir/main.cpp.obj"
+  "C:/Users/david/Desktop/MatamHW/MatamEx4/MatamEx4/test.cpp" "C:/Users/david/Desktop/MatamHW/MatamEx4/MatamEx4/cmake-build-debug/CMakeFiles/MatamEx4.dir/test.cpp.obj"
   "C:/Users/david/Desktop/MatamHW/MatamEx4/MatamEx4/utilities.cpp" "C:/Users/david/Desktop/MatamHW/MatamEx4/MatamEx4/cmake-build-debug/CMakeFiles/MatamEx4.dir/utilities.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")

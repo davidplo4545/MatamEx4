@@ -5,6 +5,7 @@ CMakeFiles/MatamEx4.dir/Barfight.cpp.obj
  C:/Users/david/Desktop/MatamHW/MatamEx4/MatamEx4/Barfight.cpp
  C:/Users/david/Desktop/MatamHW/MatamEx4/MatamEx4/Barfight.h
  C:/Users/david/Desktop/MatamHW/MatamEx4/MatamEx4/Card.h
+ C:/Users/david/Desktop/MatamHW/MatamEx4/MatamEx4/Fighter.h
  C:/Users/david/Desktop/MatamHW/MatamEx4/MatamEx4/Player.h
  C:/Users/david/Desktop/MatamHW/MatamEx4/MatamEx4/utilities.h
 CMakeFiles/MatamEx4.dir/BattleCard.cpp.obj
@@ -30,6 +31,7 @@ CMakeFiles/MatamEx4.dir/Fairy.cpp.obj
  C:/Users/david/Desktop/MatamHW/MatamEx4/MatamEx4/Fairy.cpp
  C:/Users/david/Desktop/MatamHW/MatamEx4/MatamEx4/Fairy.h
  C:/Users/david/Desktop/MatamHW/MatamEx4/MatamEx4/Player.h
+ C:/Users/david/Desktop/MatamHW/MatamEx4/MatamEx4/Wizard.h
  C:/Users/david/Desktop/MatamHW/MatamEx4/MatamEx4/utilities.h
 CMakeFiles/MatamEx4.dir/Fighter.cpp.obj
  C:/Users/david/Desktop/MatamHW/MatamEx4/MatamEx4/Fighter.cpp
@@ -74,6 +76,7 @@ CMakeFiles/MatamEx4.dir/Pitfall.cpp.obj
  C:/Users/david/Desktop/MatamHW/MatamEx4/MatamEx4/Pitfall.cpp
  C:/Users/david/Desktop/MatamHW/MatamEx4/MatamEx4/Pitfall.h
  C:/Users/david/Desktop/MatamHW/MatamEx4/MatamEx4/Player.h
+ C:/Users/david/Desktop/MatamHW/MatamEx4/MatamEx4/Rogue.h
  C:/Users/david/Desktop/MatamHW/MatamEx4/MatamEx4/utilities.h
 CMakeFiles/MatamEx4.dir/Player.cpp.obj
  C:/Users/david/Desktop/MatamHW/MatamEx4/MatamEx4/Player.cpp
@@ -101,7 +104,7 @@ CMakeFiles/MatamEx4.dir/Wizard.cpp.obj
  C:/Users/david/Desktop/MatamHW/MatamEx4/MatamEx4/Wizard.cpp
  C:/Users/david/Desktop/MatamHW/MatamEx4/MatamEx4/Wizard.h
  C:/Users/david/Desktop/MatamHW/MatamEx4/MatamEx4/utilities.h
-CMakeFiles/MatamEx4.dir/main.cpp.obj
+CMakeFiles/MatamEx4.dir/test.cpp.obj
  C:/Users/david/Desktop/MatamHW/MatamEx4/MatamEx4/Barfight.h
  C:/Users/david/Desktop/MatamHW/MatamEx4/MatamEx4/BattleCard.h
  C:/Users/david/Desktop/MatamHW/MatamEx4/MatamEx4/Card.h
@@ -119,7 +122,7 @@ CMakeFiles/MatamEx4.dir/main.cpp.obj
  C:/Users/david/Desktop/MatamHW/MatamEx4/MatamEx4/Treasure.h
  C:/Users/david/Desktop/MatamHW/MatamEx4/MatamEx4/Vampire.h
  C:/Users/david/Desktop/MatamHW/MatamEx4/MatamEx4/Wizard.h
- C:/Users/david/Desktop/MatamHW/MatamEx4/MatamEx4/main.cpp
+ C:/Users/david/Desktop/MatamHW/MatamEx4/MatamEx4/test.cpp
  C:/Users/david/Desktop/MatamHW/MatamEx4/MatamEx4/utilities.h
 CMakeFiles/MatamEx4.dir/utilities.cpp.obj
  C:/Users/david/Desktop/MatamHW/MatamEx4/MatamEx4/Player.h

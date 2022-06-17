@@ -53,6 +53,7 @@ void testMtmchkin()
     Mtmchkin mtmchkin = Mtmchkin("input.txt");
 }
 
+
 int main() {
 #include "Exception.h"
 //    testMtmchkin();

@@ -4,7 +4,7 @@
 #define PLAYER_H
 
 
-#include "string.h"
+#include <cstring>
 
 enum State { PLAYING, LOST, WON };
 
@@ -13,6 +13,7 @@ private:
     static const int DEAD = 0;
     static const int FORCE = 5;
     static const int MAX_HP = 100;
+    static const int MAX_LEVEL = 10;
     static const int LEVEL = 1;
     static const int COINS = 10;
 protected:
@@ -33,6 +34,8 @@ public:
     int getHealth() const;
     std::string getName() const;
 
+    bool hasWon() const;
+    bool hasLost() const;
     void levelUp();
     int getLevel() const;
     void buff(int boost);
@@ -42,6 +45,7 @@ public:
     bool isKnockedOut() const;
     bool pay(int payment);
     virtual int getAttackStrength() const;
+    void changePlayerState();
 
 
 };

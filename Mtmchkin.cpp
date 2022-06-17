@@ -18,7 +18,6 @@ vector<string> split(string str)
     {
         spacePos = str.find(spaceDel);
         result.push_back(str.substr(0,spacePos));
-        cout << str.substr(0,spacePos) << endl;
         str.erase(0,spacePos+1);
     }
     return result;
@@ -26,23 +25,28 @@ vector<string> split(string str)
 
 Mtmchkin::Mtmchkin(const std::string fileName)
 {
-    ifstream fileReader(fileName);
+
+    ifstream source(fileName);
+    if(!source)
+    {
+        throw DeckFileNotFound();
+    }
     string cardName;
+    int cardCount=0;
+
     try{
-        int cardCount=0;
-        while (getline(fileReader, cardName, '\n'))
+        while (getline(source, cardName, '\n'))
         {
             cardCount += 1;
             pushToDeck(cardName, cardCount);
-            m_cards[cardCount-1]->printCardInfo(cout);
         }
 
-        if (cardCount<Mtmchkin::MIN_CARD_COUNT)
-        {
-            throw DeckFileInvalidSize();
-        }
-    } catch(std::ios::failure& e){
-            std::cout<<e.what();
+    } catch(const std::ios_base& e){
+
+    }
+    if (cardCount<Mtmchkin::MIN_CARD_COUNT)
+    {
+        throw DeckFileInvalidSize();
     }
     this->initializePlayers();
 };
@@ -118,16 +122,88 @@ void Mtmchkin::initializePlayers()
                 printInvalidClass();
                 continue;
             }
-            m_players.push_back(shared_ptr<Player>(new Wizard(words[0])));
+            try{
+                m_players.push_back(unique_ptr<Player>(PLAYER_CONVERTER.at(words[1])(words[0])));
+            }
+            catch(const exception& e){
+                printInvalidClass();
+                continue;
+            };
+
             isCreated = true;
-            cout << words[0] <<" has been successfuly created";
         }
     }
 }
 
-bool Mtmchkin::isTeamSizeValid(int teamSize) const
+bool Mtmchkin::isTeamSizeValid(int teamSize)
 {
     return (teamSize>=2 && teamSize<=6);
+}
+
+bool Mtmchkin::isGameOver() const {
+    return m_players.empty();
+}
+
+void Mtmchkin::printLeaderBoard() const {
+    printLeaderBoardStartMessage();
+    int ranking = 1;
+    int length = m_winners.size();
+    for(int i=0;i<length;i++)
+    {
+        printPlayerLeaderBoard(ranking, *m_winners[i]);
+        ranking+=1;
+    }
+    length = m_players.size();
+    for(int i=0;i<length;i++)
+    {
+        printPlayerLeaderBoard(ranking, *m_players[i]);
+        ranking-=-1;
+    }
+    length = m_losers.size();
+    for(int i=length-1;i>=0;i--)
+    {
+        printPlayerLeaderBoard(ranking, *m_losers[i]);
+        ranking+=1;
+
+    }
+}
+
+
+void Mtmchkin::playRound() {
+    m_roundCount+=1;
+
+    int numPlayers = m_players.size();
+    printRoundStartMessage(m_roundCount);
+    for (int i = 0; i < numPlayers; i++) {
+        printTurnStartMessage(m_players.front()->getName());
+
+        m_cards[m_currCard]->applyEncounter(*m_players.front());
+        m_players.front()->changePlayerState();
+        if(m_players.front()->hasWon())
+        {
+            m_winners.push_back(move(m_players.front()));
+            m_players.pop_front();
+        }
+        else if(m_players.front()->hasLost())
+        {
+
+            m_losers.push_back(move(m_players.front()));
+            m_players.pop_front();
+        }
+        else
+        {
+            unique_ptr<Player> tempPlayer = move(m_players.front());
+            m_players.pop_front();
+            m_players.push_back(move(tempPlayer));
+        }
+        if(isGameOver())
+        {
+            printGameEndMessage();
+            return;
+        }
+
+        m_currCard = (m_currCard + 1) % (m_cards.size());
+    }
 }
 
 
