@@ -3,4 +3,4 @@ project(MatamEx4)
 
 set(CMAKE_CXX_STANDARD 11)
 
-add_executable(MatamEx4 test.cpp Player.cpp Wizard.cpp Fighter.cpp Rogue.cpp utilities.cpp Card.cpp BattleCard.cpp Goblin.cpp Dragon.cpp Vampire.cpp  Fairy.cpp Barfight.cpp Pitfall.cpp Treasure.cpp Mtmchkin.cpp Merchant.cpp)
+add_executable(MatamEx4 test.cpp Players/Player.cpp Players/Wizard.cpp Players/Fighter.cpp Players/Rogue.cpp utilities.cpp Cards/Card.cpp Cards/BattleCard.cpp Cards/Goblin.cpp Cards/Dragon.cpp Cards/Vampire.cpp Cards/Fairy.cpp Cards/Barfight.cpp Cards/Pitfall.cpp Cards/Treasure.cpp Mtmchkin.cpp Cards/Merchant.cpp)

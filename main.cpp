@@ -3,11 +3,11 @@
 #include <iostream>
 #include <vector>
 #include <memory>
-#include "Player.h"
-#include "Card.h"
-#include "Vampire.h"
-#include "Dragon.h"
-#include "Goblin.h"
+#include "Players/Player.h"
+#include "Cards/Card.h"
+#include "Cards/Vampire.h"
+#include "Cards/Dragon.h"
+#include "Cards/Goblin.h"
 #include <algorithm>
 #include <sstream>
 #include <random>
@@ -65,7 +65,7 @@ int main() {
     //     cout <<e.what();
     // }
 
-    Mtmchkin test("input.txt");
+//    Mtmchkin test("input.txt");
    // testCard();
     return 0;
 }

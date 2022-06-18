@@ -4,7 +4,7 @@
 #include <vector>
 #include "Declarations.h"
 #include <memory>
-#include "Card.h"
+#include "Cards/Card.h"
 #include <deque>
 
 template<typename T>

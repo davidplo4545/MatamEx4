@@ -128,197 +128,245 @@ MatamEx4/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\MatamEx4.dir\build.make CMakeFiles/MatamEx4.dir/build
 .PHONY : MatamEx4/fast
 
-Barfight.obj: Barfight.cpp.obj
-.PHONY : Barfight.obj
+Cards/Barfight.obj: Cards/Barfight.cpp.obj
+.PHONY : Cards/Barfight.obj
 
 # target to build an object file
-Barfight.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\MatamEx4.dir\build.make CMakeFiles/MatamEx4.dir/Barfight.cpp.obj
-.PHONY : Barfight.cpp.obj
+Cards/Barfight.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MatamEx4.dir\build.make CMakeFiles/MatamEx4.dir/Cards/Barfight.cpp.obj
+.PHONY : Cards/Barfight.cpp.obj
 
-Barfight.i: Barfight.cpp.i
-.PHONY : Barfight.i
+Cards/Barfight.i: Cards/Barfight.cpp.i
+.PHONY : Cards/Barfight.i
 
 # target to preprocess a source file
-Barfight.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\MatamEx4.dir\build.make CMakeFiles/MatamEx4.dir/Barfight.cpp.i
-.PHONY : Barfight.cpp.i
+Cards/Barfight.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MatamEx4.dir\build.make CMakeFiles/MatamEx4.dir/Cards/Barfight.cpp.i
+.PHONY : Cards/Barfight.cpp.i
 
-Barfight.s: Barfight.cpp.s
-.PHONY : Barfight.s
+Cards/Barfight.s: Cards/Barfight.cpp.s
+.PHONY : Cards/Barfight.s
 
 # target to generate assembly for a file
-Barfight.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\MatamEx4.dir\build.make CMakeFiles/MatamEx4.dir/Barfight.cpp.s
-.PHONY : Barfight.cpp.s
+Cards/Barfight.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MatamEx4.dir\build.make CMakeFiles/MatamEx4.dir/Cards/Barfight.cpp.s
+.PHONY : Cards/Barfight.cpp.s
 
-BattleCard.obj: BattleCard.cpp.obj
-.PHONY : BattleCard.obj
+Cards/BattleCard.obj: Cards/BattleCard.cpp.obj
+.PHONY : Cards/BattleCard.obj
 
 # target to build an object file
-BattleCard.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\MatamEx4.dir\build.make CMakeFiles/MatamEx4.dir/BattleCard.cpp.obj
-.PHONY : BattleCard.cpp.obj
+Cards/BattleCard.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MatamEx4.dir\build.make CMakeFiles/MatamEx4.dir/Cards/BattleCard.cpp.obj
+.PHONY : Cards/BattleCard.cpp.obj
 
-BattleCard.i: BattleCard.cpp.i
-.PHONY : BattleCard.i
+Cards/BattleCard.i: Cards/BattleCard.cpp.i
+.PHONY : Cards/BattleCard.i
 
 # target to preprocess a source file
-BattleCard.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\MatamEx4.dir\build.make CMakeFiles/MatamEx4.dir/BattleCard.cpp.i
-.PHONY : BattleCard.cpp.i
+Cards/BattleCard.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MatamEx4.dir\build.make CMakeFiles/MatamEx4.dir/Cards/BattleCard.cpp.i
+.PHONY : Cards/BattleCard.cpp.i
 
-BattleCard.s: BattleCard.cpp.s
-.PHONY : BattleCard.s
+Cards/BattleCard.s: Cards/BattleCard.cpp.s
+.PHONY : Cards/BattleCard.s
 
 # target to generate assembly for a file
-BattleCard.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\MatamEx4.dir\build.make CMakeFiles/MatamEx4.dir/BattleCard.cpp.s
-.PHONY : BattleCard.cpp.s
+Cards/BattleCard.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MatamEx4.dir\build.make CMakeFiles/MatamEx4.dir/Cards/BattleCard.cpp.s
+.PHONY : Cards/BattleCard.cpp.s
 
-Card.obj: Card.cpp.obj
-.PHONY : Card.obj
+Cards/Card.obj: Cards/Card.cpp.obj
+.PHONY : Cards/Card.obj
 
 # target to build an object file
-Card.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\MatamEx4.dir\build.make CMakeFiles/MatamEx4.dir/Card.cpp.obj
-.PHONY : Card.cpp.obj
+Cards/Card.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MatamEx4.dir\build.make CMakeFiles/MatamEx4.dir/Cards/Card.cpp.obj
+.PHONY : Cards/Card.cpp.obj
 
-Card.i: Card.cpp.i
-.PHONY : Card.i
+Cards/Card.i: Cards/Card.cpp.i
+.PHONY : Cards/Card.i
 
 # target to preprocess a source file
-Card.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\MatamEx4.dir\build.make CMakeFiles/MatamEx4.dir/Card.cpp.i
-.PHONY : Card.cpp.i
+Cards/Card.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MatamEx4.dir\build.make CMakeFiles/MatamEx4.dir/Cards/Card.cpp.i
+.PHONY : Cards/Card.cpp.i
 
-Card.s: Card.cpp.s
-.PHONY : Card.s
+Cards/Card.s: Cards/Card.cpp.s
+.PHONY : Cards/Card.s
 
 # target to generate assembly for a file
-Card.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\MatamEx4.dir\build.make CMakeFiles/MatamEx4.dir/Card.cpp.s
-.PHONY : Card.cpp.s
+Cards/Card.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MatamEx4.dir\build.make CMakeFiles/MatamEx4.dir/Cards/Card.cpp.s
+.PHONY : Cards/Card.cpp.s
 
-Dragon.obj: Dragon.cpp.obj
-.PHONY : Dragon.obj
+Cards/Dragon.obj: Cards/Dragon.cpp.obj
+.PHONY : Cards/Dragon.obj
 
 # target to build an object file
-Dragon.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\MatamEx4.dir\build.make CMakeFiles/MatamEx4.dir/Dragon.cpp.obj
-.PHONY : Dragon.cpp.obj
+Cards/Dragon.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MatamEx4.dir\build.make CMakeFiles/MatamEx4.dir/Cards/Dragon.cpp.obj
+.PHONY : Cards/Dragon.cpp.obj
 
-Dragon.i: Dragon.cpp.i
-.PHONY : Dragon.i
+Cards/Dragon.i: Cards/Dragon.cpp.i
+.PHONY : Cards/Dragon.i
 
 # target to preprocess a source file
-Dragon.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\MatamEx4.dir\build.make CMakeFiles/MatamEx4.dir/Dragon.cpp.i
-.PHONY : Dragon.cpp.i
+Cards/Dragon.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MatamEx4.dir\build.make CMakeFiles/MatamEx4.dir/Cards/Dragon.cpp.i
+.PHONY : Cards/Dragon.cpp.i
 
-Dragon.s: Dragon.cpp.s
-.PHONY : Dragon.s
+Cards/Dragon.s: Cards/Dragon.cpp.s
+.PHONY : Cards/Dragon.s
 
 # target to generate assembly for a file
-Dragon.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\MatamEx4.dir\build.make CMakeFiles/MatamEx4.dir/Dragon.cpp.s
-.PHONY : Dragon.cpp.s
+Cards/Dragon.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MatamEx4.dir\build.make CMakeFiles/MatamEx4.dir/Cards/Dragon.cpp.s
+.PHONY : Cards/Dragon.cpp.s
 
-Fairy.obj: Fairy.cpp.obj
-.PHONY : Fairy.obj
+Cards/Fairy.obj: Cards/Fairy.cpp.obj
+.PHONY : Cards/Fairy.obj
 
 # target to build an object file
-Fairy.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\MatamEx4.dir\build.make CMakeFiles/MatamEx4.dir/Fairy.cpp.obj
-.PHONY : Fairy.cpp.obj
+Cards/Fairy.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MatamEx4.dir\build.make CMakeFiles/MatamEx4.dir/Cards/Fairy.cpp.obj
+.PHONY : Cards/Fairy.cpp.obj
 
-Fairy.i: Fairy.cpp.i
-.PHONY : Fairy.i
+Cards/Fairy.i: Cards/Fairy.cpp.i
+.PHONY : Cards/Fairy.i
 
 # target to preprocess a source file
-Fairy.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\MatamEx4.dir\build.make CMakeFiles/MatamEx4.dir/Fairy.cpp.i
-.PHONY : Fairy.cpp.i
+Cards/Fairy.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MatamEx4.dir\build.make CMakeFiles/MatamEx4.dir/Cards/Fairy.cpp.i
+.PHONY : Cards/Fairy.cpp.i
 
-Fairy.s: Fairy.cpp.s
-.PHONY : Fairy.s
+Cards/Fairy.s: Cards/Fairy.cpp.s
+.PHONY : Cards/Fairy.s
 
 # target to generate assembly for a file
-Fairy.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\MatamEx4.dir\build.make CMakeFiles/MatamEx4.dir/Fairy.cpp.s
-.PHONY : Fairy.cpp.s
+Cards/Fairy.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MatamEx4.dir\build.make CMakeFiles/MatamEx4.dir/Cards/Fairy.cpp.s
+.PHONY : Cards/Fairy.cpp.s
 
-Fighter.obj: Fighter.cpp.obj
-.PHONY : Fighter.obj
+Cards/Goblin.obj: Cards/Goblin.cpp.obj
+.PHONY : Cards/Goblin.obj
 
 # target to build an object file
-Fighter.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\MatamEx4.dir\build.make CMakeFiles/MatamEx4.dir/Fighter.cpp.obj
-.PHONY : Fighter.cpp.obj
+Cards/Goblin.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MatamEx4.dir\build.make CMakeFiles/MatamEx4.dir/Cards/Goblin.cpp.obj
+.PHONY : Cards/Goblin.cpp.obj
 
-Fighter.i: Fighter.cpp.i
-.PHONY : Fighter.i
+Cards/Goblin.i: Cards/Goblin.cpp.i
+.PHONY : Cards/Goblin.i
 
 # target to preprocess a source file
-Fighter.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\MatamEx4.dir\build.make CMakeFiles/MatamEx4.dir/Fighter.cpp.i
-.PHONY : Fighter.cpp.i
+Cards/Goblin.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MatamEx4.dir\build.make CMakeFiles/MatamEx4.dir/Cards/Goblin.cpp.i
+.PHONY : Cards/Goblin.cpp.i
 
-Fighter.s: Fighter.cpp.s
-.PHONY : Fighter.s
+Cards/Goblin.s: Cards/Goblin.cpp.s
+.PHONY : Cards/Goblin.s
 
 # target to generate assembly for a file
-Fighter.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\MatamEx4.dir\build.make CMakeFiles/MatamEx4.dir/Fighter.cpp.s
-.PHONY : Fighter.cpp.s
+Cards/Goblin.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MatamEx4.dir\build.make CMakeFiles/MatamEx4.dir/Cards/Goblin.cpp.s
+.PHONY : Cards/Goblin.cpp.s
 
-Goblin.obj: Goblin.cpp.obj
-.PHONY : Goblin.obj
+Cards/Merchant.obj: Cards/Merchant.cpp.obj
+.PHONY : Cards/Merchant.obj
 
 # target to build an object file
-Goblin.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\MatamEx4.dir\build.make CMakeFiles/MatamEx4.dir/Goblin.cpp.obj
-.PHONY : Goblin.cpp.obj
+Cards/Merchant.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MatamEx4.dir\build.make CMakeFiles/MatamEx4.dir/Cards/Merchant.cpp.obj
+.PHONY : Cards/Merchant.cpp.obj
 
-Goblin.i: Goblin.cpp.i
-.PHONY : Goblin.i
+Cards/Merchant.i: Cards/Merchant.cpp.i
+.PHONY : Cards/Merchant.i
 
 # target to preprocess a source file
-Goblin.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\MatamEx4.dir\build.make CMakeFiles/MatamEx4.dir/Goblin.cpp.i
-.PHONY : Goblin.cpp.i
+Cards/Merchant.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MatamEx4.dir\build.make CMakeFiles/MatamEx4.dir/Cards/Merchant.cpp.i
+.PHONY : Cards/Merchant.cpp.i
 
-Goblin.s: Goblin.cpp.s
-.PHONY : Goblin.s
+Cards/Merchant.s: Cards/Merchant.cpp.s
+.PHONY : Cards/Merchant.s
 
 # target to generate assembly for a file
-Goblin.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\MatamEx4.dir\build.make CMakeFiles/MatamEx4.dir/Goblin.cpp.s
-.PHONY : Goblin.cpp.s
+Cards/Merchant.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MatamEx4.dir\build.make CMakeFiles/MatamEx4.dir/Cards/Merchant.cpp.s
+.PHONY : Cards/Merchant.cpp.s
 
-Merchant.obj: Merchant.cpp.obj
-.PHONY : Merchant.obj
+Cards/Pitfall.obj: Cards/Pitfall.cpp.obj
+.PHONY : Cards/Pitfall.obj
 
 # target to build an object file
-Merchant.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\MatamEx4.dir\build.make CMakeFiles/MatamEx4.dir/Merchant.cpp.obj
-.PHONY : Merchant.cpp.obj
+Cards/Pitfall.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MatamEx4.dir\build.make CMakeFiles/MatamEx4.dir/Cards/Pitfall.cpp.obj
+.PHONY : Cards/Pitfall.cpp.obj
 
-Merchant.i: Merchant.cpp.i
-.PHONY : Merchant.i
+Cards/Pitfall.i: Cards/Pitfall.cpp.i
+.PHONY : Cards/Pitfall.i
 
 # target to preprocess a source file
-Merchant.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\MatamEx4.dir\build.make CMakeFiles/MatamEx4.dir/Merchant.cpp.i
-.PHONY : Merchant.cpp.i
+Cards/Pitfall.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MatamEx4.dir\build.make CMakeFiles/MatamEx4.dir/Cards/Pitfall.cpp.i
+.PHONY : Cards/Pitfall.cpp.i
 
-Merchant.s: Merchant.cpp.s
-.PHONY : Merchant.s
+Cards/Pitfall.s: Cards/Pitfall.cpp.s
+.PHONY : Cards/Pitfall.s
 
 # target to generate assembly for a file
-Merchant.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\MatamEx4.dir\build.make CMakeFiles/MatamEx4.dir/Merchant.cpp.s
-.PHONY : Merchant.cpp.s
+Cards/Pitfall.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MatamEx4.dir\build.make CMakeFiles/MatamEx4.dir/Cards/Pitfall.cpp.s
+.PHONY : Cards/Pitfall.cpp.s
+
+Cards/Treasure.obj: Cards/Treasure.cpp.obj
+.PHONY : Cards/Treasure.obj
+
+# target to build an object file
+Cards/Treasure.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MatamEx4.dir\build.make CMakeFiles/MatamEx4.dir/Cards/Treasure.cpp.obj
+.PHONY : Cards/Treasure.cpp.obj
+
+Cards/Treasure.i: Cards/Treasure.cpp.i
+.PHONY : Cards/Treasure.i
+
+# target to preprocess a source file
+Cards/Treasure.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MatamEx4.dir\build.make CMakeFiles/MatamEx4.dir/Cards/Treasure.cpp.i
+.PHONY : Cards/Treasure.cpp.i
+
+Cards/Treasure.s: Cards/Treasure.cpp.s
+.PHONY : Cards/Treasure.s
+
+# target to generate assembly for a file
+Cards/Treasure.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MatamEx4.dir\build.make CMakeFiles/MatamEx4.dir/Cards/Treasure.cpp.s
+.PHONY : Cards/Treasure.cpp.s
+
+Cards/Vampire.obj: Cards/Vampire.cpp.obj
+.PHONY : Cards/Vampire.obj
+
+# target to build an object file
+Cards/Vampire.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MatamEx4.dir\build.make CMakeFiles/MatamEx4.dir/Cards/Vampire.cpp.obj
+.PHONY : Cards/Vampire.cpp.obj
+
+Cards/Vampire.i: Cards/Vampire.cpp.i
+.PHONY : Cards/Vampire.i
+
+# target to preprocess a source file
+Cards/Vampire.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MatamEx4.dir\build.make CMakeFiles/MatamEx4.dir/Cards/Vampire.cpp.i
+.PHONY : Cards/Vampire.cpp.i
+
+Cards/Vampire.s: Cards/Vampire.cpp.s
+.PHONY : Cards/Vampire.s
+
+# target to generate assembly for a file
+Cards/Vampire.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MatamEx4.dir\build.make CMakeFiles/MatamEx4.dir/Cards/Vampire.cpp.s
+.PHONY : Cards/Vampire.cpp.s
 
 Mtmchkin.obj: Mtmchkin.cpp.obj
 .PHONY : Mtmchkin.obj
@@ -344,149 +392,101 @@ Mtmchkin.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\MatamEx4.dir\build.make CMakeFiles/MatamEx4.dir/Mtmchkin.cpp.s
 .PHONY : Mtmchkin.cpp.s
 
-Pitfall.obj: Pitfall.cpp.obj
-.PHONY : Pitfall.obj
+Players/Fighter.obj: Players/Fighter.cpp.obj
+.PHONY : Players/Fighter.obj
 
 # target to build an object file
-Pitfall.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\MatamEx4.dir\build.make CMakeFiles/MatamEx4.dir/Pitfall.cpp.obj
-.PHONY : Pitfall.cpp.obj
+Players/Fighter.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MatamEx4.dir\build.make CMakeFiles/MatamEx4.dir/Players/Fighter.cpp.obj
+.PHONY : Players/Fighter.cpp.obj
 
-Pitfall.i: Pitfall.cpp.i
-.PHONY : Pitfall.i
+Players/Fighter.i: Players/Fighter.cpp.i
+.PHONY : Players/Fighter.i
 
 # target to preprocess a source file
-Pitfall.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\MatamEx4.dir\build.make CMakeFiles/MatamEx4.dir/Pitfall.cpp.i
-.PHONY : Pitfall.cpp.i
+Players/Fighter.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MatamEx4.dir\build.make CMakeFiles/MatamEx4.dir/Players/Fighter.cpp.i
+.PHONY : Players/Fighter.cpp.i
 
-Pitfall.s: Pitfall.cpp.s
-.PHONY : Pitfall.s
+Players/Fighter.s: Players/Fighter.cpp.s
+.PHONY : Players/Fighter.s
 
 # target to generate assembly for a file
-Pitfall.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\MatamEx4.dir\build.make CMakeFiles/MatamEx4.dir/Pitfall.cpp.s
-.PHONY : Pitfall.cpp.s
+Players/Fighter.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MatamEx4.dir\build.make CMakeFiles/MatamEx4.dir/Players/Fighter.cpp.s
+.PHONY : Players/Fighter.cpp.s
 
-Player.obj: Player.cpp.obj
-.PHONY : Player.obj
+Players/Player.obj: Players/Player.cpp.obj
+.PHONY : Players/Player.obj
 
 # target to build an object file
-Player.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\MatamEx4.dir\build.make CMakeFiles/MatamEx4.dir/Player.cpp.obj
-.PHONY : Player.cpp.obj
+Players/Player.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MatamEx4.dir\build.make CMakeFiles/MatamEx4.dir/Players/Player.cpp.obj
+.PHONY : Players/Player.cpp.obj
 
-Player.i: Player.cpp.i
-.PHONY : Player.i
+Players/Player.i: Players/Player.cpp.i
+.PHONY : Players/Player.i
 
 # target to preprocess a source file
-Player.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\MatamEx4.dir\build.make CMakeFiles/MatamEx4.dir/Player.cpp.i
-.PHONY : Player.cpp.i
+Players/Player.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MatamEx4.dir\build.make CMakeFiles/MatamEx4.dir/Players/Player.cpp.i
+.PHONY : Players/Player.cpp.i
 
-Player.s: Player.cpp.s
-.PHONY : Player.s
+Players/Player.s: Players/Player.cpp.s
+.PHONY : Players/Player.s
 
 # target to generate assembly for a file
-Player.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\MatamEx4.dir\build.make CMakeFiles/MatamEx4.dir/Player.cpp.s
-.PHONY : Player.cpp.s
+Players/Player.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MatamEx4.dir\build.make CMakeFiles/MatamEx4.dir/Players/Player.cpp.s
+.PHONY : Players/Player.cpp.s
 
-Rogue.obj: Rogue.cpp.obj
-.PHONY : Rogue.obj
+Players/Rogue.obj: Players/Rogue.cpp.obj
+.PHONY : Players/Rogue.obj
 
 # target to build an object file
-Rogue.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\MatamEx4.dir\build.make CMakeFiles/MatamEx4.dir/Rogue.cpp.obj
-.PHONY : Rogue.cpp.obj
+Players/Rogue.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MatamEx4.dir\build.make CMakeFiles/MatamEx4.dir/Players/Rogue.cpp.obj
+.PHONY : Players/Rogue.cpp.obj
 
-Rogue.i: Rogue.cpp.i
-.PHONY : Rogue.i
+Players/Rogue.i: Players/Rogue.cpp.i
+.PHONY : Players/Rogue.i
 
 # target to preprocess a source file
-Rogue.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\MatamEx4.dir\build.make CMakeFiles/MatamEx4.dir/Rogue.cpp.i
-.PHONY : Rogue.cpp.i
+Players/Rogue.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MatamEx4.dir\build.make CMakeFiles/MatamEx4.dir/Players/Rogue.cpp.i
+.PHONY : Players/Rogue.cpp.i
 
-Rogue.s: Rogue.cpp.s
-.PHONY : Rogue.s
+Players/Rogue.s: Players/Rogue.cpp.s
+.PHONY : Players/Rogue.s
 
 # target to generate assembly for a file
-Rogue.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\MatamEx4.dir\build.make CMakeFiles/MatamEx4.dir/Rogue.cpp.s
-.PHONY : Rogue.cpp.s
+Players/Rogue.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MatamEx4.dir\build.make CMakeFiles/MatamEx4.dir/Players/Rogue.cpp.s
+.PHONY : Players/Rogue.cpp.s
 
-Treasure.obj: Treasure.cpp.obj
-.PHONY : Treasure.obj
+Players/Wizard.obj: Players/Wizard.cpp.obj
+.PHONY : Players/Wizard.obj
 
 # target to build an object file
-Treasure.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\MatamEx4.dir\build.make CMakeFiles/MatamEx4.dir/Treasure.cpp.obj
-.PHONY : Treasure.cpp.obj
+Players/Wizard.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MatamEx4.dir\build.make CMakeFiles/MatamEx4.dir/Players/Wizard.cpp.obj
+.PHONY : Players/Wizard.cpp.obj
 
-Treasure.i: Treasure.cpp.i
-.PHONY : Treasure.i
-
-# target to preprocess a source file
-Treasure.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\MatamEx4.dir\build.make CMakeFiles/MatamEx4.dir/Treasure.cpp.i
-.PHONY : Treasure.cpp.i
-
-Treasure.s: Treasure.cpp.s
-.PHONY : Treasure.s
-
-# target to generate assembly for a file
-Treasure.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\MatamEx4.dir\build.make CMakeFiles/MatamEx4.dir/Treasure.cpp.s
-.PHONY : Treasure.cpp.s
-
-Vampire.obj: Vampire.cpp.obj
-.PHONY : Vampire.obj
-
-# target to build an object file
-Vampire.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\MatamEx4.dir\build.make CMakeFiles/MatamEx4.dir/Vampire.cpp.obj
-.PHONY : Vampire.cpp.obj
-
-Vampire.i: Vampire.cpp.i
-.PHONY : Vampire.i
+Players/Wizard.i: Players/Wizard.cpp.i
+.PHONY : Players/Wizard.i
 
 # target to preprocess a source file
-Vampire.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\MatamEx4.dir\build.make CMakeFiles/MatamEx4.dir/Vampire.cpp.i
-.PHONY : Vampire.cpp.i
+Players/Wizard.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MatamEx4.dir\build.make CMakeFiles/MatamEx4.dir/Players/Wizard.cpp.i
+.PHONY : Players/Wizard.cpp.i
 
-Vampire.s: Vampire.cpp.s
-.PHONY : Vampire.s
-
-# target to generate assembly for a file
-Vampire.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\MatamEx4.dir\build.make CMakeFiles/MatamEx4.dir/Vampire.cpp.s
-.PHONY : Vampire.cpp.s
-
-Wizard.obj: Wizard.cpp.obj
-.PHONY : Wizard.obj
-
-# target to build an object file
-Wizard.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\MatamEx4.dir\build.make CMakeFiles/MatamEx4.dir/Wizard.cpp.obj
-.PHONY : Wizard.cpp.obj
-
-Wizard.i: Wizard.cpp.i
-.PHONY : Wizard.i
-
-# target to preprocess a source file
-Wizard.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\MatamEx4.dir\build.make CMakeFiles/MatamEx4.dir/Wizard.cpp.i
-.PHONY : Wizard.cpp.i
-
-Wizard.s: Wizard.cpp.s
-.PHONY : Wizard.s
+Players/Wizard.s: Players/Wizard.cpp.s
+.PHONY : Players/Wizard.s
 
 # target to generate assembly for a file
-Wizard.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\MatamEx4.dir\build.make CMakeFiles/MatamEx4.dir/Wizard.cpp.s
-.PHONY : Wizard.cpp.s
+Players/Wizard.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MatamEx4.dir\build.make CMakeFiles/MatamEx4.dir/Players/Wizard.cpp.s
+.PHONY : Players/Wizard.cpp.s
 
 test.obj: test.cpp.obj
 .PHONY : test.obj
@@ -545,51 +545,51 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... MatamEx4
-	@echo ... Barfight.obj
-	@echo ... Barfight.i
-	@echo ... Barfight.s
-	@echo ... BattleCard.obj
-	@echo ... BattleCard.i
-	@echo ... BattleCard.s
-	@echo ... Card.obj
-	@echo ... Card.i
-	@echo ... Card.s
-	@echo ... Dragon.obj
-	@echo ... Dragon.i
-	@echo ... Dragon.s
-	@echo ... Fairy.obj
-	@echo ... Fairy.i
-	@echo ... Fairy.s
-	@echo ... Fighter.obj
-	@echo ... Fighter.i
-	@echo ... Fighter.s
-	@echo ... Goblin.obj
-	@echo ... Goblin.i
-	@echo ... Goblin.s
-	@echo ... Merchant.obj
-	@echo ... Merchant.i
-	@echo ... Merchant.s
+	@echo ... Cards/Barfight.obj
+	@echo ... Cards/Barfight.i
+	@echo ... Cards/Barfight.s
+	@echo ... Cards/BattleCard.obj
+	@echo ... Cards/BattleCard.i
+	@echo ... Cards/BattleCard.s
+	@echo ... Cards/Card.obj
+	@echo ... Cards/Card.i
+	@echo ... Cards/Card.s
+	@echo ... Cards/Dragon.obj
+	@echo ... Cards/Dragon.i
+	@echo ... Cards/Dragon.s
+	@echo ... Cards/Fairy.obj
+	@echo ... Cards/Fairy.i
+	@echo ... Cards/Fairy.s
+	@echo ... Cards/Goblin.obj
+	@echo ... Cards/Goblin.i
+	@echo ... Cards/Goblin.s
+	@echo ... Cards/Merchant.obj
+	@echo ... Cards/Merchant.i
+	@echo ... Cards/Merchant.s
+	@echo ... Cards/Pitfall.obj
+	@echo ... Cards/Pitfall.i
+	@echo ... Cards/Pitfall.s
+	@echo ... Cards/Treasure.obj
+	@echo ... Cards/Treasure.i
+	@echo ... Cards/Treasure.s
+	@echo ... Cards/Vampire.obj
+	@echo ... Cards/Vampire.i
+	@echo ... Cards/Vampire.s
 	@echo ... Mtmchkin.obj
 	@echo ... Mtmchkin.i
 	@echo ... Mtmchkin.s
-	@echo ... Pitfall.obj
-	@echo ... Pitfall.i
-	@echo ... Pitfall.s
-	@echo ... Player.obj
-	@echo ... Player.i
-	@echo ... Player.s
-	@echo ... Rogue.obj
-	@echo ... Rogue.i
-	@echo ... Rogue.s
-	@echo ... Treasure.obj
-	@echo ... Treasure.i
-	@echo ... Treasure.s
-	@echo ... Vampire.obj
-	@echo ... Vampire.i
-	@echo ... Vampire.s
-	@echo ... Wizard.obj
-	@echo ... Wizard.i
-	@echo ... Wizard.s
+	@echo ... Players/Fighter.obj
+	@echo ... Players/Fighter.i
+	@echo ... Players/Fighter.s
+	@echo ... Players/Player.obj
+	@echo ... Players/Player.i
+	@echo ... Players/Player.s
+	@echo ... Players/Rogue.obj
+	@echo ... Players/Rogue.i
+	@echo ... Players/Rogue.s
+	@echo ... Players/Wizard.obj
+	@echo ... Players/Wizard.i
+	@echo ... Players/Wizard.s
 	@echo ... test.obj
 	@echo ... test.i
 	@echo ... test.s

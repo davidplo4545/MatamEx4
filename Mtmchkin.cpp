@@ -49,7 +49,7 @@ Mtmchkin::Mtmchkin(const std::string fileName)
         throw DeckFileInvalidSize();
     }
     this->initializePlayers();
-};
+}
 
 
 void Mtmchkin::pushToDeck(string cardName, int cardCount)
@@ -70,7 +70,8 @@ int Mtmchkin::getNumberOfRounds() const {
 
 bool isValidString(string str)
 {
-    for(int i=0;i<str.size();i++)
+    int len = str.size();
+    for(int i=0;i<len;i++)
     {
         if(!isalpha(str[i]))
         {

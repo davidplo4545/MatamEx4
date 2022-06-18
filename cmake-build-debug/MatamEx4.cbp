@@ -88,52 +88,64 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="C:/Users/david/Desktop/MatamHW/MatamEx4/MatamEx4/Barfight.cpp">
+		<Unit filename="C:/Users/david/Desktop/MatamHW/MatamEx4/MatamEx4/Cards/Barfight.cpp">
 			<Option target="MatamEx4"/>
 		</Unit>
-		<Unit filename="C:/Users/david/Desktop/MatamHW/MatamEx4/MatamEx4/Barfight.h">
+		<Unit filename="C:/Users/david/Desktop/MatamHW/MatamEx4/MatamEx4/Cards/Barfight.h">
 			<Option target="MatamEx4"/>
 		</Unit>
-		<Unit filename="C:/Users/david/Desktop/MatamHW/MatamEx4/MatamEx4/BattleCard.cpp">
+		<Unit filename="C:/Users/david/Desktop/MatamHW/MatamEx4/MatamEx4/Cards/BattleCard.cpp">
 			<Option target="MatamEx4"/>
 		</Unit>
-		<Unit filename="C:/Users/david/Desktop/MatamHW/MatamEx4/MatamEx4/BattleCard.h">
+		<Unit filename="C:/Users/david/Desktop/MatamHW/MatamEx4/MatamEx4/Cards/BattleCard.h">
 			<Option target="MatamEx4"/>
 		</Unit>
-		<Unit filename="C:/Users/david/Desktop/MatamHW/MatamEx4/MatamEx4/Card.cpp">
+		<Unit filename="C:/Users/david/Desktop/MatamHW/MatamEx4/MatamEx4/Cards/Card.cpp">
 			<Option target="MatamEx4"/>
 		</Unit>
-		<Unit filename="C:/Users/david/Desktop/MatamHW/MatamEx4/MatamEx4/Card.h">
+		<Unit filename="C:/Users/david/Desktop/MatamHW/MatamEx4/MatamEx4/Cards/Card.h">
 			<Option target="MatamEx4"/>
 		</Unit>
-		<Unit filename="C:/Users/david/Desktop/MatamHW/MatamEx4/MatamEx4/Dragon.cpp">
+		<Unit filename="C:/Users/david/Desktop/MatamHW/MatamEx4/MatamEx4/Cards/Dragon.cpp">
 			<Option target="MatamEx4"/>
 		</Unit>
-		<Unit filename="C:/Users/david/Desktop/MatamHW/MatamEx4/MatamEx4/Dragon.h">
+		<Unit filename="C:/Users/david/Desktop/MatamHW/MatamEx4/MatamEx4/Cards/Dragon.h">
 			<Option target="MatamEx4"/>
 		</Unit>
-		<Unit filename="C:/Users/david/Desktop/MatamHW/MatamEx4/MatamEx4/Fairy.cpp">
+		<Unit filename="C:/Users/david/Desktop/MatamHW/MatamEx4/MatamEx4/Cards/Fairy.cpp">
 			<Option target="MatamEx4"/>
 		</Unit>
-		<Unit filename="C:/Users/david/Desktop/MatamHW/MatamEx4/MatamEx4/Fairy.h">
+		<Unit filename="C:/Users/david/Desktop/MatamHW/MatamEx4/MatamEx4/Cards/Fairy.h">
 			<Option target="MatamEx4"/>
 		</Unit>
-		<Unit filename="C:/Users/david/Desktop/MatamHW/MatamEx4/MatamEx4/Fighter.cpp">
+		<Unit filename="C:/Users/david/Desktop/MatamHW/MatamEx4/MatamEx4/Cards/Goblin.cpp">
 			<Option target="MatamEx4"/>
 		</Unit>
-		<Unit filename="C:/Users/david/Desktop/MatamHW/MatamEx4/MatamEx4/Fighter.h">
+		<Unit filename="C:/Users/david/Desktop/MatamHW/MatamEx4/MatamEx4/Cards/Goblin.h">
 			<Option target="MatamEx4"/>
 		</Unit>
-		<Unit filename="C:/Users/david/Desktop/MatamHW/MatamEx4/MatamEx4/Goblin.cpp">
+		<Unit filename="C:/Users/david/Desktop/MatamHW/MatamEx4/MatamEx4/Cards/Merchant.cpp">
 			<Option target="MatamEx4"/>
 		</Unit>
-		<Unit filename="C:/Users/david/Desktop/MatamHW/MatamEx4/MatamEx4/Goblin.h">
+		<Unit filename="C:/Users/david/Desktop/MatamHW/MatamEx4/MatamEx4/Cards/Merchant.h">
 			<Option target="MatamEx4"/>
 		</Unit>
-		<Unit filename="C:/Users/david/Desktop/MatamHW/MatamEx4/MatamEx4/Merchant.cpp">
+		<Unit filename="C:/Users/david/Desktop/MatamHW/MatamEx4/MatamEx4/Cards/Pitfall.cpp">
 			<Option target="MatamEx4"/>
 		</Unit>
-		<Unit filename="C:/Users/david/Desktop/MatamHW/MatamEx4/MatamEx4/Merchant.h">
+		<Unit filename="C:/Users/david/Desktop/MatamHW/MatamEx4/MatamEx4/Cards/Pitfall.h">
+			<Option target="MatamEx4"/>
+		</Unit>
+		<Unit filename="C:/Users/david/Desktop/MatamHW/MatamEx4/MatamEx4/Cards/Treasure.cpp">
+			<Option target="MatamEx4"/>
+		</Unit>
+		<Unit filename="C:/Users/david/Desktop/MatamHW/MatamEx4/MatamEx4/Cards/Treasure.h">
+			<Option target="MatamEx4"/>
+		</Unit>
+		<Unit filename="C:/Users/david/Desktop/MatamHW/MatamEx4/MatamEx4/Cards/Vampire.cpp">
+			<Option target="MatamEx4"/>
+		</Unit>
+		<Unit filename="C:/Users/david/Desktop/MatamHW/MatamEx4/MatamEx4/Cards/Vampire.h">
 			<Option target="MatamEx4"/>
 		</Unit>
 		<Unit filename="C:/Users/david/Desktop/MatamHW/MatamEx4/MatamEx4/Mtmchkin.cpp">
@@ -142,40 +154,28 @@
 		<Unit filename="C:/Users/david/Desktop/MatamHW/MatamEx4/MatamEx4/Mtmchkin.h">
 			<Option target="MatamEx4"/>
 		</Unit>
-		<Unit filename="C:/Users/david/Desktop/MatamHW/MatamEx4/MatamEx4/Pitfall.cpp">
+		<Unit filename="C:/Users/david/Desktop/MatamHW/MatamEx4/MatamEx4/Players/Fighter.cpp">
 			<Option target="MatamEx4"/>
 		</Unit>
-		<Unit filename="C:/Users/david/Desktop/MatamHW/MatamEx4/MatamEx4/Pitfall.h">
+		<Unit filename="C:/Users/david/Desktop/MatamHW/MatamEx4/MatamEx4/Players/Fighter.h">
 			<Option target="MatamEx4"/>
 		</Unit>
-		<Unit filename="C:/Users/david/Desktop/MatamHW/MatamEx4/MatamEx4/Player.cpp">
+		<Unit filename="C:/Users/david/Desktop/MatamHW/MatamEx4/MatamEx4/Players/Player.cpp">
 			<Option target="MatamEx4"/>
 		</Unit>
-		<Unit filename="C:/Users/david/Desktop/MatamHW/MatamEx4/MatamEx4/Player.h">
+		<Unit filename="C:/Users/david/Desktop/MatamHW/MatamEx4/MatamEx4/Players/Player.h">
 			<Option target="MatamEx4"/>
 		</Unit>
-		<Unit filename="C:/Users/david/Desktop/MatamHW/MatamEx4/MatamEx4/Rogue.cpp">
+		<Unit filename="C:/Users/david/Desktop/MatamHW/MatamEx4/MatamEx4/Players/Rogue.cpp">
 			<Option target="MatamEx4"/>
 		</Unit>
-		<Unit filename="C:/Users/david/Desktop/MatamHW/MatamEx4/MatamEx4/Rogue.h">
+		<Unit filename="C:/Users/david/Desktop/MatamHW/MatamEx4/MatamEx4/Players/Rogue.h">
 			<Option target="MatamEx4"/>
 		</Unit>
-		<Unit filename="C:/Users/david/Desktop/MatamHW/MatamEx4/MatamEx4/Treasure.cpp">
+		<Unit filename="C:/Users/david/Desktop/MatamHW/MatamEx4/MatamEx4/Players/Wizard.cpp">
 			<Option target="MatamEx4"/>
 		</Unit>
-		<Unit filename="C:/Users/david/Desktop/MatamHW/MatamEx4/MatamEx4/Treasure.h">
-			<Option target="MatamEx4"/>
-		</Unit>
-		<Unit filename="C:/Users/david/Desktop/MatamHW/MatamEx4/MatamEx4/Vampire.cpp">
-			<Option target="MatamEx4"/>
-		</Unit>
-		<Unit filename="C:/Users/david/Desktop/MatamHW/MatamEx4/MatamEx4/Vampire.h">
-			<Option target="MatamEx4"/>
-		</Unit>
-		<Unit filename="C:/Users/david/Desktop/MatamHW/MatamEx4/MatamEx4/Wizard.cpp">
-			<Option target="MatamEx4"/>
-		</Unit>
-		<Unit filename="C:/Users/david/Desktop/MatamHW/MatamEx4/MatamEx4/Wizard.h">
+		<Unit filename="C:/Users/david/Desktop/MatamHW/MatamEx4/MatamEx4/Players/Wizard.h">
 			<Option target="MatamEx4"/>
 		</Unit>
 		<Unit filename="C:/Users/david/Desktop/MatamHW/MatamEx4/MatamEx4/test.cpp">

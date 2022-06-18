@@ -4,20 +4,20 @@
 #include <iostream>
 #include <vector>
 #include <memory>
-#include "Player.h"
-#include "Card.h"
+#include "Players/Player.h"
+#include "Cards/Card.h"
 #include "Mtmchkin.h"
-#include "Vampire.h"
-#include "Barfight.h"
-#include "Dragon.h"
-#include "Fairy.h"
-#include "Goblin.h"
-#include "Merchant.h"
-#include "Pitfall.h"
-#include "Treasure.h"
-#include "Rogue.h"
-#include "Wizard.h"
-#include "Fighter.h"
+#include "Cards/Vampire.h"
+#include "Cards/Barfight.h"
+#include "Cards/Dragon.h"
+#include "Cards/Fairy.h"
+#include "Cards/Goblin.h"
+#include "Cards/Merchant.h"
+#include "Cards/Pitfall.h"
+#include "Cards/Treasure.h"
+#include "Players/Rogue.h"
+#include "Players/Wizard.h"
+#include "Players/Fighter.h"
 #include "Exception.h"
 #include <algorithm>
 #include <sstream>
@@ -193,7 +193,7 @@ bool vampireLairTest()
     const string tmp_file("vampireLiar_test");
     string input("2\nItay Fighter\nPikachu Rogue");
     string deck("Vampire\nVampire\nVampire\nVampire\nVampire");
-    string expectedOutputFilename("tests/vampireLair_test_expected.txt");
+    string expectedOutputFilename("../tests/vampireLair_test_expected.txt");
     return GeneralGameSimulationTest(tmp_file, input, deck, expectedOutputFilename);
 }
 
@@ -325,10 +325,6 @@ bool badFormatStartTest()
             flag = true;
         }
     }
-    catch(const std::exception &e)
-    {
-        cout << e.what();
-    }
     return flag;
 }
 
@@ -345,11 +341,11 @@ int main(){
 //	run_test(nonMostersTest,"Non monsters cards simulation test");
 //	run_test(badFormatStartTest,"Bad format at start of file exception test");
 //	run_test(badFormatTest,"Bad format exception test");
-	run_test(noFileTest,"File Doesnt exist exception test");
+//	run_test(noFileTest,"File Doesnt exist exception test");
 //	run_test(badSizeTest,"Bad size exception test");
 //    run_test(roundLimitTest,"Round upper limit test");
 //    run_test(allTenTest,"All reach lvl 10 test");
-    run_test(badPlayerInputTest,"Bad player input test");
+//    run_test(badPlayerInputTest,"Bad player input test");
 //    run_test(merchantInputTest,"Merchant input test");
 
     return 0;
