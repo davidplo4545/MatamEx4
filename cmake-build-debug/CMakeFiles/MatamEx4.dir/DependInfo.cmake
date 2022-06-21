@@ -24,7 +24,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "C:/Users/david/Desktop/Final/MatamEx4/Players/Player.cpp" "C:/Users/david/Desktop/Final/MatamEx4/cmake-build-debug/CMakeFiles/MatamEx4.dir/Players/Player.cpp.obj"
   "C:/Users/david/Desktop/Final/MatamEx4/Players/Rogue.cpp" "C:/Users/david/Desktop/Final/MatamEx4/cmake-build-debug/CMakeFiles/MatamEx4.dir/Players/Rogue.cpp.obj"
   "C:/Users/david/Desktop/Final/MatamEx4/Players/Wizard.cpp" "C:/Users/david/Desktop/Final/MatamEx4/cmake-build-debug/CMakeFiles/MatamEx4.dir/Players/Wizard.cpp.obj"
-  "C:/Users/david/Desktop/Final/MatamEx4/test.cpp" "C:/Users/david/Desktop/Final/MatamEx4/cmake-build-debug/CMakeFiles/MatamEx4.dir/test.cpp.obj"
+  "C:/Users/david/Desktop/Final/MatamEx4/testsMain.cpp" "C:/Users/david/Desktop/Final/MatamEx4/cmake-build-debug/CMakeFiles/MatamEx4.dir/testsMain.cpp.obj"
   "C:/Users/david/Desktop/Final/MatamEx4/utilities.cpp" "C:/Users/david/Desktop/Final/MatamEx4/cmake-build-debug/CMakeFiles/MatamEx4.dir/utilities.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")

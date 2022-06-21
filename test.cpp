@@ -220,7 +220,7 @@ bool nonMostersTest()
     const string tmp_file("noMonster_test");
     string input("2\nItay Wizard\nPikachu Rogue");
     string deck("Fairy\nBarfight\nPitfall\nTreasure\nFairy");
-    string expectedOutputFilename("tests/noMonster_test_expected.txt");
+    string expectedOutputFilename("../tests/noMonster_test_expected.txt");
     return GeneralGameSimulationTest(tmp_file, input, deck, expectedOutputFilename);
 }
 
@@ -326,9 +326,10 @@ bool badFormatStartTest()
     string expectedOutputFilename("notneeded.txt");
     bool flag = false;
     try {
-        Mtmchkin("badFormat_test_start_of_file.txt");
+        Mtmchkin("../inputs/badFormat_test_start_of_file.txt");
     }
     catch(const DeckFileFormatError& e){
+//        cout << e.what();
         if(strcmp(e.what(),"Deck File Error: File format error in line 1")==0)
         {
             flag = true;
@@ -376,7 +377,7 @@ int main(){
 //	run_test(goblinCaveTest,"Goblin Cave simulation test");
 //	run_test(vampireLairTest,"Vampire Lair simulation test");
 //	run_test(nonMostersTest,"Non monsters cards simulation test");
-//	run_test(badFormatStartTest,"Bad format at start of file exception test");
+	run_test(badFormatStartTest,"Bad format at start of file exception test");
 //	run_test(badFormatTest,"Bad format exception test");
 //	run_test(noFileTest,"File Doesnt exist exception test");
 //	run_test(badSizeTest,"Bad size exception test");
@@ -386,6 +387,6 @@ int main(){
 
 //    run_test(gangTest1,"Gang Test 1");
 //    run_test(gangTest2,"Gang Test 2");
-    run_test(gangTest3,"Gang Test 3");
+//    run_test(gangTest3,"Gang Test 3");
     return 0;
 }

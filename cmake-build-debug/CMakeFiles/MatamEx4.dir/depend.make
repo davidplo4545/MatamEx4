@@ -51,6 +51,7 @@ CMakeFiles/MatamEx4.dir/Cards/Merchant.cpp.obj: \
  ../Cards/Card.h \
  ../Cards/Merchant.cpp \
  ../Cards/Merchant.h \
+ ../Exception.h \
  ../Players/Player.h \
  ../utilities.h
 CMakeFiles/MatamEx4.dir/Cards/Pitfall.cpp.obj: \
@@ -112,7 +113,7 @@ CMakeFiles/MatamEx4.dir/Players/Wizard.cpp.obj: \
  ../Players/Wizard.cpp \
  ../Players/Wizard.h \
  ../utilities.h
-CMakeFiles/MatamEx4.dir/test.cpp.obj: \
+CMakeFiles/MatamEx4.dir/testsMain.cpp.obj: \
  ../Cards/Barfight.h \
  ../Cards/BattleCard.h \
  ../Cards/Card.h \
@@ -131,7 +132,7 @@ CMakeFiles/MatamEx4.dir/test.cpp.obj: \
  ../Players/Player.h \
  ../Players/Rogue.h \
  ../Players/Wizard.h \
- ../test.cpp \
+ ../testsMain.cpp \
  ../utilities.h
 CMakeFiles/MatamEx4.dir/utilities.cpp.obj: \
  ../Players/Player.h \

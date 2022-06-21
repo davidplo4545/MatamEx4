@@ -19,6 +19,7 @@ bool Merchant::applySelectedOption(int option, Player &player) const {
         }
         else{
             printMerchantInsufficientCoins(std::cout);
+            printMerchantSummary(std::cout, player.getName(), option, NO_MONEY);
         }
     }
     else if(option == 2) // Buff
@@ -33,6 +34,7 @@ bool Merchant::applySelectedOption(int option, Player &player) const {
         else
         {
             printMerchantInsufficientCoins(std::cout);
+            printMerchantSummary(std::cout, player.getName(), option, NO_MONEY);
         }
     }
     else if(option == 0)
@@ -40,7 +42,7 @@ bool Merchant::applySelectedOption(int option, Player &player) const {
         printMerchantSummary(std::cout, player.getName(),option,option);
         isSuccessful = true;
     }
-
+    isSuccessful = true;
     return isSuccessful;
 }
 void Merchant::applyEncounter(Player &player) const {

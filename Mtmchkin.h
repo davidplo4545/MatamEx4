@@ -29,6 +29,8 @@ class Mtmchkin{
 
 private:
     static const int MIN_CARD_COUNT = 5;
+    const std::string END_GANG = "EndGang";
+    const std::string START_GANG = "Gang";
     const std::map<std::string, Card*(*)()> CARDS_CONVERTER ={
             {"Fairy",&createCardInstance<Fairy>},
             {"Gang",&createCardInstance<Gang>},
@@ -61,6 +63,7 @@ private:
     std::vector<std::unique_ptr<Card>> m_cards;
 
     void pushToDeck(std::string cardName, int currLine);
+    void pushGangToDeck(std::ifstream &source, int currLine);
     static bool isTeamSizeValid(int teamSize);
     void initializePlayers();
     void initializeCards(std::string fileName);

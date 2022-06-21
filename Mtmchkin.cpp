@@ -31,6 +31,38 @@ Mtmchkin::Mtmchkin(const std::string fileName)
     this->initializePlayers();
 }
 
+void Mtmchkin::pushGangToDeck(ifstream &source, int currCount)
+{
+    bool isGang = true;
+    unique_ptr<Gang> tempGang = unique_ptr<Gang>(new Gang());
+    int tempCount=currCount+1;
+    string cardName;
+    while (isGang && getline(source, cardName, '\n'))
+    {
+        if(cardName == END_GANG)
+        {
+            isGang = false;
+            break;
+        }
+        try
+        {
+            unique_ptr<BattleCard> newBattleCard(Mtmchkin::BATTLE_CARDS_CONVERTER.at(cardName)());
+            tempGang->pushToGang(move(newBattleCard));
+        }
+        catch(exception& e)
+        {
+            throw(DeckFileFormatError(tempCount));
+        }
+        tempCount++;
+
+    }
+    if(isGang)
+    {
+        throw DeckFileFormatError(tempCount);
+    }
+    m_cards.push_back(move(tempGang));
+}
+
 void Mtmchkin::initializeCards(string fileName) {
     ifstream source(fileName);
     if(!source)
@@ -38,38 +70,19 @@ void Mtmchkin::initializeCards(string fileName) {
         throw DeckFileNotFound();
     }
     string cardName;
-    bool isGang=false;
     int cardCount=0;
     try{
         while (getline(source, cardName, '\n'))
         {
-
-            if(cardName == "Gang") {
-                isGang = true;
-                unique_ptr<Gang> tempGang = unique_ptr<Gang>(new Gang());
-                while (isGang)
-                {
-                    getline(source, cardName, '\n');
-                    if(cardName == "EndGang")
-                    {
-                        isGang = false;
-                        break;
-                    }
-//                    cout << "HEREREER" << cardName << endl;
-
-                    unique_ptr<BattleCard> newBattleCard(Mtmchkin::BATTLE_CARDS_CONVERTER.at(cardName)());
-                    tempGang->pushToGang(move(newBattleCard));
-                }
-                m_cards.push_back(move(tempGang));
+            if(cardName == START_GANG) {
+                pushGangToDeck(source,cardCount+1);
             }
             else
             {
                 pushToDeck(cardName, cardCount);
             }
             cardCount += 1;
-
         }
-
     } catch(const std::ios_base& e){
 
     }
@@ -88,7 +101,7 @@ void Mtmchkin::pushToDeck(string cardName, int cardCount)
     }
     catch(std::exception& e)
     {
-        throw(DeckFileFormatError(cardCount));
+        throw(DeckFileFormatError(cardCount+1));
     }
 }
 
@@ -114,12 +127,27 @@ void Mtmchkin::initializePlayers()
     int numberOfPlayers = 0;
     while(!isTeamSizeValid(numberOfPlayers))
     {
-        cin >> numberOfPlayers;
-        cin.ignore(1000, '\n');
-
+        string input;
+        getline(cin, input);
+        if(input.size() != 1)
+        {
+            printInvalidTeamSize();
+            printEnterTeamSizeMessage();
+            continue;
+        }
+        try{
+            numberOfPlayers = stoi(input);
+        }
+        catch(std::exception& e)
+        {
+            printInvalidTeamSize();
+            printEnterTeamSizeMessage();
+            continue;
+        };
         if(!isTeamSizeValid(numberOfPlayers))
         {
             printInvalidTeamSize();
+            printEnterTeamSizeMessage();
         }
     }
     string playerDetails;
