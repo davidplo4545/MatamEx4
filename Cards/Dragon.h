@@ -9,7 +9,9 @@
 class Dragon: public BattleCard{
 public:
     Dragon();
+    void applyLostGang(Player& player) const override;
     void printCardInfo(std::ostream& os) const override;
+
 };
 
 

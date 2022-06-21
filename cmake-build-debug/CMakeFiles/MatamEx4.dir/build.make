@@ -52,10 +52,10 @@ RM = "C:\Program Files\JetBrains\CLion 2021.2.3\bin\cmake\win\bin\cmake.exe" -E 
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\david\Desktop\MatamHW\MatamEx4\MatamEx4
+CMAKE_SOURCE_DIR = C:\Users\david\Desktop\Final\MatamEx4
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\david\Desktop\MatamHW\MatamEx4\MatamEx4\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Users\david\Desktop\Final\MatamEx4\cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/MatamEx4.dir/depend.make
@@ -67,224 +67,237 @@ include CMakeFiles/MatamEx4.dir/flags.make
 
 CMakeFiles/MatamEx4.dir/test.cpp.obj: CMakeFiles/MatamEx4.dir/flags.make
 CMakeFiles/MatamEx4.dir/test.cpp.obj: ../test.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\david\Desktop\MatamHW\MatamEx4\MatamEx4\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/MatamEx4.dir/test.cpp.obj"
-	C:\TDM-GCC-64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\MatamEx4.dir\test.cpp.obj -c C:\Users\david\Desktop\MatamHW\MatamEx4\MatamEx4\test.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\david\Desktop\Final\MatamEx4\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/MatamEx4.dir/test.cpp.obj"
+	C:\TDM-GCC-64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\MatamEx4.dir\test.cpp.obj -c C:\Users\david\Desktop\Final\MatamEx4\test.cpp
 
 CMakeFiles/MatamEx4.dir/test.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MatamEx4.dir/test.cpp.i"
-	C:\TDM-GCC-64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\david\Desktop\MatamHW\MatamEx4\MatamEx4\test.cpp > CMakeFiles\MatamEx4.dir\test.cpp.i
+	C:\TDM-GCC-64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\david\Desktop\Final\MatamEx4\test.cpp > CMakeFiles\MatamEx4.dir\test.cpp.i
 
 CMakeFiles/MatamEx4.dir/test.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MatamEx4.dir/test.cpp.s"
-	C:\TDM-GCC-64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\david\Desktop\MatamHW\MatamEx4\MatamEx4\test.cpp -o CMakeFiles\MatamEx4.dir\test.cpp.s
+	C:\TDM-GCC-64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\david\Desktop\Final\MatamEx4\test.cpp -o CMakeFiles\MatamEx4.dir\test.cpp.s
 
 CMakeFiles/MatamEx4.dir/Players/Player.cpp.obj: CMakeFiles/MatamEx4.dir/flags.make
 CMakeFiles/MatamEx4.dir/Players/Player.cpp.obj: ../Players/Player.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\david\Desktop\MatamHW\MatamEx4\MatamEx4\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/MatamEx4.dir/Players/Player.cpp.obj"
-	C:\TDM-GCC-64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\MatamEx4.dir\Players\Player.cpp.obj -c C:\Users\david\Desktop\MatamHW\MatamEx4\MatamEx4\Players\Player.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\david\Desktop\Final\MatamEx4\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/MatamEx4.dir/Players/Player.cpp.obj"
+	C:\TDM-GCC-64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\MatamEx4.dir\Players\Player.cpp.obj -c C:\Users\david\Desktop\Final\MatamEx4\Players\Player.cpp
 
 CMakeFiles/MatamEx4.dir/Players/Player.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MatamEx4.dir/Players/Player.cpp.i"
-	C:\TDM-GCC-64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\david\Desktop\MatamHW\MatamEx4\MatamEx4\Players\Player.cpp > CMakeFiles\MatamEx4.dir\Players\Player.cpp.i
+	C:\TDM-GCC-64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\david\Desktop\Final\MatamEx4\Players\Player.cpp > CMakeFiles\MatamEx4.dir\Players\Player.cpp.i
 
 CMakeFiles/MatamEx4.dir/Players/Player.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MatamEx4.dir/Players/Player.cpp.s"
-	C:\TDM-GCC-64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\david\Desktop\MatamHW\MatamEx4\MatamEx4\Players\Player.cpp -o CMakeFiles\MatamEx4.dir\Players\Player.cpp.s
+	C:\TDM-GCC-64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\david\Desktop\Final\MatamEx4\Players\Player.cpp -o CMakeFiles\MatamEx4.dir\Players\Player.cpp.s
 
 CMakeFiles/MatamEx4.dir/Players/Wizard.cpp.obj: CMakeFiles/MatamEx4.dir/flags.make
 CMakeFiles/MatamEx4.dir/Players/Wizard.cpp.obj: ../Players/Wizard.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\david\Desktop\MatamHW\MatamEx4\MatamEx4\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/MatamEx4.dir/Players/Wizard.cpp.obj"
-	C:\TDM-GCC-64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\MatamEx4.dir\Players\Wizard.cpp.obj -c C:\Users\david\Desktop\MatamHW\MatamEx4\MatamEx4\Players\Wizard.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\david\Desktop\Final\MatamEx4\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/MatamEx4.dir/Players/Wizard.cpp.obj"
+	C:\TDM-GCC-64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\MatamEx4.dir\Players\Wizard.cpp.obj -c C:\Users\david\Desktop\Final\MatamEx4\Players\Wizard.cpp
 
 CMakeFiles/MatamEx4.dir/Players/Wizard.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MatamEx4.dir/Players/Wizard.cpp.i"
-	C:\TDM-GCC-64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\david\Desktop\MatamHW\MatamEx4\MatamEx4\Players\Wizard.cpp > CMakeFiles\MatamEx4.dir\Players\Wizard.cpp.i
+	C:\TDM-GCC-64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\david\Desktop\Final\MatamEx4\Players\Wizard.cpp > CMakeFiles\MatamEx4.dir\Players\Wizard.cpp.i
 
 CMakeFiles/MatamEx4.dir/Players/Wizard.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MatamEx4.dir/Players/Wizard.cpp.s"
-	C:\TDM-GCC-64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\david\Desktop\MatamHW\MatamEx4\MatamEx4\Players\Wizard.cpp -o CMakeFiles\MatamEx4.dir\Players\Wizard.cpp.s
+	C:\TDM-GCC-64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\david\Desktop\Final\MatamEx4\Players\Wizard.cpp -o CMakeFiles\MatamEx4.dir\Players\Wizard.cpp.s
 
 CMakeFiles/MatamEx4.dir/Players/Fighter.cpp.obj: CMakeFiles/MatamEx4.dir/flags.make
 CMakeFiles/MatamEx4.dir/Players/Fighter.cpp.obj: ../Players/Fighter.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\david\Desktop\MatamHW\MatamEx4\MatamEx4\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/MatamEx4.dir/Players/Fighter.cpp.obj"
-	C:\TDM-GCC-64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\MatamEx4.dir\Players\Fighter.cpp.obj -c C:\Users\david\Desktop\MatamHW\MatamEx4\MatamEx4\Players\Fighter.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\david\Desktop\Final\MatamEx4\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/MatamEx4.dir/Players/Fighter.cpp.obj"
+	C:\TDM-GCC-64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\MatamEx4.dir\Players\Fighter.cpp.obj -c C:\Users\david\Desktop\Final\MatamEx4\Players\Fighter.cpp
 
 CMakeFiles/MatamEx4.dir/Players/Fighter.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MatamEx4.dir/Players/Fighter.cpp.i"
-	C:\TDM-GCC-64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\david\Desktop\MatamHW\MatamEx4\MatamEx4\Players\Fighter.cpp > CMakeFiles\MatamEx4.dir\Players\Fighter.cpp.i
+	C:\TDM-GCC-64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\david\Desktop\Final\MatamEx4\Players\Fighter.cpp > CMakeFiles\MatamEx4.dir\Players\Fighter.cpp.i
 
 CMakeFiles/MatamEx4.dir/Players/Fighter.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MatamEx4.dir/Players/Fighter.cpp.s"
-	C:\TDM-GCC-64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\david\Desktop\MatamHW\MatamEx4\MatamEx4\Players\Fighter.cpp -o CMakeFiles\MatamEx4.dir\Players\Fighter.cpp.s
+	C:\TDM-GCC-64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\david\Desktop\Final\MatamEx4\Players\Fighter.cpp -o CMakeFiles\MatamEx4.dir\Players\Fighter.cpp.s
 
 CMakeFiles/MatamEx4.dir/Players/Rogue.cpp.obj: CMakeFiles/MatamEx4.dir/flags.make
 CMakeFiles/MatamEx4.dir/Players/Rogue.cpp.obj: ../Players/Rogue.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\david\Desktop\MatamHW\MatamEx4\MatamEx4\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/MatamEx4.dir/Players/Rogue.cpp.obj"
-	C:\TDM-GCC-64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\MatamEx4.dir\Players\Rogue.cpp.obj -c C:\Users\david\Desktop\MatamHW\MatamEx4\MatamEx4\Players\Rogue.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\david\Desktop\Final\MatamEx4\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/MatamEx4.dir/Players/Rogue.cpp.obj"
+	C:\TDM-GCC-64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\MatamEx4.dir\Players\Rogue.cpp.obj -c C:\Users\david\Desktop\Final\MatamEx4\Players\Rogue.cpp
 
 CMakeFiles/MatamEx4.dir/Players/Rogue.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MatamEx4.dir/Players/Rogue.cpp.i"
-	C:\TDM-GCC-64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\david\Desktop\MatamHW\MatamEx4\MatamEx4\Players\Rogue.cpp > CMakeFiles\MatamEx4.dir\Players\Rogue.cpp.i
+	C:\TDM-GCC-64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\david\Desktop\Final\MatamEx4\Players\Rogue.cpp > CMakeFiles\MatamEx4.dir\Players\Rogue.cpp.i
 
 CMakeFiles/MatamEx4.dir/Players/Rogue.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MatamEx4.dir/Players/Rogue.cpp.s"
-	C:\TDM-GCC-64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\david\Desktop\MatamHW\MatamEx4\MatamEx4\Players\Rogue.cpp -o CMakeFiles\MatamEx4.dir\Players\Rogue.cpp.s
+	C:\TDM-GCC-64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\david\Desktop\Final\MatamEx4\Players\Rogue.cpp -o CMakeFiles\MatamEx4.dir\Players\Rogue.cpp.s
 
 CMakeFiles/MatamEx4.dir/utilities.cpp.obj: CMakeFiles/MatamEx4.dir/flags.make
 CMakeFiles/MatamEx4.dir/utilities.cpp.obj: ../utilities.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\david\Desktop\MatamHW\MatamEx4\MatamEx4\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/MatamEx4.dir/utilities.cpp.obj"
-	C:\TDM-GCC-64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\MatamEx4.dir\utilities.cpp.obj -c C:\Users\david\Desktop\MatamHW\MatamEx4\MatamEx4\utilities.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\david\Desktop\Final\MatamEx4\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/MatamEx4.dir/utilities.cpp.obj"
+	C:\TDM-GCC-64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\MatamEx4.dir\utilities.cpp.obj -c C:\Users\david\Desktop\Final\MatamEx4\utilities.cpp
 
 CMakeFiles/MatamEx4.dir/utilities.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MatamEx4.dir/utilities.cpp.i"
-	C:\TDM-GCC-64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\david\Desktop\MatamHW\MatamEx4\MatamEx4\utilities.cpp > CMakeFiles\MatamEx4.dir\utilities.cpp.i
+	C:\TDM-GCC-64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\david\Desktop\Final\MatamEx4\utilities.cpp > CMakeFiles\MatamEx4.dir\utilities.cpp.i
 
 CMakeFiles/MatamEx4.dir/utilities.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MatamEx4.dir/utilities.cpp.s"
-	C:\TDM-GCC-64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\david\Desktop\MatamHW\MatamEx4\MatamEx4\utilities.cpp -o CMakeFiles\MatamEx4.dir\utilities.cpp.s
+	C:\TDM-GCC-64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\david\Desktop\Final\MatamEx4\utilities.cpp -o CMakeFiles\MatamEx4.dir\utilities.cpp.s
 
 CMakeFiles/MatamEx4.dir/Cards/Card.cpp.obj: CMakeFiles/MatamEx4.dir/flags.make
 CMakeFiles/MatamEx4.dir/Cards/Card.cpp.obj: ../Cards/Card.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\david\Desktop\MatamHW\MatamEx4\MatamEx4\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/MatamEx4.dir/Cards/Card.cpp.obj"
-	C:\TDM-GCC-64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\MatamEx4.dir\Cards\Card.cpp.obj -c C:\Users\david\Desktop\MatamHW\MatamEx4\MatamEx4\Cards\Card.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\david\Desktop\Final\MatamEx4\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/MatamEx4.dir/Cards/Card.cpp.obj"
+	C:\TDM-GCC-64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\MatamEx4.dir\Cards\Card.cpp.obj -c C:\Users\david\Desktop\Final\MatamEx4\Cards\Card.cpp
 
 CMakeFiles/MatamEx4.dir/Cards/Card.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MatamEx4.dir/Cards/Card.cpp.i"
-	C:\TDM-GCC-64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\david\Desktop\MatamHW\MatamEx4\MatamEx4\Cards\Card.cpp > CMakeFiles\MatamEx4.dir\Cards\Card.cpp.i
+	C:\TDM-GCC-64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\david\Desktop\Final\MatamEx4\Cards\Card.cpp > CMakeFiles\MatamEx4.dir\Cards\Card.cpp.i
 
 CMakeFiles/MatamEx4.dir/Cards/Card.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MatamEx4.dir/Cards/Card.cpp.s"
-	C:\TDM-GCC-64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\david\Desktop\MatamHW\MatamEx4\MatamEx4\Cards\Card.cpp -o CMakeFiles\MatamEx4.dir\Cards\Card.cpp.s
+	C:\TDM-GCC-64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\david\Desktop\Final\MatamEx4\Cards\Card.cpp -o CMakeFiles\MatamEx4.dir\Cards\Card.cpp.s
 
 CMakeFiles/MatamEx4.dir/Cards/BattleCard.cpp.obj: CMakeFiles/MatamEx4.dir/flags.make
 CMakeFiles/MatamEx4.dir/Cards/BattleCard.cpp.obj: ../Cards/BattleCard.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\david\Desktop\MatamHW\MatamEx4\MatamEx4\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/MatamEx4.dir/Cards/BattleCard.cpp.obj"
-	C:\TDM-GCC-64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\MatamEx4.dir\Cards\BattleCard.cpp.obj -c C:\Users\david\Desktop\MatamHW\MatamEx4\MatamEx4\Cards\BattleCard.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\david\Desktop\Final\MatamEx4\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/MatamEx4.dir/Cards/BattleCard.cpp.obj"
+	C:\TDM-GCC-64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\MatamEx4.dir\Cards\BattleCard.cpp.obj -c C:\Users\david\Desktop\Final\MatamEx4\Cards\BattleCard.cpp
 
 CMakeFiles/MatamEx4.dir/Cards/BattleCard.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MatamEx4.dir/Cards/BattleCard.cpp.i"
-	C:\TDM-GCC-64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\david\Desktop\MatamHW\MatamEx4\MatamEx4\Cards\BattleCard.cpp > CMakeFiles\MatamEx4.dir\Cards\BattleCard.cpp.i
+	C:\TDM-GCC-64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\david\Desktop\Final\MatamEx4\Cards\BattleCard.cpp > CMakeFiles\MatamEx4.dir\Cards\BattleCard.cpp.i
 
 CMakeFiles/MatamEx4.dir/Cards/BattleCard.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MatamEx4.dir/Cards/BattleCard.cpp.s"
-	C:\TDM-GCC-64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\david\Desktop\MatamHW\MatamEx4\MatamEx4\Cards\BattleCard.cpp -o CMakeFiles\MatamEx4.dir\Cards\BattleCard.cpp.s
+	C:\TDM-GCC-64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\david\Desktop\Final\MatamEx4\Cards\BattleCard.cpp -o CMakeFiles\MatamEx4.dir\Cards\BattleCard.cpp.s
 
 CMakeFiles/MatamEx4.dir/Cards/Goblin.cpp.obj: CMakeFiles/MatamEx4.dir/flags.make
 CMakeFiles/MatamEx4.dir/Cards/Goblin.cpp.obj: ../Cards/Goblin.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\david\Desktop\MatamHW\MatamEx4\MatamEx4\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/MatamEx4.dir/Cards/Goblin.cpp.obj"
-	C:\TDM-GCC-64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\MatamEx4.dir\Cards\Goblin.cpp.obj -c C:\Users\david\Desktop\MatamHW\MatamEx4\MatamEx4\Cards\Goblin.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\david\Desktop\Final\MatamEx4\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/MatamEx4.dir/Cards/Goblin.cpp.obj"
+	C:\TDM-GCC-64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\MatamEx4.dir\Cards\Goblin.cpp.obj -c C:\Users\david\Desktop\Final\MatamEx4\Cards\Goblin.cpp
 
 CMakeFiles/MatamEx4.dir/Cards/Goblin.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MatamEx4.dir/Cards/Goblin.cpp.i"
-	C:\TDM-GCC-64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\david\Desktop\MatamHW\MatamEx4\MatamEx4\Cards\Goblin.cpp > CMakeFiles\MatamEx4.dir\Cards\Goblin.cpp.i
+	C:\TDM-GCC-64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\david\Desktop\Final\MatamEx4\Cards\Goblin.cpp > CMakeFiles\MatamEx4.dir\Cards\Goblin.cpp.i
 
 CMakeFiles/MatamEx4.dir/Cards/Goblin.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MatamEx4.dir/Cards/Goblin.cpp.s"
-	C:\TDM-GCC-64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\david\Desktop\MatamHW\MatamEx4\MatamEx4\Cards\Goblin.cpp -o CMakeFiles\MatamEx4.dir\Cards\Goblin.cpp.s
+	C:\TDM-GCC-64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\david\Desktop\Final\MatamEx4\Cards\Goblin.cpp -o CMakeFiles\MatamEx4.dir\Cards\Goblin.cpp.s
 
 CMakeFiles/MatamEx4.dir/Cards/Dragon.cpp.obj: CMakeFiles/MatamEx4.dir/flags.make
 CMakeFiles/MatamEx4.dir/Cards/Dragon.cpp.obj: ../Cards/Dragon.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\david\Desktop\MatamHW\MatamEx4\MatamEx4\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/MatamEx4.dir/Cards/Dragon.cpp.obj"
-	C:\TDM-GCC-64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\MatamEx4.dir\Cards\Dragon.cpp.obj -c C:\Users\david\Desktop\MatamHW\MatamEx4\MatamEx4\Cards\Dragon.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\david\Desktop\Final\MatamEx4\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/MatamEx4.dir/Cards/Dragon.cpp.obj"
+	C:\TDM-GCC-64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\MatamEx4.dir\Cards\Dragon.cpp.obj -c C:\Users\david\Desktop\Final\MatamEx4\Cards\Dragon.cpp
 
 CMakeFiles/MatamEx4.dir/Cards/Dragon.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MatamEx4.dir/Cards/Dragon.cpp.i"
-	C:\TDM-GCC-64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\david\Desktop\MatamHW\MatamEx4\MatamEx4\Cards\Dragon.cpp > CMakeFiles\MatamEx4.dir\Cards\Dragon.cpp.i
+	C:\TDM-GCC-64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\david\Desktop\Final\MatamEx4\Cards\Dragon.cpp > CMakeFiles\MatamEx4.dir\Cards\Dragon.cpp.i
 
 CMakeFiles/MatamEx4.dir/Cards/Dragon.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MatamEx4.dir/Cards/Dragon.cpp.s"
-	C:\TDM-GCC-64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\david\Desktop\MatamHW\MatamEx4\MatamEx4\Cards\Dragon.cpp -o CMakeFiles\MatamEx4.dir\Cards\Dragon.cpp.s
+	C:\TDM-GCC-64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\david\Desktop\Final\MatamEx4\Cards\Dragon.cpp -o CMakeFiles\MatamEx4.dir\Cards\Dragon.cpp.s
 
 CMakeFiles/MatamEx4.dir/Cards/Vampire.cpp.obj: CMakeFiles/MatamEx4.dir/flags.make
 CMakeFiles/MatamEx4.dir/Cards/Vampire.cpp.obj: ../Cards/Vampire.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\david\Desktop\MatamHW\MatamEx4\MatamEx4\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/MatamEx4.dir/Cards/Vampire.cpp.obj"
-	C:\TDM-GCC-64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\MatamEx4.dir\Cards\Vampire.cpp.obj -c C:\Users\david\Desktop\MatamHW\MatamEx4\MatamEx4\Cards\Vampire.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\david\Desktop\Final\MatamEx4\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/MatamEx4.dir/Cards/Vampire.cpp.obj"
+	C:\TDM-GCC-64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\MatamEx4.dir\Cards\Vampire.cpp.obj -c C:\Users\david\Desktop\Final\MatamEx4\Cards\Vampire.cpp
 
 CMakeFiles/MatamEx4.dir/Cards/Vampire.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MatamEx4.dir/Cards/Vampire.cpp.i"
-	C:\TDM-GCC-64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\david\Desktop\MatamHW\MatamEx4\MatamEx4\Cards\Vampire.cpp > CMakeFiles\MatamEx4.dir\Cards\Vampire.cpp.i
+	C:\TDM-GCC-64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\david\Desktop\Final\MatamEx4\Cards\Vampire.cpp > CMakeFiles\MatamEx4.dir\Cards\Vampire.cpp.i
 
 CMakeFiles/MatamEx4.dir/Cards/Vampire.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MatamEx4.dir/Cards/Vampire.cpp.s"
-	C:\TDM-GCC-64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\david\Desktop\MatamHW\MatamEx4\MatamEx4\Cards\Vampire.cpp -o CMakeFiles\MatamEx4.dir\Cards\Vampire.cpp.s
+	C:\TDM-GCC-64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\david\Desktop\Final\MatamEx4\Cards\Vampire.cpp -o CMakeFiles\MatamEx4.dir\Cards\Vampire.cpp.s
 
 CMakeFiles/MatamEx4.dir/Cards/Fairy.cpp.obj: CMakeFiles/MatamEx4.dir/flags.make
 CMakeFiles/MatamEx4.dir/Cards/Fairy.cpp.obj: ../Cards/Fairy.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\david\Desktop\MatamHW\MatamEx4\MatamEx4\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/MatamEx4.dir/Cards/Fairy.cpp.obj"
-	C:\TDM-GCC-64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\MatamEx4.dir\Cards\Fairy.cpp.obj -c C:\Users\david\Desktop\MatamHW\MatamEx4\MatamEx4\Cards\Fairy.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\david\Desktop\Final\MatamEx4\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/MatamEx4.dir/Cards/Fairy.cpp.obj"
+	C:\TDM-GCC-64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\MatamEx4.dir\Cards\Fairy.cpp.obj -c C:\Users\david\Desktop\Final\MatamEx4\Cards\Fairy.cpp
 
 CMakeFiles/MatamEx4.dir/Cards/Fairy.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MatamEx4.dir/Cards/Fairy.cpp.i"
-	C:\TDM-GCC-64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\david\Desktop\MatamHW\MatamEx4\MatamEx4\Cards\Fairy.cpp > CMakeFiles\MatamEx4.dir\Cards\Fairy.cpp.i
+	C:\TDM-GCC-64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\david\Desktop\Final\MatamEx4\Cards\Fairy.cpp > CMakeFiles\MatamEx4.dir\Cards\Fairy.cpp.i
 
 CMakeFiles/MatamEx4.dir/Cards/Fairy.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MatamEx4.dir/Cards/Fairy.cpp.s"
-	C:\TDM-GCC-64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\david\Desktop\MatamHW\MatamEx4\MatamEx4\Cards\Fairy.cpp -o CMakeFiles\MatamEx4.dir\Cards\Fairy.cpp.s
+	C:\TDM-GCC-64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\david\Desktop\Final\MatamEx4\Cards\Fairy.cpp -o CMakeFiles\MatamEx4.dir\Cards\Fairy.cpp.s
 
 CMakeFiles/MatamEx4.dir/Cards/Barfight.cpp.obj: CMakeFiles/MatamEx4.dir/flags.make
 CMakeFiles/MatamEx4.dir/Cards/Barfight.cpp.obj: ../Cards/Barfight.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\david\Desktop\MatamHW\MatamEx4\MatamEx4\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/MatamEx4.dir/Cards/Barfight.cpp.obj"
-	C:\TDM-GCC-64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\MatamEx4.dir\Cards\Barfight.cpp.obj -c C:\Users\david\Desktop\MatamHW\MatamEx4\MatamEx4\Cards\Barfight.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\david\Desktop\Final\MatamEx4\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/MatamEx4.dir/Cards/Barfight.cpp.obj"
+	C:\TDM-GCC-64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\MatamEx4.dir\Cards\Barfight.cpp.obj -c C:\Users\david\Desktop\Final\MatamEx4\Cards\Barfight.cpp
 
 CMakeFiles/MatamEx4.dir/Cards/Barfight.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MatamEx4.dir/Cards/Barfight.cpp.i"
-	C:\TDM-GCC-64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\david\Desktop\MatamHW\MatamEx4\MatamEx4\Cards\Barfight.cpp > CMakeFiles\MatamEx4.dir\Cards\Barfight.cpp.i
+	C:\TDM-GCC-64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\david\Desktop\Final\MatamEx4\Cards\Barfight.cpp > CMakeFiles\MatamEx4.dir\Cards\Barfight.cpp.i
 
 CMakeFiles/MatamEx4.dir/Cards/Barfight.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MatamEx4.dir/Cards/Barfight.cpp.s"
-	C:\TDM-GCC-64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\david\Desktop\MatamHW\MatamEx4\MatamEx4\Cards\Barfight.cpp -o CMakeFiles\MatamEx4.dir\Cards\Barfight.cpp.s
+	C:\TDM-GCC-64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\david\Desktop\Final\MatamEx4\Cards\Barfight.cpp -o CMakeFiles\MatamEx4.dir\Cards\Barfight.cpp.s
 
 CMakeFiles/MatamEx4.dir/Cards/Pitfall.cpp.obj: CMakeFiles/MatamEx4.dir/flags.make
 CMakeFiles/MatamEx4.dir/Cards/Pitfall.cpp.obj: ../Cards/Pitfall.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\david\Desktop\MatamHW\MatamEx4\MatamEx4\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/MatamEx4.dir/Cards/Pitfall.cpp.obj"
-	C:\TDM-GCC-64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\MatamEx4.dir\Cards\Pitfall.cpp.obj -c C:\Users\david\Desktop\MatamHW\MatamEx4\MatamEx4\Cards\Pitfall.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\david\Desktop\Final\MatamEx4\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/MatamEx4.dir/Cards/Pitfall.cpp.obj"
+	C:\TDM-GCC-64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\MatamEx4.dir\Cards\Pitfall.cpp.obj -c C:\Users\david\Desktop\Final\MatamEx4\Cards\Pitfall.cpp
 
 CMakeFiles/MatamEx4.dir/Cards/Pitfall.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MatamEx4.dir/Cards/Pitfall.cpp.i"
-	C:\TDM-GCC-64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\david\Desktop\MatamHW\MatamEx4\MatamEx4\Cards\Pitfall.cpp > CMakeFiles\MatamEx4.dir\Cards\Pitfall.cpp.i
+	C:\TDM-GCC-64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\david\Desktop\Final\MatamEx4\Cards\Pitfall.cpp > CMakeFiles\MatamEx4.dir\Cards\Pitfall.cpp.i
 
 CMakeFiles/MatamEx4.dir/Cards/Pitfall.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MatamEx4.dir/Cards/Pitfall.cpp.s"
-	C:\TDM-GCC-64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\david\Desktop\MatamHW\MatamEx4\MatamEx4\Cards\Pitfall.cpp -o CMakeFiles\MatamEx4.dir\Cards\Pitfall.cpp.s
+	C:\TDM-GCC-64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\david\Desktop\Final\MatamEx4\Cards\Pitfall.cpp -o CMakeFiles\MatamEx4.dir\Cards\Pitfall.cpp.s
 
 CMakeFiles/MatamEx4.dir/Cards/Treasure.cpp.obj: CMakeFiles/MatamEx4.dir/flags.make
 CMakeFiles/MatamEx4.dir/Cards/Treasure.cpp.obj: ../Cards/Treasure.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\david\Desktop\MatamHW\MatamEx4\MatamEx4\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/MatamEx4.dir/Cards/Treasure.cpp.obj"
-	C:\TDM-GCC-64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\MatamEx4.dir\Cards\Treasure.cpp.obj -c C:\Users\david\Desktop\MatamHW\MatamEx4\MatamEx4\Cards\Treasure.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\david\Desktop\Final\MatamEx4\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/MatamEx4.dir/Cards/Treasure.cpp.obj"
+	C:\TDM-GCC-64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\MatamEx4.dir\Cards\Treasure.cpp.obj -c C:\Users\david\Desktop\Final\MatamEx4\Cards\Treasure.cpp
 
 CMakeFiles/MatamEx4.dir/Cards/Treasure.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MatamEx4.dir/Cards/Treasure.cpp.i"
-	C:\TDM-GCC-64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\david\Desktop\MatamHW\MatamEx4\MatamEx4\Cards\Treasure.cpp > CMakeFiles\MatamEx4.dir\Cards\Treasure.cpp.i
+	C:\TDM-GCC-64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\david\Desktop\Final\MatamEx4\Cards\Treasure.cpp > CMakeFiles\MatamEx4.dir\Cards\Treasure.cpp.i
 
 CMakeFiles/MatamEx4.dir/Cards/Treasure.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MatamEx4.dir/Cards/Treasure.cpp.s"
-	C:\TDM-GCC-64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\david\Desktop\MatamHW\MatamEx4\MatamEx4\Cards\Treasure.cpp -o CMakeFiles\MatamEx4.dir\Cards\Treasure.cpp.s
+	C:\TDM-GCC-64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\david\Desktop\Final\MatamEx4\Cards\Treasure.cpp -o CMakeFiles\MatamEx4.dir\Cards\Treasure.cpp.s
 
 CMakeFiles/MatamEx4.dir/Mtmchkin.cpp.obj: CMakeFiles/MatamEx4.dir/flags.make
 CMakeFiles/MatamEx4.dir/Mtmchkin.cpp.obj: ../Mtmchkin.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\david\Desktop\MatamHW\MatamEx4\MatamEx4\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/MatamEx4.dir/Mtmchkin.cpp.obj"
-	C:\TDM-GCC-64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\MatamEx4.dir\Mtmchkin.cpp.obj -c C:\Users\david\Desktop\MatamHW\MatamEx4\MatamEx4\Mtmchkin.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\david\Desktop\Final\MatamEx4\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/MatamEx4.dir/Mtmchkin.cpp.obj"
+	C:\TDM-GCC-64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\MatamEx4.dir\Mtmchkin.cpp.obj -c C:\Users\david\Desktop\Final\MatamEx4\Mtmchkin.cpp
 
 CMakeFiles/MatamEx4.dir/Mtmchkin.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MatamEx4.dir/Mtmchkin.cpp.i"
-	C:\TDM-GCC-64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\david\Desktop\MatamHW\MatamEx4\MatamEx4\Mtmchkin.cpp > CMakeFiles\MatamEx4.dir\Mtmchkin.cpp.i
+	C:\TDM-GCC-64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\david\Desktop\Final\MatamEx4\Mtmchkin.cpp > CMakeFiles\MatamEx4.dir\Mtmchkin.cpp.i
 
 CMakeFiles/MatamEx4.dir/Mtmchkin.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MatamEx4.dir/Mtmchkin.cpp.s"
-	C:\TDM-GCC-64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\david\Desktop\MatamHW\MatamEx4\MatamEx4\Mtmchkin.cpp -o CMakeFiles\MatamEx4.dir\Mtmchkin.cpp.s
+	C:\TDM-GCC-64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\david\Desktop\Final\MatamEx4\Mtmchkin.cpp -o CMakeFiles\MatamEx4.dir\Mtmchkin.cpp.s
 
 CMakeFiles/MatamEx4.dir/Cards/Merchant.cpp.obj: CMakeFiles/MatamEx4.dir/flags.make
 CMakeFiles/MatamEx4.dir/Cards/Merchant.cpp.obj: ../Cards/Merchant.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\david\Desktop\MatamHW\MatamEx4\MatamEx4\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/MatamEx4.dir/Cards/Merchant.cpp.obj"
-	C:\TDM-GCC-64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\MatamEx4.dir\Cards\Merchant.cpp.obj -c C:\Users\david\Desktop\MatamHW\MatamEx4\MatamEx4\Cards\Merchant.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\david\Desktop\Final\MatamEx4\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/MatamEx4.dir/Cards/Merchant.cpp.obj"
+	C:\TDM-GCC-64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\MatamEx4.dir\Cards\Merchant.cpp.obj -c C:\Users\david\Desktop\Final\MatamEx4\Cards\Merchant.cpp
 
 CMakeFiles/MatamEx4.dir/Cards/Merchant.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MatamEx4.dir/Cards/Merchant.cpp.i"
-	C:\TDM-GCC-64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\david\Desktop\MatamHW\MatamEx4\MatamEx4\Cards\Merchant.cpp > CMakeFiles\MatamEx4.dir\Cards\Merchant.cpp.i
+	C:\TDM-GCC-64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\david\Desktop\Final\MatamEx4\Cards\Merchant.cpp > CMakeFiles\MatamEx4.dir\Cards\Merchant.cpp.i
 
 CMakeFiles/MatamEx4.dir/Cards/Merchant.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MatamEx4.dir/Cards/Merchant.cpp.s"
-	C:\TDM-GCC-64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\david\Desktop\MatamHW\MatamEx4\MatamEx4\Cards\Merchant.cpp -o CMakeFiles\MatamEx4.dir\Cards\Merchant.cpp.s
+	C:\TDM-GCC-64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\david\Desktop\Final\MatamEx4\Cards\Merchant.cpp -o CMakeFiles\MatamEx4.dir\Cards\Merchant.cpp.s
+
+CMakeFiles/MatamEx4.dir/Cards/Gang.cpp.obj: CMakeFiles/MatamEx4.dir/flags.make
+CMakeFiles/MatamEx4.dir/Cards/Gang.cpp.obj: ../Cards/Gang.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\david\Desktop\Final\MatamEx4\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/MatamEx4.dir/Cards/Gang.cpp.obj"
+	C:\TDM-GCC-64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\MatamEx4.dir\Cards\Gang.cpp.obj -c C:\Users\david\Desktop\Final\MatamEx4\Cards\Gang.cpp
+
+CMakeFiles/MatamEx4.dir/Cards/Gang.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MatamEx4.dir/Cards/Gang.cpp.i"
+	C:\TDM-GCC-64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\david\Desktop\Final\MatamEx4\Cards\Gang.cpp > CMakeFiles\MatamEx4.dir\Cards\Gang.cpp.i
+
+CMakeFiles/MatamEx4.dir/Cards/Gang.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MatamEx4.dir/Cards/Gang.cpp.s"
+	C:\TDM-GCC-64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\david\Desktop\Final\MatamEx4\Cards\Gang.cpp -o CMakeFiles\MatamEx4.dir\Cards\Gang.cpp.s
 
 # Object files for target MatamEx4
 MatamEx4_OBJECTS = \
@@ -304,7 +317,8 @@ MatamEx4_OBJECTS = \
 "CMakeFiles/MatamEx4.dir/Cards/Pitfall.cpp.obj" \
 "CMakeFiles/MatamEx4.dir/Cards/Treasure.cpp.obj" \
 "CMakeFiles/MatamEx4.dir/Mtmchkin.cpp.obj" \
-"CMakeFiles/MatamEx4.dir/Cards/Merchant.cpp.obj"
+"CMakeFiles/MatamEx4.dir/Cards/Merchant.cpp.obj" \
+"CMakeFiles/MatamEx4.dir/Cards/Gang.cpp.obj"
 
 # External object files for target MatamEx4
 MatamEx4_EXTERNAL_OBJECTS =
@@ -326,11 +340,12 @@ MatamEx4.exe: CMakeFiles/MatamEx4.dir/Cards/Pitfall.cpp.obj
 MatamEx4.exe: CMakeFiles/MatamEx4.dir/Cards/Treasure.cpp.obj
 MatamEx4.exe: CMakeFiles/MatamEx4.dir/Mtmchkin.cpp.obj
 MatamEx4.exe: CMakeFiles/MatamEx4.dir/Cards/Merchant.cpp.obj
+MatamEx4.exe: CMakeFiles/MatamEx4.dir/Cards/Gang.cpp.obj
 MatamEx4.exe: CMakeFiles/MatamEx4.dir/build.make
 MatamEx4.exe: CMakeFiles/MatamEx4.dir/linklibs.rsp
 MatamEx4.exe: CMakeFiles/MatamEx4.dir/objects1.rsp
 MatamEx4.exe: CMakeFiles/MatamEx4.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\david\Desktop\MatamHW\MatamEx4\MatamEx4\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Linking CXX executable MatamEx4.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\david\Desktop\Final\MatamEx4\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Linking CXX executable MatamEx4.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\MatamEx4.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -342,6 +357,6 @@ CMakeFiles/MatamEx4.dir/clean:
 .PHONY : CMakeFiles/MatamEx4.dir/clean
 
 CMakeFiles/MatamEx4.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\david\Desktop\MatamHW\MatamEx4\MatamEx4 C:\Users\david\Desktop\MatamHW\MatamEx4\MatamEx4 C:\Users\david\Desktop\MatamHW\MatamEx4\MatamEx4\cmake-build-debug C:\Users\david\Desktop\MatamHW\MatamEx4\MatamEx4\cmake-build-debug C:\Users\david\Desktop\MatamHW\MatamEx4\MatamEx4\cmake-build-debug\CMakeFiles\MatamEx4.dir\DependInfo.cmake --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\david\Desktop\Final\MatamEx4 C:\Users\david\Desktop\Final\MatamEx4 C:\Users\david\Desktop\Final\MatamEx4\cmake-build-debug C:\Users\david\Desktop\Final\MatamEx4\cmake-build-debug C:\Users\david\Desktop\Final\MatamEx4\cmake-build-debug\CMakeFiles\MatamEx4.dir\DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/MatamEx4.dir/depend
 

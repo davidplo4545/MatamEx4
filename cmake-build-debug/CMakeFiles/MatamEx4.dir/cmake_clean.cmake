@@ -4,6 +4,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/MatamEx4.dir/Cards/Card.cpp.obj"
   "CMakeFiles/MatamEx4.dir/Cards/Dragon.cpp.obj"
   "CMakeFiles/MatamEx4.dir/Cards/Fairy.cpp.obj"
+  "CMakeFiles/MatamEx4.dir/Cards/Gang.cpp.obj"
   "CMakeFiles/MatamEx4.dir/Cards/Goblin.cpp.obj"
   "CMakeFiles/MatamEx4.dir/Cards/Merchant.cpp.obj"
   "CMakeFiles/MatamEx4.dir/Cards/Pitfall.cpp.obj"

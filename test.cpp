@@ -84,20 +84,20 @@ bool GeneralGameSimulationTest(const string &tempDeckFilename, string input, str
     istringstream in(input);
     std::streambuf *cinbuf = std::cin.rdbuf(); //save old buf
     std::cin.rdbuf(in.rdbuf());
+
     std::ofstream outfile(tempDeckFilename+"out.txt");
 
     std::streambuf *coutbuf = std::cout.rdbuf(); //save old buf
 
 //    std::cout.rdbuf(outfile.rdbuf());
 
-
     Mtmchkin game(tempDeckFilename+".txt");
 
     while(!game.isGameOver() && game.getNumberOfRounds() < 100){
-
         game.playRound();
         game.printLeaderBoard();
     }
+
     bool res = compareFiles(tempDeckFilename+"out.txt", expectedOutputFileName);
 	outfile.close();
     std::cin.rdbuf(cinbuf);
@@ -137,6 +137,17 @@ bool cardsPrintsTest()
                     << std::endl << goblin  << std::endl << pizzaHut
                     << std::endl << moedB  << std::endl << factor
                     << std::endl << dracula;
+    return true;
+}
+
+bool playersPrintsTest()
+{
+    
+    Rogue player1("Itay");
+    Fighter player2("Efrat");
+    Wizard player3("Jimmy");
+    cout << player1 << std::endl << player2 << std::endl << player3   
+                    << std::endl;
     return true;
 }
 
@@ -181,10 +192,8 @@ bool dragonDenTest()
 {
     const string tmp_file("dragonDen_test");
     string input("2\nJimmy Wizard\nPikachu Fighter");
-
     string deck("Dragon\nDragon\nDragon\nDragon\nDragon");
-    string expectedOutputFilename("../tests/dragonDen_test_expected.txt");
-
+    string expectedOutputFilename("tests/dragonDen_test_expected.txt");
     return GeneralGameSimulationTest(tmp_file, input, deck, expectedOutputFilename);
 }
 
@@ -193,7 +202,7 @@ bool vampireLairTest()
     const string tmp_file("vampireLiar_test");
     string input("2\nItay Fighter\nPikachu Rogue");
     string deck("Vampire\nVampire\nVampire\nVampire\nVampire");
-    string expectedOutputFilename("../tests/vampireLair_test_expected.txt");
+    string expectedOutputFilename("tests/vampireLair_test_expected.txt");
     return GeneralGameSimulationTest(tmp_file, input, deck, expectedOutputFilename);
 }
 
@@ -220,7 +229,7 @@ bool roundLimitTest()
     const string tmp_file("roundLimit_test");
     string input("2\nmatamDalf Wizard\nrocky Fighter");
     string deck("Fairy\nFairy\nFairy\nFairy\nFairy");
-    string expectedOutputFilename("../tests/roundLimit_test_expected.txt");
+    string expectedOutputFilename("tests/roundLimit_test_expected.txt");
     return GeneralGameSimulationTest(tmp_file, input, deck, expectedOutputFilename);
 }
 
@@ -229,7 +238,7 @@ bool allTenTest()
     const string tmp_file("allTen_test");
     string input("2\nmatamDalf Wizard\nrocky Fighter");
     string deck("Goblin\nGoblin\nGoblin\nGoblin\nGoblin");
-    string expectedOutputFilename("../tests/allTen_test_expected.txt");
+    string expectedOutputFilename("tests/allTen_test_expected.txt");
     return GeneralGameSimulationTest(tmp_file, input, deck, expectedOutputFilename);
 }
 
@@ -238,21 +247,21 @@ bool badPlayerInputTest()
     const string tmp_file("badPlayerInput_test");
     string input("2\nmatamDalf Wizardd\nmatamDalf rogoe\nmatamDalf Wizard\nrocky Fighter");
     string deck("Goblin\nVampire\nGoblin\nGoblin\nDragon");
-    string expectedOutputFilename("../tests/badPlayerInput_test_expected.txt");
+    string expectedOutputFilename("tests/badPlayerInput_test_expected.txt");
     return GeneralGameSimulationTest(tmp_file, input, deck, expectedOutputFilename);
 }
 
 bool merchantInputTest()
 {
     const string tmp_file("merchantInput_test");
-    string input("2\nmatamDalf Wizardd\nmatamDalf rogoe\nmatamDalf Wizard\nrocky Fighter\n"
+    string input("2\nmatamDalf Wizardd\nmatamDalf rogoe\nmatamDalf Wizard\nrocky Fighter"
                  "1\n"
                  "1\n"
                  "0\n"
                  "2\n"
                  "0\n");
     string deck("Goblin\nGoblin\nMerchant\nMerchant\nDragon");
-    string expectedOutputFilename("../tests/merchantInput_test_expected.txt");
+    string expectedOutputFilename("tests/merchantInput_test_expected.txt");
     return GeneralGameSimulationTest(tmp_file, input, deck, expectedOutputFilename);
 }
 
@@ -267,7 +276,7 @@ bool badSizeTest()
     string expectedOutputFilename("notneeded.txt");
 	bool flag= false;
     try{
-        Mtmchkin("../inputs/empty.txt");
+        Mtmchkin("inputs/empty.txt");
     }
     catch(const DeckFileInvalidSize& e){
         flag = true;
@@ -299,7 +308,7 @@ bool badFormatTest()
     string expectedOutputFilename("notneeded.txt");
     bool flag = false;
     try {
-        Mtmchkin("../inputs/badFormat_test.txt");
+        Mtmchkin("inputs/badFormat_test.txt");
     }
     catch(const DeckFileFormatError& e){
         if(strcmp(e.what(),"Deck File Error: File format error in line 2")==0) {
@@ -317,7 +326,7 @@ bool badFormatStartTest()
     string expectedOutputFilename("notneeded.txt");
     bool flag = false;
     try {
-        Mtmchkin("../inputs/badFormat_test_start_of_file.txt");
+        Mtmchkin("badFormat_test_start_of_file.txt");
     }
     catch(const DeckFileFormatError& e){
         if(strcmp(e.what(),"Deck File Error: File format error in line 1")==0)
@@ -329,11 +338,39 @@ bool badFormatStartTest()
 }
 
 /* ---------------------------------------------------------------------------------------------- */
+/* --------------------------------        Bonus Tests         ---------------------------------- */
+bool gangTest1(){
+    const string tmp_file("gangTest1_test");
+    string input("2\nmatamDalf Wizardd\nmatamDalf rogoe\nmatamDalf Wizard\nrocky Fighter");
+    string deck("Goblin\nGang\nGoblin\nGoblin\nGoblin\nVampire\nDragon\nEndGang\nGoblin\nGoblin\nGoblin\n");
+    string expectedOutputFilename("../tests/gangTest1_test_expected.txt");
+
+    return GeneralGameSimulationTest(tmp_file, input, deck, expectedOutputFilename);
+}
+
+
+bool gangTest2(){
+    const string tmp_file("gangTest2_test");
+    string input("2\nOmerTests Wizardd\nRegev rogoe\nmatamDalf Wizard\nrocky Fighter");
+    string deck("Gang\nDragon\nGoblin\nGoblin\nGoblin\nGoblin\nEndGang\nGoblin\nGoblin\nGoblin\nPitfall\n");
+    string expectedOutputFilename("../tests/gangTest2_test_expected.txt");
+    return GeneralGameSimulationTest(tmp_file, input, deck, expectedOutputFilename);
+}
+
+bool gangTest3(){
+    const string tmp_file("gangTest3_test");
+    string input("2\nOmerTests Wizardd\nRegev rogoe\nOmerTests Wizard\nrocky Fighter");
+    string deck("Gang\nGoblin\nGoblin\nEndGang\nGoblin\nGoblin\nGoblin\nPitfall\nPitfall\n");
+    string expectedOutputFilename("../tests/gangTest3_test_expected.txt");
+    return GeneralGameSimulationTest(tmp_file, input, deck, expectedOutputFilename);
+}
+/* ---------------------------------------------------------------------------------------------- */
 // --------------------------------       Main function          ------------------------------
 
 int main(){
     
 //	run_test(cardsPrintsTest,"cardsPrintsTest");
+//	run_test(playersPrintsTest,"playersPrintsTest");
 //	run_test(testCard,"Deck creation test");
 //	run_test(dragonDenTest,"Dragon Den simulation test");
 //	run_test(goblinCaveTest,"Goblin Cave simulation test");
@@ -346,7 +383,9 @@ int main(){
 //    run_test(roundLimitTest,"Round upper limit test");
 //    run_test(allTenTest,"All reach lvl 10 test");
 //    run_test(badPlayerInputTest,"Bad player input test");
-//    run_test(merchantInputTest,"Merchant input test");
 
+//    run_test(gangTest1,"Gang Test 1");
+//    run_test(gangTest2,"Gang Test 2");
+    run_test(gangTest3,"Gang Test 3");
     return 0;
 }

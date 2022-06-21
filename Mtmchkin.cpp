@@ -26,19 +26,48 @@ vector<string> split(string str)
 Mtmchkin::Mtmchkin(const std::string fileName)
 {
 
+    printStartGameMessage();
+    this->initializeCards(fileName);
+    this->initializePlayers();
+}
+
+void Mtmchkin::initializeCards(string fileName) {
     ifstream source(fileName);
     if(!source)
     {
         throw DeckFileNotFound();
     }
     string cardName;
+    bool isGang=false;
     int cardCount=0;
-
     try{
         while (getline(source, cardName, '\n'))
         {
+
+            if(cardName == "Gang") {
+                isGang = true;
+                unique_ptr<Gang> tempGang = unique_ptr<Gang>(new Gang());
+                while (isGang)
+                {
+                    getline(source, cardName, '\n');
+                    if(cardName == "EndGang")
+                    {
+                        isGang = false;
+                        break;
+                    }
+//                    cout << "HEREREER" << cardName << endl;
+
+                    unique_ptr<BattleCard> newBattleCard(Mtmchkin::BATTLE_CARDS_CONVERTER.at(cardName)());
+                    tempGang->pushToGang(move(newBattleCard));
+                }
+                m_cards.push_back(move(tempGang));
+            }
+            else
+            {
+                pushToDeck(cardName, cardCount);
+            }
             cardCount += 1;
-            pushToDeck(cardName, cardCount);
+
         }
 
     } catch(const std::ios_base& e){
@@ -48,7 +77,6 @@ Mtmchkin::Mtmchkin(const std::string fileName)
     {
         throw DeckFileInvalidSize();
     }
-    this->initializePlayers();
 }
 
 
@@ -82,7 +110,6 @@ bool isValidString(string str)
 }
 void Mtmchkin::initializePlayers()
 {
-    printStartGameMessage();
     printEnterTeamSizeMessage();
     int numberOfPlayers = 0;
     while(!isTeamSizeValid(numberOfPlayers))

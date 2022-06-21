@@ -33,3 +33,30 @@ void BattleCard::applyEncounter(Player &player) const {
         printLossBattle(player.getName(), m_name);
     }
 }
+
+void BattleCard::applyLostGang(Player &player) const
+{
+    int hpLoss = m_hpLossOnDefeat == BattleCard::FULL_DMG ? player.getHealth() : m_hpLossOnDefeat;
+    player.damage(hpLoss);
+    printLossBattle(player.getName(), m_name);
+
+}
+bool BattleCard::applyGangEncounter(Player &player) const {
+//    std::cout << "HEREREre";
+
+    if(player.getAttackStrength() >= m_force)
+    {
+        player.addCoins(m_loot);
+//        printWinBattle(player.getName(),m_name);
+        return false;
+    }
+    else
+    {
+        applyLostGang(player);
+        return true;
+    }
+}
+int BattleCard::getHpLoss() const {
+    return m_hpLossOnDefeat;
+}
+

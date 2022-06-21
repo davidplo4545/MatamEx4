@@ -11,3 +11,7 @@ void Dragon::printCardInfo(ostream& os) const {
     printMonsterDetails(os, m_force, m_hpLossOnDefeat, m_loot, true);
     printEndOfCardDetails(os);
 }
+
+void Dragon::applyLostGang(Player &player) const {
+    BattleCard::applyLostGang(player);
+}

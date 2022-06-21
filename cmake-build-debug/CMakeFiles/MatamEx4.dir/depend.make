@@ -33,6 +33,13 @@ CMakeFiles/MatamEx4.dir/Cards/Fairy.cpp.obj: \
  ../Players/Player.h \
  ../Players/Wizard.h \
  ../utilities.h
+CMakeFiles/MatamEx4.dir/Cards/Gang.cpp.obj: \
+ ../Cards/BattleCard.h \
+ ../Cards/Card.h \
+ ../Cards/Gang.cpp \
+ ../Cards/Gang.h \
+ ../Players/Player.h \
+ ../utilities.h
 CMakeFiles/MatamEx4.dir/Cards/Goblin.cpp.obj: \
  ../Cards/BattleCard.h \
  ../Cards/Card.h \
@@ -72,6 +79,7 @@ CMakeFiles/MatamEx4.dir/Mtmchkin.cpp.obj: \
  ../Cards/Card.h \
  ../Cards/Dragon.h \
  ../Cards/Fairy.h \
+ ../Cards/Gang.h \
  ../Cards/Goblin.h \
  ../Cards/Merchant.h \
  ../Cards/Pitfall.h \
@@ -110,6 +118,7 @@ CMakeFiles/MatamEx4.dir/test.cpp.obj: \
  ../Cards/Card.h \
  ../Cards/Dragon.h \
  ../Cards/Fairy.h \
+ ../Cards/Gang.h \
  ../Cards/Goblin.h \
  ../Cards/Merchant.h \
  ../Cards/Pitfall.h \

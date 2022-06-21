@@ -14,6 +14,12 @@ Card* createCardInstance()
 }
 
 template<typename T>
+BattleCard* createBattleCardInstance()
+{
+    return new T;
+}
+
+template<typename T>
 Player* createPlayerInstance(std::string name)
 {
     return new T(name);
@@ -25,6 +31,7 @@ private:
     static const int MIN_CARD_COUNT = 5;
     const std::map<std::string, Card*(*)()> CARDS_CONVERTER ={
             {"Fairy",&createCardInstance<Fairy>},
+            {"Gang",&createCardInstance<Gang>},
             {"Goblin",&createCardInstance<Goblin>},
             {"Vampire",&createCardInstance<Vampire>},
             {"Dragon",&createCardInstance<Dragon>},
@@ -32,6 +39,12 @@ private:
             {"Pitfall",&createCardInstance<Pitfall>},
             {"Barfight",&createCardInstance<Barfight>},
             {"Treasure",&createCardInstance<Treasure>},
+    };
+
+    const std::map<std::string, BattleCard*(*)()> BATTLE_CARDS_CONVERTER ={
+            {"Goblin",&createBattleCardInstance<Goblin>},
+            {"Vampire",&createBattleCardInstance<Vampire>},
+            {"Dragon",&createBattleCardInstance<Dragon>},
     };
 
     const std::map<std::string, Player*(*)(std::string)> PLAYER_CONVERTER ={
@@ -50,6 +63,7 @@ private:
     void pushToDeck(std::string cardName, int currLine);
     static bool isTeamSizeValid(int teamSize);
     void initializePlayers();
+    void initializeCards(std::string fileName);
 
 public:
 //                            unique

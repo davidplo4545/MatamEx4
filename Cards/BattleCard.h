@@ -23,9 +23,12 @@ private:
 
 public:
     explicit BattleCard(std::string name);
+    int getHpLoss() const;
     void printCardInfo(std::ostream& os) const override;
 
     void applyEncounter(Player& player) const override;
+    virtual void applyLostGang(Player& player) const;
+    bool applyGangEncounter(Player& player) const;
 };
 
 

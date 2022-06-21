@@ -10,7 +10,7 @@ class Vampire: public BattleCard{
 public:
     Vampire();
     void applyEncounter(Player& player) const override;
-
+    void applyLostGang(Player& player) const override;
 };
 
 

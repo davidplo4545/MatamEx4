@@ -56,10 +56,10 @@ RM = "C:\Program Files\JetBrains\CLion 2021.2.3\bin\cmake\win\bin\cmake.exe" -E 
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\david\Desktop\MatamHW\MatamEx4\MatamEx4
+CMAKE_SOURCE_DIR = C:\Users\david\Desktop\Final\MatamEx4
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\david\Desktop\MatamHW\MatamEx4\MatamEx4\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Users\david\Desktop\Final\MatamEx4\cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -86,9 +86,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\david\Desktop\MatamHW\MatamEx4\MatamEx4\cmake-build-debug\CMakeFiles C:\Users\david\Desktop\MatamHW\MatamEx4\MatamEx4\cmake-build-debug\\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\david\Desktop\Final\MatamEx4\cmake-build-debug\CMakeFiles C:\Users\david\Desktop\Final\MatamEx4\cmake-build-debug\\CMakeFiles\progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\david\Desktop\MatamHW\MatamEx4\MatamEx4\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\david\Desktop\Final\MatamEx4\cmake-build-debug\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -247,6 +247,30 @@ Cards/Fairy.s: Cards/Fairy.cpp.s
 Cards/Fairy.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\MatamEx4.dir\build.make CMakeFiles/MatamEx4.dir/Cards/Fairy.cpp.s
 .PHONY : Cards/Fairy.cpp.s
+
+Cards/Gang.obj: Cards/Gang.cpp.obj
+.PHONY : Cards/Gang.obj
+
+# target to build an object file
+Cards/Gang.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MatamEx4.dir\build.make CMakeFiles/MatamEx4.dir/Cards/Gang.cpp.obj
+.PHONY : Cards/Gang.cpp.obj
+
+Cards/Gang.i: Cards/Gang.cpp.i
+.PHONY : Cards/Gang.i
+
+# target to preprocess a source file
+Cards/Gang.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MatamEx4.dir\build.make CMakeFiles/MatamEx4.dir/Cards/Gang.cpp.i
+.PHONY : Cards/Gang.cpp.i
+
+Cards/Gang.s: Cards/Gang.cpp.s
+.PHONY : Cards/Gang.s
+
+# target to generate assembly for a file
+Cards/Gang.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MatamEx4.dir\build.make CMakeFiles/MatamEx4.dir/Cards/Gang.cpp.s
+.PHONY : Cards/Gang.cpp.s
 
 Cards/Goblin.obj: Cards/Goblin.cpp.obj
 .PHONY : Cards/Goblin.obj
@@ -560,6 +584,9 @@ help:
 	@echo ... Cards/Fairy.obj
 	@echo ... Cards/Fairy.i
 	@echo ... Cards/Fairy.s
+	@echo ... Cards/Gang.obj
+	@echo ... Cards/Gang.i
+	@echo ... Cards/Gang.s
 	@echo ... Cards/Goblin.obj
 	@echo ... Cards/Goblin.i
 	@echo ... Cards/Goblin.s

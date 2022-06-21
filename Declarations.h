@@ -3,6 +3,7 @@
 #include "Cards/Card.h"
 #include "Cards/Dragon.h"
 #include "Cards/Fairy.h"
+#include "Cards/Gang.h"
 #include "Players/Fighter.h"
 #include "Cards/Goblin.h"
 #include "Cards/Merchant.h"
