@@ -512,29 +512,29 @@ Players/Wizard.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\MatamEx4.dir\build.make CMakeFiles/MatamEx4.dir/Players/Wizard.cpp.s
 .PHONY : Players/Wizard.cpp.s
 
-testsMain.obj: testsMain.cpp.obj
-.PHONY : testsMain.obj
+main.obj: main.cpp.obj
+.PHONY : main.obj
 
 # target to build an object file
-testsMain.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\MatamEx4.dir\build.make CMakeFiles/MatamEx4.dir/testsMain.cpp.obj
-.PHONY : testsMain.cpp.obj
+main.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MatamEx4.dir\build.make CMakeFiles/MatamEx4.dir/main.cpp.obj
+.PHONY : main.cpp.obj
 
-testsMain.i: testsMain.cpp.i
-.PHONY : testsMain.i
+main.i: main.cpp.i
+.PHONY : main.i
 
 # target to preprocess a source file
-testsMain.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\MatamEx4.dir\build.make CMakeFiles/MatamEx4.dir/testsMain.cpp.i
-.PHONY : testsMain.cpp.i
+main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MatamEx4.dir\build.make CMakeFiles/MatamEx4.dir/main.cpp.i
+.PHONY : main.cpp.i
 
-testsMain.s: testsMain.cpp.s
-.PHONY : testsMain.s
+main.s: main.cpp.s
+.PHONY : main.s
 
 # target to generate assembly for a file
-testsMain.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\MatamEx4.dir\build.make CMakeFiles/MatamEx4.dir/testsMain.cpp.s
-.PHONY : testsMain.cpp.s
+main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MatamEx4.dir\build.make CMakeFiles/MatamEx4.dir/main.cpp.s
+.PHONY : main.cpp.s
 
 utilities.obj: utilities.cpp.obj
 .PHONY : utilities.obj
@@ -617,9 +617,9 @@ help:
 	@echo ... Players/Wizard.obj
 	@echo ... Players/Wizard.i
 	@echo ... Players/Wizard.s
-	@echo ... testsMain.obj
-	@echo ... testsMain.i
-	@echo ... testsMain.s
+	@echo ... main.obj
+	@echo ... main.i
+	@echo ... main.s
 	@echo ... utilities.obj
 	@echo ... utilities.i
 	@echo ... utilities.s

@@ -10,10 +10,6 @@ C:/Users/david/Desktop/Final/MatamEx4/Cards/Barfight.h
 Card.h
 C:/Users/david/Desktop/Final/MatamEx4/Cards/Card.h
 
-C:/Users/david/Desktop/Final/MatamEx4/Cards/BattleCard.cpp
-BattleCard.h
-C:/Users/david/Desktop/Final/MatamEx4/Cards/BattleCard.h
-
 C:/Users/david/Desktop/Final/MatamEx4/Cards/BattleCard.h
 Card.h
 C:/Users/david/Desktop/Final/MatamEx4/Cards/Card.h
@@ -40,12 +36,6 @@ C:/Users/david/Desktop/Final/MatamEx4/Cards/Fairy.h
 Card.h
 C:/Users/david/Desktop/Final/MatamEx4/Cards/Card.h
 
-C:/Users/david/Desktop/Final/MatamEx4/Cards/Gang.cpp
-Gang.h
-C:/Users/david/Desktop/Final/MatamEx4/Cards/Gang.h
-BattleCard.h
-C:/Users/david/Desktop/Final/MatamEx4/Cards/BattleCard.h
-
 C:/Users/david/Desktop/Final/MatamEx4/Cards/Gang.h
 BattleCard.h
 C:/Users/david/Desktop/Final/MatamEx4/Cards/BattleCard.h
@@ -55,10 +45,6 @@ memory
 C:/Users/david/Desktop/Final/MatamEx4/Cards/Goblin.h
 BattleCard.h
 C:/Users/david/Desktop/Final/MatamEx4/Cards/BattleCard.h
-
-C:/Users/david/Desktop/Final/MatamEx4/Cards/Merchant.cpp
-Merchant.h
-C:/Users/david/Desktop/Final/MatamEx4/Cards/Merchant.h
 
 C:/Users/david/Desktop/Final/MatamEx4/Cards/Merchant.h
 Card.h
@@ -156,23 +142,11 @@ iostream
 string
 -
 
-C:/Users/david/Desktop/Final/MatamEx4/Players/Rogue.cpp
-Rogue.h
-C:/Users/david/Desktop/Final/MatamEx4/Players/Rogue.h
-../utilities.h
-C:/Users/david/Desktop/Final/MatamEx4/utilities.h
-
 C:/Users/david/Desktop/Final/MatamEx4/Players/Rogue.h
 Player.h
 C:/Users/david/Desktop/Final/MatamEx4/Players/Player.h
 string.h
 C:/Users/david/Desktop/Final/MatamEx4/Players/string.h
-
-C:/Users/david/Desktop/Final/MatamEx4/Players/Wizard.cpp
-Wizard.h
-C:/Users/david/Desktop/Final/MatamEx4/Players/Wizard.h
-../utilities.h
-C:/Users/david/Desktop/Final/MatamEx4/utilities.h
 
 C:/Users/david/Desktop/Final/MatamEx4/Players/Wizard.h
 Player.h
@@ -180,18 +154,6 @@ C:/Users/david/Desktop/Final/MatamEx4/Players/Player.h
 string.h
 C:/Users/david/Desktop/Final/MatamEx4/Players/string.h
 iostream
--
-
-C:/Users/david/Desktop/Final/MatamEx4/testsMain.cpp
-Mtmchkin.h
-C:/Users/david/Desktop/Final/MatamEx4/Mtmchkin.h
-string
--
-iostream
--
-fstream
--
-sstream
 -
 
 C:/Users/david/Desktop/Final/MatamEx4/utilities.h

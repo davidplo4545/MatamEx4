@@ -1,6 +1,10 @@
-Merchant
-Treasure
-Vampire
-Dragon
-Dragon
-Fairy
+Gang
+EndGang
+Gang
+EndGang
+Gang
+EndGang
+Gang
+EndGang
+Gang
+EndGang

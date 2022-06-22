@@ -67,7 +67,7 @@ private:
     std::vector<std::unique_ptr<Card>> m_cards;
 
     void pushToDeck(std::string cardName, int currLine);
-    void pushGangToDeck(std::ifstream &source, int currLine);
+    int pushGangToDeck(std::ifstream &source, int currLine);
     static bool isTeamSizeValid(int teamSize);
     void initializePlayers();
     void createPlayers(int playersNum);
@@ -75,7 +75,7 @@ private:
     void movePlayer();
     static bool isValidString(std::string str);
     static bool isValidNumber(std::string str);
-    std::vector<std::string> split(std::string str);
+    static std::vector<std::string> split(std::string str);
 public:
 //                            unique
 

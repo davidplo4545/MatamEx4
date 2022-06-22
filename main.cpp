@@ -65,7 +65,7 @@ int main() {
     //     cout <<e.what();
     // }
 
-    Mtmchkin test("inFiles/test10.deck");
+    Mtmchkin test("input.txt");
    // testCard();
     return 0;
 }

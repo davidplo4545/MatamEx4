@@ -29,11 +29,11 @@ Mtmchkin::Mtmchkin(const std::string fileName)
     this->initializePlayers();
 }
 
-void Mtmchkin::pushGangToDeck(ifstream &source, int currCount)
+int Mtmchkin::pushGangToDeck(ifstream &source, int currCount)
 {
     bool isGang = true;
     unique_ptr<Gang> tempGang = unique_ptr<Gang>(new Gang());
-    int tempCount=currCount+1;
+    int tempCount=currCount;
     string cardName;
     while (isGang && getline(source, cardName, '\n'))
     {
@@ -49,16 +49,17 @@ void Mtmchkin::pushGangToDeck(ifstream &source, int currCount)
         }
         catch(exception& e)
         {
-            throw(DeckFileFormatError(tempCount));
+            throw(DeckFileFormatError(tempCount+1));
         }
         tempCount++;
 
     }
     if(isGang)
     {
-        throw DeckFileFormatError(tempCount);
+        throw DeckFileFormatError(tempCount+1);
     }
     m_cards.push_back(move(tempGang));
+    return tempCount;
 }
 
 void Mtmchkin::initializeCards(string fileName) {
@@ -73,18 +74,18 @@ void Mtmchkin::initializeCards(string fileName) {
         while (getline(source, cardName, '\n'))
         {
             if(cardName == START_GANG) {
-                pushGangToDeck(source,cardCount+1);
+                cardCount = pushGangToDeck(source,cardCount+1);
             }
             else
             {
-                pushToDeck(cardName, cardCount);
+                pushToDeck(cardName, cardCount+1);
             }
             cardCount += 1;
         }
     } catch(const std::ios_base& e){
 
     }
-    if (cardCount<Mtmchkin::MIN_CARD_COUNT)
+    if (m_cards.size()<Mtmchkin::MIN_CARD_COUNT)
     {
         throw DeckFileInvalidSize();
     }
@@ -99,7 +100,7 @@ void Mtmchkin::pushToDeck(string cardName, int cardCount)
     }
     catch(std::exception& e)
     {
-        throw(DeckFileFormatError(cardCount+1));
+        throw(DeckFileFormatError(cardCount));
     }
 }
 
@@ -137,7 +138,6 @@ void Mtmchkin::createPlayers(int numberOfPlayers)
 {
     string playerDetails;
     bool isCreated = false;
-
     for(int i=0; i<numberOfPlayers; i++)
     {
         printInsertPlayerMessage();

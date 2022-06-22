@@ -117,7 +117,7 @@ CMakeFiles/MatamEx4.dir/Players/Wizard.cpp.obj
  C:/Users/david/Desktop/Final/MatamEx4/Players/Wizard.cpp
  C:/Users/david/Desktop/Final/MatamEx4/Players/Wizard.h
  C:/Users/david/Desktop/Final/MatamEx4/utilities.h
-CMakeFiles/MatamEx4.dir/testsMain.cpp.obj
+CMakeFiles/MatamEx4.dir/main.cpp.obj
  C:/Users/david/Desktop/Final/MatamEx4/Cards/Barfight.h
  C:/Users/david/Desktop/Final/MatamEx4/Cards/BattleCard.h
  C:/Users/david/Desktop/Final/MatamEx4/Cards/Card.h
@@ -136,7 +136,7 @@ CMakeFiles/MatamEx4.dir/testsMain.cpp.obj
  C:/Users/david/Desktop/Final/MatamEx4/Players/Player.h
  C:/Users/david/Desktop/Final/MatamEx4/Players/Rogue.h
  C:/Users/david/Desktop/Final/MatamEx4/Players/Wizard.h
- C:/Users/david/Desktop/Final/MatamEx4/testsMain.cpp
+ C:/Users/david/Desktop/Final/MatamEx4/main.cpp
  C:/Users/david/Desktop/Final/MatamEx4/utilities.h
 CMakeFiles/MatamEx4.dir/utilities.cpp.obj
  C:/Users/david/Desktop/Final/MatamEx4/Players/Player.h
