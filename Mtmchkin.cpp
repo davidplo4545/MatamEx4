@@ -6,9 +6,7 @@
 #include "utilities.h"
 using namespace std;
 
-const string ALPHABET = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
-
-vector<string> split(string str)
+vector<string> Mtmchkin::split(string str)
 {
     vector<string> result;
     string spaceDel = " ";
@@ -109,7 +107,7 @@ int Mtmchkin::getNumberOfRounds() const {
     return m_roundCount;
 }
 
-bool isValidString(string str)
+bool Mtmchkin::isValidString(string str)
 {
     int len = str.size();
     for(int i=0;i<len;i++)
@@ -119,37 +117,24 @@ bool isValidString(string str)
             return false;
         }
     }
-    return str.size() <= 15;
+    return str.size() <= MAX_NAME_LEN;
 }
-void Mtmchkin::initializePlayers()
+
+bool Mtmchkin::isValidNumber(string str)
 {
-    printEnterTeamSizeMessage();
-    int numberOfPlayers = 0;
-    while(!isTeamSizeValid(numberOfPlayers))
+    int len = str.size();
+    for(int i=0;i<len;i++)
     {
-        string input;
-        getline(cin, input);
-        if(input.size() != 1)
+        if(!isdigit(str[i]))
         {
-            printInvalidTeamSize();
-            printEnterTeamSizeMessage();
-            continue;
-        }
-        try{
-            numberOfPlayers = stoi(input);
-        }
-        catch(std::exception& e)
-        {
-            printInvalidTeamSize();
-            printEnterTeamSizeMessage();
-            continue;
-        };
-        if(!isTeamSizeValid(numberOfPlayers))
-        {
-            printInvalidTeamSize();
-            printEnterTeamSizeMessage();
+            return false;
         }
     }
+    return str.size() == 1;
+}
+
+void Mtmchkin::createPlayers(int numberOfPlayers)
+{
     string playerDetails;
     bool isCreated = false;
 
@@ -163,12 +148,7 @@ void Mtmchkin::initializePlayers()
             getline(std::cin,playerDetails);
 
             words = split(playerDetails);
-            if(words.size() != 2)
-            {
-                printInvalidName();
-                continue;
-            }
-            if(!isValidString(words[0]))
+            if(words.size() != 2 || !isValidString(words[0]))
             {
                 printInvalidName();
                 continue;
@@ -190,10 +170,33 @@ void Mtmchkin::initializePlayers()
         }
     }
 }
+void Mtmchkin::initializePlayers()
+{
+    printEnterTeamSizeMessage();
+    int numberOfPlayers = 0;
+    while(!isTeamSizeValid(numberOfPlayers))
+    {
+        string input;
+        getline(cin, input);
+        if(!isValidNumber(input))
+        {
+            printInvalidTeamSize();
+            printEnterTeamSizeMessage();
+            continue;
+        }
+        numberOfPlayers = stoi(input);
+        if(!isTeamSizeValid(numberOfPlayers))
+        {
+            printInvalidTeamSize();
+            printEnterTeamSizeMessage();
+        }
+    }
+    createPlayers(numberOfPlayers);
+}
 
 bool Mtmchkin::isTeamSizeValid(int teamSize)
 {
-    return (teamSize>=2 && teamSize<=6);
+    return (teamSize>=MIN_TEAM_SIZE && teamSize<=MAX_TEAM_SIZE);
 }
 
 bool Mtmchkin::isGameOver() const {
@@ -224,7 +227,26 @@ void Mtmchkin::printLeaderBoard() const {
     }
 }
 
+void Mtmchkin::movePlayer()
+{
+    if(m_players.front()->hasWon())
+    {
+        m_winners.push_back(move(m_players.front()));
+        m_players.pop_front();
+    }
+    else if(m_players.front()->hasLost())
+    {
 
+        m_losers.push_back(move(m_players.front()));
+        m_players.pop_front();
+    }
+    else
+    {
+        unique_ptr<Player> tempPlayer = move(m_players.front());
+        m_players.pop_front();
+        m_players.push_back(move(tempPlayer));
+    }
+}
 void Mtmchkin::playRound() {
     m_roundCount+=1;
 
@@ -235,23 +257,7 @@ void Mtmchkin::playRound() {
 
         m_cards[m_currCard]->applyEncounter(*m_players.front());
         m_players.front()->changePlayerState();
-        if(m_players.front()->hasWon())
-        {
-            m_winners.push_back(move(m_players.front()));
-            m_players.pop_front();
-        }
-        else if(m_players.front()->hasLost())
-        {
-
-            m_losers.push_back(move(m_players.front()));
-            m_players.pop_front();
-        }
-        else
-        {
-            unique_ptr<Player> tempPlayer = move(m_players.front());
-            m_players.pop_front();
-            m_players.push_back(move(tempPlayer));
-        }
+        movePlayer();
         if(isGameOver())
         {
             printGameEndMessage();
@@ -261,5 +267,3 @@ void Mtmchkin::playRound() {
         m_currCard = (m_currCard + 1) % (m_cards.size());
     }
 }
-
-

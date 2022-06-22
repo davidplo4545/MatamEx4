@@ -6,10 +6,7 @@ Rogue::Rogue(string name): Player(name, "Rogue"){}
 
 void Rogue::addCoins(int coins)
 {
-    if(coins > 0)
-    {
-        m_coins+=coins*2;
-    }
+    Player::addCoins(coins*2);
 }
 
 void Rogue::print(ostream& os) const

@@ -42,12 +42,10 @@ void BattleCard::applyLostGang(Player &player) const
 
 }
 bool BattleCard::applyGangEncounter(Player &player) const {
-//    std::cout << "HEREREre";
 
     if(player.getAttackStrength() >= m_force)
     {
         player.addCoins(m_loot);
-//        printWinBattle(player.getName(),m_name);
         return false;
     }
     else

@@ -16,9 +16,6 @@ void Gang::applyEncounter(Player &player) const {
     bool hasLost = false;
     for(int i=0;i<numMembers;i++)
     {
-//        cout << "Playing VS GANG" << endl;
-//        cout << "Current Monster:";
-//        m_gangMembers[i]->printCardInfo(cout);
         if(!hasLost)
         {
             hasLost = m_gangMembers[i]->applyGangEncounter(player);

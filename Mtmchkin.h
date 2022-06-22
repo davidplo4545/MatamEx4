@@ -29,6 +29,10 @@ class Mtmchkin{
 
 private:
     static const int MIN_CARD_COUNT = 5;
+    static const int MAX_TEAM_SIZE = 6;
+    static const int MAX_NAME_LEN = 15;
+
+    static const int MIN_TEAM_SIZE = 2;
     const std::string END_GANG = "EndGang";
     const std::string START_GANG = "Gang";
     const std::map<std::string, Card*(*)()> CARDS_CONVERTER ={
@@ -66,8 +70,12 @@ private:
     void pushGangToDeck(std::ifstream &source, int currLine);
     static bool isTeamSizeValid(int teamSize);
     void initializePlayers();
+    void createPlayers(int playersNum);
     void initializeCards(std::string fileName);
-
+    void movePlayer();
+    static bool isValidString(std::string str);
+    static bool isValidNumber(std::string str);
+    std::vector<std::string> split(std::string str);
 public:
 //                            unique
 

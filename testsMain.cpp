@@ -42,6 +42,6 @@ void GeneralGameSimulationTest(std::string input_path, std::string deck_path, st
 
 int main(int argc, char** argv)
 {
-        GeneralGameSimulationTest("inFiles/test3.in", "inFiles/test3.deck", "inFiles/test10.deck");
+        GeneralGameSimulationTest("inFiles/test8.in", "inFiles/test8.deck", "inFiles/test10.deck");
         return 0;
 }

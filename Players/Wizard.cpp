@@ -5,11 +5,7 @@ using std::ostream;
 Wizard::Wizard(string name):Player(name, "Wizard"){}
 void Wizard::heal(int hpSupply)
 {
-    hpSupply *=2;
-    if(hpSupply > 0)
-    {
-        m_hp= hpSupply + m_hp > m_maxHp ? m_maxHp : m_hp+hpSupply;
-    }
+    Player::heal(hpSupply*2);
 }
 
 void Wizard::print(ostream& os) const

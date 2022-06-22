@@ -12,6 +12,7 @@ CMakeFiles/MatamEx4.dir/Cards/BattleCard.cpp.obj: \
  ../Cards/BattleCard.cpp \
  ../Cards/BattleCard.h \
  ../Cards/Card.h \
+ ../Exception.h \
  ../Players/Player.h \
  ../utilities.h
 CMakeFiles/MatamEx4.dir/Cards/Card.cpp.obj: \
@@ -38,6 +39,7 @@ CMakeFiles/MatamEx4.dir/Cards/Gang.cpp.obj: \
  ../Cards/Card.h \
  ../Cards/Gang.cpp \
  ../Cards/Gang.h \
+ ../Exception.h \
  ../Players/Player.h \
  ../utilities.h
 CMakeFiles/MatamEx4.dir/Cards/Goblin.cpp.obj: \
@@ -104,11 +106,13 @@ CMakeFiles/MatamEx4.dir/Players/Player.cpp.obj: \
  ../Players/Player.cpp \
  ../Players/Player.h
 CMakeFiles/MatamEx4.dir/Players/Rogue.cpp.obj: \
+ ../Exception.h \
  ../Players/Player.h \
  ../Players/Rogue.cpp \
  ../Players/Rogue.h \
  ../utilities.h
 CMakeFiles/MatamEx4.dir/Players/Wizard.cpp.obj: \
+ ../Exception.h \
  ../Players/Player.h \
  ../Players/Wizard.cpp \
  ../Players/Wizard.h \
